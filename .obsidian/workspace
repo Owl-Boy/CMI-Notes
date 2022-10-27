@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "a1c477476ef7ef4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "77c3fc33d1488098",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Line Integral.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f69e02408d0ca170",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f4bca059f797696",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf239412acf8b88f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e1846b63f67263df",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Calc",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "63b2bdaa4ee04f88",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "49138fa6c61acd61",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d87dc8d4d4c107e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbb169b7a86e130c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Line Integral.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "073b61112acc5ac7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes/Line Integral.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e577c8ca26bf6245",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b09046cc3f114717",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes/Line Integral.md"
+              }
+            }
+          },
+          {
+            "id": "99a0bae60e9a69af",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "33496307ac8193b7",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "77c3fc33d1488098",
+  "lastOpenFiles": [
+    "Notes/Untitled.md",
+    "Notes/Line Integral.md",
+    "Notes/Stoke's Theorem.md",
+    "Notes/Exterior Algebra.md",
+    "Notes/Alt.md",
+    "logseq/bak/Notes/Tensors/Tensor Algebra.md",
+    "Notes/Extension Field.md",
+    "Notes/Fields.md",
+    "Notes/Characterisic of a field.md",
+    "Notes/Determinants.md"
+  ]
+}
