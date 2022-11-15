@@ -13,13 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Notes/ww where w is any word.md",
                 "mode": "source",
+=======
+                "file": "Notes/Composite Field.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b33fc7804bf63c32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Cesaro Summability.md",
+                "mode": "preview",
+>>>>>>> bd142178847c53ef32336e81c69de775a7867b13
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +104,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Notes/ww where w is any word.md",
+=======
+                "file": "Notes/Cesaro Summability.md",
+>>>>>>> bd142178847c53ef32336e81c69de775a7867b13
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +125,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Notes/ww where w is any word.md",
+=======
+                "file": "Notes/Cesaro Summability.md",
+>>>>>>> bd142178847c53ef32336e81c69de775a7867b13
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +152,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Notes/ww where w is any word.md"
+=======
+                "file": "Notes/Cesaro Summability.md"
+>>>>>>> bd142178847c53ef32336e81c69de775a7867b13
               }
             }
           },
@@ -154,6 +184,7 @@
     "width": 200,
     "collapsed": true
   },
+<<<<<<< HEAD
   "active": "dbbb6b9e45d60162",
   "lastOpenFiles": [
     "Notes/Turing Machine Configuration.md",
@@ -166,5 +197,19 @@
     "Notes/Fields.md",
     "Notes/Composite Field.md",
     "Notes/Algebraic Extension.md"
+=======
+  "active": "b33fc7804bf63c32",
+  "lastOpenFiles": [
+    "Notes/Composite Field.md",
+    "Notes/Fields.md",
+    "Notes/Algebraic Extension.md",
+    "Notes/Extension Field.md",
+    "Notes/Line Integral.md",
+    "Notes/Trigonometric Functions.md",
+    "Notes/Stoke's Theorem.md",
+    "Notes/Exterior Algebra.md",
+    "Notes/Tensors.md",
+    "Notes/Alt.md"
+>>>>>>> bd142178847c53ef32336e81c69de775a7867b13
   ]
 }
