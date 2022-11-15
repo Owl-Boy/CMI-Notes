@@ -14,12 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "Notes/Composite Field.md",
-                "mode": "source",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b33fc7804bf63c32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Cesaro Summability.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Composite Field.md",
+                "file": "Notes/Cesaro Summability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Composite Field.md",
+                "file": "Notes/Cesaro Summability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Composite Field.md"
+                "file": "Notes/Cesaro Summability.md"
               }
             }
           },
@@ -154,13 +167,10 @@
     "width": 200,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "77c3fc33d1488098",
+  "active": "b33fc7804bf63c32",
   "lastOpenFiles": [
-    "Notes/Fields.md",
     "Notes/Composite Field.md",
+    "Notes/Fields.md",
     "Notes/Algebraic Extension.md",
     "Notes/Extension Field.md",
     "Notes/Line Integral.md",
