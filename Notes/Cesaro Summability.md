@@ -1,11 +1,10 @@
-202211150911
+2022-11-13 03:11 pm
 
 Type : #Note
 Tags : [[Analysis]]
 
 ---
 # Cesaro Summability
-2022-11-13 03:11 pm
 
 ```ad-note 
 title:Motivation 
@@ -22,7 +21,6 @@ But it's cesaro sums converge to $1/2$.
 ```
 
 - Cesaro sums of a convergent series converge to the series limit.
- 
   ### Proof:
   Let $\displaystyle\sum\limits_{k=0}^{\infty} c_k = c$.
   Let $\sigma_N = \dfrac{s_0 + s_1 + \cdots s_{N-1}}{N}$
@@ -31,10 +29,15 @@ But it's cesaro sums converge to $1/2$.
   where $m$ is such that $|s_k-c| < \epsilon$ for all $k > m$.
   $\implies |c-\sigma_N| \le (N-M-1)\epsilon/N + F/N \le 2\epsilon$
   for large N.
-  
+
+---
+- 
 
 ---
 # Related Problems
+[[Fejer Kernel]]
 
 ---
 # References
+[[Fourier Series]]
+
