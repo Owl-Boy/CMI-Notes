@@ -29,7 +29,7 @@ $$
 K = F[x]/(x^2+1)
 $$
 Since $x^2+1$ is irreducible $(x^2+1)$ is a maximal ideal. Hence, $K$ is a field.
-Let $\pi:F[x]\to k$ be the canonical projection. Then $\pi|_{F}:F\to K$ is a field homomorphism.
+Let $\pi:F[x]\to K$ be the canonical projection. Then $\pi|_{F}:F\to K$ is a field homomorphism.
 Since it is not identically $0$ $K$ contains and isomorphic copy of $F$.
 Let $F$ be identified with its isomophic copy in $K$, then we can view $K$ as an extensions of $F$
 let $\overline x = \pi(x)$
