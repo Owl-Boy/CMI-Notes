@@ -30,9 +30,12 @@ Intuitively the transition $\delta(q, \gamma) \to (p, \gamma', d)$ means, if at 
 
 The [[Turing Machine Configuration|configuration]] of the stack symbol is an element of $Q\times\{y\sqcup^\omega|y\in\Gamma^*\}\times \mathbb N$ which represent, the state, stack content and the position of the pointer.
 
+![[Recursive and Recursively Eumberable Sets#Decidable an Semidecidable]]
+
 
 ---
 # Related Problems
 
 ---
 # References
+[[Recursive and Recursively Eumberable Sets]]

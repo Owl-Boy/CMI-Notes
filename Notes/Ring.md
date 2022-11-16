@@ -1,7 +1,7 @@
 202211102211
 
 Type : #Note
-Tags :
+Tags : [[Algebra]]
 
 ---
 # Ring

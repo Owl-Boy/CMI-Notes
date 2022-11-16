@@ -13,22 +13,26 @@ On each passing from right to left, it marks the first unmarked $a$ or $b$ with 
 
 The initial tape contents are
 $$
-\vdash aabbaaabba
+\begin{matrix}
+\vdash &a&a&b&b&a&a&a&b&a
+\end{matrix}
 $$
 and the tape condition in the following few steps would be 
 $$
-\begin{aligned}
-\vdash aabbaaabb\acute a \dashv \sqcup\sqcup\sqcup\dots\\
-\vdash \dot aabbaaabb\acute a \dashv \sqcup\sqcup\sqcup\dots\\
-\vdash \dot a \dot abbaaab\acute b\acute a \dashv \sqcup\sqcup\sqcup\dots\\
-\vdash \dot a \dot abbaaab\acute b\acute a \dashv \sqcup\sqcup\sqcup\dots\\
-\vdash \dot a\dot abbaaa\acute b\acute b \acute a \dashv \sqcup\sqcup\sqcup\dots\\
+\begin{matrix}
+\vdash &a&a&b&b&a&a&a&b&b&\acute a &\dashv &\sqcup&\sqcup&\sqcup&\dots\\
+\vdash &\dot a&a&b&b&a&a&a&b&b&\acute a &\dashv& \sqcup&\sqcup&\sqcup&\dots\\
+\vdash &\dot a &\dot a&b&b&a&a&a&b&\acute b&\acute a& \dashv& \sqcup&\sqcup&\sqcup&\dots\\
+\vdash &\dot a &\dot a&b&b&a&a&a&b&\acute b&\acute a &\dashv &\sqcup&\sqcup&\sqcup&\dots\\
+\vdash &\dot a&\dot a&b&b&a&a&a&\acute b&\acute b& \acute a& \dashv& \sqcup&\sqcup&\sqcup&\dots\\
 
-\end{aligned}
+\end{matrix}
 $$
 now the left and the right half of the word are marked differently.
 $$
-\vdash \dot{a}\dot{a}\dot b \dot b\dot{a}\acute{a}\acute{a}\acute b\acute b\acute{a} \dashv \sqcup \sqcup\sqcup \dots
+\begin{matrix}
+\vdash &\dot{a}&\dot{a}&\dot b &\dot b&\dot{a}&\acute{a}&\acute{a}&\acute b&\acute b&\acute{a}& \dashv &\sqcup &\sqcup&\sqcup& \dots
+\end{matrix}
 $$
 
 Then the machine starts from the left and scans to the right repeatedly, it sees the first unremoved symbol, removes it, but remembers it, then it keeps moving forward until it finds the first symbol marked the other way, if it corresponds to the original letter then repeat the process, it at any point it fails,  move to the reject state. Otherwise it will remove all letters and then go to the accpeting state.
