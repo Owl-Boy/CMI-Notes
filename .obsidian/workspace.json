@@ -4,40 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b9e2d772959bb7ba",
+        "id": "fa507ae465c58a81",
         "type": "tabs",
         "children": [
           {
-            "id": "dbbb6b9e45d60162",
+            "id": "a7b3ee31d03ebbec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Notes/ww where w is any word.md",
+                "file": "Notes/Fejer Kernel.md",
                 "mode": "source",
-=======
-                "file": "Notes/Composite Field.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b33fc7804bf63c32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Cesaro Summability.md",
-                "mode": "preview",
->>>>>>> bd142178847c53ef32336e81c69de775a7867b13
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Calc",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,12 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "49138fa6c61acd61",
@@ -104,11 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Notes/ww where w is any word.md",
-=======
-                "file": "Notes/Cesaro Summability.md",
->>>>>>> bd142178847c53ef32336e81c69de775a7867b13
+                "file": "Notes/Fejer Kernel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,11 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Notes/ww where w is any word.md",
-=======
-                "file": "Notes/Cesaro Summability.md",
->>>>>>> bd142178847c53ef32336e81c69de775a7867b13
+                "file": "Notes/Fejer Kernel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,11 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "Notes/ww where w is any word.md"
-=======
-                "file": "Notes/Cesaro Summability.md"
->>>>>>> bd142178847c53ef32336e81c69de775a7867b13
+                "file": "Notes/Fejer Kernel.md"
               }
             }
           },
@@ -184,32 +154,17 @@
     "width": 200,
     "collapsed": true
   },
-<<<<<<< HEAD
-  "active": "dbbb6b9e45d60162",
+  "active": "a7b3ee31d03ebbec",
   "lastOpenFiles": [
-    "Notes/Turing Machine Configuration.md",
-    "Notes/Turing Machines.md",
-    "Notes/ww where w is any word.md",
-    "Notes/Exterior Differentiation.md",
-    "logseq/bak/Notes/Tensors/Tensor Algebra.md",
-    "Notes/Ring.md",
-    "Notes/Untitled 1.md",
-    "Notes/Fields.md",
-    "Notes/Composite Field.md",
-    "Notes/Algebraic Extension.md"
-=======
-  "active": "b33fc7804bf63c32",
-  "lastOpenFiles": [
-    "Notes/Composite Field.md",
-    "Notes/Fields.md",
-    "Notes/Algebraic Extension.md",
-    "Notes/Extension Field.md",
-    "Notes/Line Integral.md",
+    "Notes/Fourier series is the best approximation.md",
+    "Notes/Fourier Series.md",
+    "Notes/Good Kernels.md",
+    "Notes/Uniqueness of fourier series.md",
     "Notes/Trigonometric Functions.md",
-    "Notes/Stoke's Theorem.md",
-    "Notes/Exterior Algebra.md",
-    "Notes/Tensors.md",
-    "Notes/Alt.md"
->>>>>>> bd142178847c53ef32336e81c69de775a7867b13
+    "Notes/contents.md",
+    "Notes/Dirichlet Kernels.md",
+    "Notes/Convolutions.md",
+    "Notes/Convergence of Fourier Series.md",
+    "Notes/Cesaro Summability.md"
   ]
 }
