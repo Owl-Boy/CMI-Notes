@@ -20,7 +20,7 @@ There exists a positive number $x$ such that $C(x) = 0$, this is because if ther
 $$
 S(x)(y-x)<\int_x^yS(t)dt=C(x)-C(y)\le 2
 $$
- which is a contradiction, Hence there exists numbers such that $C$ diminishes on them. Let $x_0$ be the smallest such number, this exists as the set of zeros of continuous functions is closed, and we define $\pi$ by $$ \pi = 2x_0$$
+ which is a contradiction, Hence there exists numbers such that $C$ vanishes on them. Let $x_0$ be the smallest such number, this exists as the set of zeros of continuous functions is closed, and we define $\pi$ by $$ \pi = 2x_0$$
  Thus we have
  $$
  E(\frac{\pi\iota}2) = i
