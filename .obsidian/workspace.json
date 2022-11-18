@@ -4,29 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ffd262ba193bdcd8",
+        "id": "8ea2530d03cfb365",
         "type": "tabs",
         "children": [
           {
-            "id": "77c3fc33d1488098",
+            "id": "2feab61e264d1542",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Determinants.md",
+                "file": "Notes/Undecidability of the Membership Problem.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c827fdf63a4f8b1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/ww where w is any word.md",
-                "mode": "preview",
                 "source": false
               }
             }
@@ -77,12 +65,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "49138fa6c61acd61",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/ww where w is any word.md",
+                "file": "Notes/Undecidability of the Membership Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/ww where w is any word.md",
+                "file": "Notes/Undecidability of the Membership Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/ww where w is any word.md"
+                "file": "Notes/Undecidability of the Membership Problem.md"
               }
             }
           },
@@ -166,17 +154,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c827fdf63a4f8b1f",
+  "active": "2feab61e264d1542",
   "lastOpenFiles": [
-    "Notes/Turing Machine Configuration.md",
     "Notes/Turing Machines.md",
-    "Notes/Recursive and Recursively Eumberable Sets.md",
-    "Excalidraw/Drawing 2022-11-15 10.55.18.excalidraw.md",
-    "Notes/Determinants.md",
-    "Excalidraw/Drawing 2022-11-15 10.25.17.excalidraw.md",
-    "Notes/Ring.md",
-    "Notes/Cesaro Summability.md",
-    "Notes/Line Integral.md",
+    "Notes/Undecidability of the Halting Problem.md",
+    "Excalidraw/Drawing 2022-11-17 23.32.54.excalidraw.md",
+    "Excalidraw/Drawing 2022-11-17 23.03.55.excalidraw.md",
+    "Notes/Universal Turing Machine.md",
+    "Notes/Enumeration Machine.md",
+    "Notes/Counter Automata.md",
+    "Notes/Exterior Differentiation.md",
+    "Notes/Untitled 1.md",
     "Notes/Untitled.md"
   ]
 }

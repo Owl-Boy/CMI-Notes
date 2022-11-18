@@ -32,6 +32,21 @@ The [[Turing Machine Configuration|configuration]] of the stack symbol is an ele
 
 ![[Recursive and Recursively Eumberable Sets#Decidable an Semidecidable]]
 
+There are several different flavours of turing machines and other machines that may seem more or less powerful but are computationally equivalent, some of them are:
+- [[Turing Machines with multiple tapes]]
+- [[Two-Way Infinite Tape Turing Machine]]
+- [[Two Stacks]]
+- [[Counter Automata]]
+- [[Enumeration Machine]]
+
+Turing Macines can be simulated by other Turing machines, to do that we can construst can [[Universal Turing Machine]]. A Universal Turing machines is a turing machine whose language is 
+$$
+L(U) = \{M\#x\ |\ x\in L(M)\}
+$$
+Although Universal Turing Machines can simulate other Turing Machines, doing more advanced analysis on turing machines isn't easy, sometimes not even possible. 
+[[Undecidability of the Halting Problem]] and [[Undecidability of the Membership Problem]] are some of the examples.
+
+
 
 ---
 # Related Problems
