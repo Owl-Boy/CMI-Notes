@@ -22,7 +22,7 @@ This is a contradiction as $HP$ is supposed to be the set of all Turing Machines
 
 ---
 # Related Problems
-[[Membership problem of Turing Machine]]
+[[Undecidability of the Membership Problem]]
 
 ---
 # References
