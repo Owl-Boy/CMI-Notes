@@ -19,7 +19,8 @@ A function between the independent and the dependent variable which satisfies a 
 A differential equation is said to be linear if it is linear in $y$ and its derivative. i.e an $n^{th}$-degree DE can be written as
 $$
 \mathcal P_n[y] = p_0(x)y+ p_1(x)y'+\dots+p_n(x)y^{(n)}=r(x)
-$$A linear differential equation is said to be _Homogeneous_ if $r(x)=0$ otherwise its called _Nonhomogeneous_.
+$$
+linear differential equation is said to be _Homogeneous_ if $r(x)=0$ otherwise its called _Nonhomogeneous_.
 
 
 

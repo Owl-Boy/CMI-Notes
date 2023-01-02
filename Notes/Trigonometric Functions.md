@@ -1,3 +1,10 @@
+202212171912
+
+Type : #Note
+Tags : [[Analysis]]
+
+---
+# Trigonometric Functions
 We define
 $$
 \begin{aligned}
@@ -33,4 +40,10 @@ $$
  $$
  E(z+2\pi\iota) = E(z)
  $$
+
+---
+# Related Problems
+
+---
+# References
  
