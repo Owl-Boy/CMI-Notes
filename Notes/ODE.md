@@ -1,7 +1,7 @@
 202212131712
 
 Type : #Note
-Tags : [[Diff Eq]]
+Tags : [[Diff Eq - Nice Info]]
 
 ---
 # ODE

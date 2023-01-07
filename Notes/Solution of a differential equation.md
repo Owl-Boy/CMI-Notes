@@ -1,7 +1,7 @@
 202212131812
 
 Type : #Note
-Tags : [[Diff Eq]]
+Tags : [[Differential Equations]]
 
 ---
 # Solution of a differential equation
@@ -32,6 +32,7 @@ $$
 
 ---
 # Related Problems
+[[Solving a First Order ODE]]
 
 ---
 # References
