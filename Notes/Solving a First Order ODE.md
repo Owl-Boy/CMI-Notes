@@ -5,7 +5,7 @@ Tags :[[Differential Equations]]
 
 ---
 # Solving a First Order ODE
-### Homogenous 1st order ODE
+### Homogenous 1st order Linear ODE
 $$
 \begin{aligned}
 a(x)y' + b(x)y &= 0\\
@@ -16,7 +16,7 @@ y' &= -p(x)y\\
 \text{where } &P(x) = \int p(x)dx
 \end{aligned}
 $$
-### Inhomogenous 1st order ODE
+### Inhomogenous 1st order Linear ODE
 $$
 \begin{aligned}
 y'&=-y\cdot p(x) - q(x)\\
@@ -26,8 +26,13 @@ y'&=-y\cdot p(x) - q(x)\\
 y&= e^{-P(X)}\left(c'-\int\limits_{i_0}^xq(t)e^{P(t)}dt\right)
 \end{aligned}
 $$
-
-
+### Non Linear(Variable Separable) ODE
+$$
+\begin{aligned}
+y'&=f(x, y)\\
+y'&=h(x)\cdot g(y)&(g,h \text{ are continuous, $h$ is non vanishing})\\
+\end{aligned}
+$$
 
 ---
 # Related Problems
