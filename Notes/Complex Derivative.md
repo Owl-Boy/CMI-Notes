@@ -26,10 +26,13 @@ Some examples are
 - Polynomials
 - Rational Functions (away from zeros of divisors)
 
-*Proposition:* If $u(x, y), v(x, y)$ have first order partial deriavtives which satisfy the [[Cauchy-Reimann Equation| CR Equations]], then $f=u+\iota v$ is analytic with continuous partial derivative.
-
+*Proposition:* If $u(x, y), v(x, y)$ have first order continuous partial derivatives which satisfy the [[Cauchy-Reimann Equation| CR Equations]], then $f=u+\iota v$ is analytic with continuous partial derivative.
 
 ---
 # Related Problems
+
+#### exercise:
+If $f:\mathbb{C} \to \mathbb{R}$ is a function such that $f'(a)$ exists then show that $f'(a) = 0$.
+
 ---
 # References
