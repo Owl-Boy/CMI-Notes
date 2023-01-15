@@ -15,7 +15,7 @@ Class of decision problems that can be verified in a [[Turing Machines|determini
 - **3-COLOUR**- Given a graph, is there a way to colour the vertices using three colours such that no two neighbouring vertices have the same colour
 - **HAMILTONIAN**- Given a graph, does it contain a Hamiltonian path.
 
-If **P $\ne$ NP**, then there are infinitely many complexity classes between **P** and **NP Complete**. Problems like Factoring and Graph Isomorphism are problems which are thought to be neither **NP Complete** nor **P**
+If **P $\ne$ NP**, then there are infinitely many complexity classes between **P** and [[NP Complete]]. Problems like Factoring and Graph Isomorphism are problems which are thought to be neither **NP Complete** nor **P**
 
 ---
 # Related Problems
