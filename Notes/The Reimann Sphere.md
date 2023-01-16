@@ -37,6 +37,17 @@ This is equivalent to circle inversion.
 
 ---
 # Related Problems
+#### exercise:
+Let $d(p,q)$ denote the distance in $\mathbb{R}^3$. Show that:
+1. $d(\sigma(z),\sigma(z')) = \dfrac{2|z-z'|}{\sqrt{1+|z|^2}\sqrt{1+|z'|^2}}$ 
+2. $d(\sigma(z),0) = \dfrac{2}{\sqrt{1+|z|^2}}$
+
+#### Exercise:
+Prove that $\theta: \mathbb{C} \to S$ defined by $\theta(z) = \sigma(1/z)$ is continuous.
+
+**Proof:** 
+$\|\theta(z+h) - \theta(z)\| = \|\sigma(1/(z+h)) - \sigma(1/z)\| = \dfrac{2|z+h-z|}{\sqrt{1+|z+h|^2}\sqrt{1+|z|^2}} \to 0$ as $h \to 0$. 
+Note that this transformation is the same as stereographic projection from the south pole.
 
 ---
 # References
