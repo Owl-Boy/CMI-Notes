@@ -23,7 +23,7 @@ We care about this because
 	  $$
 	  \begin{aligned}
 	  \{f_n\} &:\mathbb R \to \mathbb R \text{ are pointwise convergent if }\\
-	  g \text{ is a limit of } &\{f_n\} \text{ for each } t\in\mathbb R \text{ and } \lim\limits_{n\to\infty} f)_n(t)=g(t) 
+	  g \text{ is a limit of } &\{f_n\} \text{ for each } t\in\mathbb R \text{ and } \lim\limits_{n\to\infty} f_n(t)=g(t) 
 	  \end{aligned}$$
 	  Here there is a notion of nearness on the space of functions which is not a metric
 

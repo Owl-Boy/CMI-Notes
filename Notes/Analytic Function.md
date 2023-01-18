@@ -44,5 +44,9 @@ ${\partial u \over \partial x}, {\partial v \over \partial x}$ are continuous, H
 
 ---
 # Related Problems
+
+#### exercise:
+If $f:\mathbb{C} \to \mathbb{R}$ is a function such that $f'(a)$ exists then show that $f'(a) = 0$.
+
 ---
 # References
