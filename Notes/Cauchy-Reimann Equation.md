@@ -6,7 +6,7 @@ Tags : [[Complex Analysis]]
 ---
 # Cauchy-Reimann Equation
 
-let $f: U\to \mathbb C$ be an [[Complex Derivative#Analytic Function|analytic function]], $f(z) = u(z) + iv(z)$, where $u$ and $v$ are real functions.
+let $f: U\to \mathbb C$ be an [[Analytic Function#Analytic Function|analytic function]], $f(z) = u(z) + iv(z)$, where $u$ and $v$ are real functions.
 On computing $f'$ in $2$ different ways
 1. Along x-axis
    $$
@@ -37,4 +37,4 @@ $$
 
 ---
 # References
-[[Complex Derivative]]
+[[Analytic Function]]

@@ -4,7 +4,9 @@ Type : #Note
 Tags : [[Complex Analysis]]
 
 ---
-# Complex Derivative
+# Analytic Function
+
+### Complex Derivative
 ```ad-note
 title: 
 let $f:U\to\mathbb C$ where $U$ is an open subset of $\mathbb C$, then the derivative of $f$ exists at $a\in U$ if the following limit exists

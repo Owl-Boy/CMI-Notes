@@ -21,4 +21,4 @@ This induces the norm $|a+bi| = \sqrt{a^2+b^2}$
 
 ---
 # References
-[[Complex Derivative]]
+[[Analytic Function]]
