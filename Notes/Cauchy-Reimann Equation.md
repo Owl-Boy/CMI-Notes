@@ -30,7 +30,7 @@ $$
 $$
 ---
 
-# Cauchy riemann + real differentiablity implies complex differentiability
+### Cauchy riemann + real differentiablity implies complex differentiability
 
 ```ad-note
 title: Theorem

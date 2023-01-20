@@ -28,18 +28,6 @@ R_1(z) &= z^{m-n}{a_0z^n + a_1z^{n-1}+\cdots+a_n\over b_0z^m+b_1z^{m-1}+\cdots+b
 $$
 If $m>n$,  $R(z)$ has a zero of order $m-n$ at $\infty$; if $m<n$, $R(z)$ has a pole of order $n-m$ at $\infty$.
 
----
-#### Exercise:
-From the above, show that the number of zeroes (with order) of $R(z)$ including those at $\infty$ is $\max(m,n)$, also show that the number of poles (with order) = $\max(m,n) = p$. The number $p$ is called the **order** of the rational function.
-
-**Proof**:
-First let $n>m$ then, the set of zeroes of $R$ = set of zeroes of numerator of $R$, which has size $n$. 
-Also since $n>m$, $R$ does not have roots at $\infty$. Number of poles of $R$ = number of zeroes of denominator + $n-m = m + n-m = n$.
-
-Similarly handle the case of $m>n$. 
-
----
-
 ```ad-note 
 title: Lemma
 order($R$) = order($R-a$), $a \in \mathbb{C}$
@@ -50,11 +38,11 @@ We will see that $R$ is surjective too.
 This would imply that any $R(z) = \dfrac{az+b}{cz+d}$ , $ad-bc \neq 0$ (why? $R(z)$ becomes a constant otherwise) gives a bijective (analytic) function of $S \to S$.
 $R^{-1}(z) = \dfrac{dz-b}{-cz+a}$ 
 
-#### Exercise:
+---
+# Related Problems
+[[Number Of Roots and Poles of a Rational Function]]
 Find the group of 1-1 analytic self-homeomorphisms of $\mathbb{C}$. Assume that it is a subgroup of $SL_2(\mathbb{C})/\{\pm 1\}$.
 
 ---
-# Related Problems
-
----
 # References
+[[Analytic Function]]

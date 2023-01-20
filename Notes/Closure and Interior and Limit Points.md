@@ -35,13 +35,14 @@ Let $A \subset X$, then $Int_X(A)$, interior of A in X, is the union of all open
 1. $Int (X-A) = X - Cl(A)$
 2. $X - Int(A) = Cl(X-A)$
 
----
 ### Theorem
 ```ad-note
 title:
 $x \in Cl(A) \iff$ every open nbhd of x intersects A.
 ```
 
+---
+# Limit Points
 ### Definition
 ```ad-note
 title: Limit points
@@ -61,3 +62,4 @@ $Cl(A) = A \cup A'$
 
 ---
 # References
+[[Closed sets]]

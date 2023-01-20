@@ -25,8 +25,9 @@ A function $f:U\to \mathbb C$ is said to be **Analytic**(or **Holomorphic**) if 
 Some examples are
 - Identity Function
 - Constant Functions
-- Polynomials
-- Rational Functions (away from zeros of divisors)
+- [[Complex Polynomials|Polynomials]]
+- [[Complex Rational Functions|Rational Functions]] (away from zeros of divisors)
+- [[Power Series]]
 
 *Proposition:* If $u(x, y), v(x, y)$ have first order partial deriavtives which satisfy the [[Cauchy-Reimann Equation| CR Equations]], then $f=u+\iota v$ is analytic with continuous partial derivative
 _Proof:_

@@ -39,6 +39,9 @@ Usually a topology can be specified with a, smaller subcollection.
 	  if $V=\bigcup\limits_{\alpha\in\tau}X_\alpha, X\setminus V\subset X\setminus U_\beta$
 	- $\{U_1,U_2\dots U_n\}$ if some $U$ is empty, $W$ is empty where $W=\bigcap\limits_{i=1}^n U_\alpha$, if none of $U$ are empty then $X\setminus W=(X\setminus U_1)\cup(X\setminus U_2)\cup\dots\cup(X\setminus U_n)$
 - $X=\mathbb R$ and $\tau_X=\{(a, \infty) | a\in\mathbb R\}$, This is called _Ray Topology_.
+- [[Subspace Topology]]
+- [[Product topology]]
+- [[Order Topology]]
 
 For some $X$ , $\tau_X,\tau'_X$ are two topologies on $X$ and if $\tau\subset \tau'$ then $\tau$ is said to be **coarser** than $\tau'$.
  

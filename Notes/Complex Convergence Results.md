@@ -4,7 +4,7 @@ Type : #Note
 Tags : [[Complex Analysis]]
 
 ---
-# Complex power series
+# Complex Convergence Results
 ### Series
 ```ad-note
 title: 

@@ -34,7 +34,7 @@ Let Y be a subspace of X. If A is closed in Y and Y is closed in X then A is clo
 
 ---
 # Related Problems
-[[Closure and Interior]]
+[[Closure and Interior and Limit Points]]
 
 ---
 # References

@@ -15,7 +15,7 @@ $$
 [[Fourier Series]] is an example of power series in case of real functions
 **Example:** Geometric Series
 $$f(z)=\sum\limits_{n\ge0}z^n$$
-We know that for all $z$ such that $|z|<1, f(z)$ converges
+We know that for all $z$ such that $|z|<1, f(z)$ [[Complex Convergence Results|converges]]
 
 ```ad-hint
 title: Convention
@@ -39,3 +39,4 @@ $$
 
 ---
 # References
+[[Analytic Function]]

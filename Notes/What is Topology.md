@@ -12,7 +12,7 @@ It is the study of topological properties of topological spaces.
 
 **Topological Properties** are properties that can be expressed in terms of continuity.
 [[Topological Spaces]] are sets which have some notion of nearness between elements.
-- A [[continuous function]] $f:X\to Y$ is such that if $x,x'\in X$ are near each other implies $f(x),f(x')\in Y$ are near each other
+- A [[Continuous Functions|continuous function]] $f:X\to Y$ is such that if $x,x'\in X$ are near each other implies $f(x),f(x')\in Y$ are near each other
 
 One way to define the notion of distance is to make a function $d:X\times X \to \mathbb R$ which takes a pair of values and returns the _"Distance"_ between them, following some nice properties. This is called a metric space.
  
