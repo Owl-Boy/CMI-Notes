@@ -25,6 +25,17 @@ __equivalent statements for continuous functions:__
 - Pre images of _open_ sets are _open_, i.e $f^{-1}(V)\in \mathcal T_X$ for all $V\in\mathcal T_Y$ 
 - Pre images of _basic open_ sets are _open_, i.e $f^{-1}(V)\in \mathcal T_X$ for all $V\in\mathcal B$ 
 - Pre images of _sub-basic open_ sets are _open_, i.e $f^{-1}(V)\in \mathcal T_X$ for all $V\in\mathcal S$
+- Pre images of _closed_ sets are _closed_.
+- $f$ is continuous at each point of the topological space. (Local Definition)
+- For every subset $A\subset X$, $f(Cl \ A) \subset Cl \ f(A)$. 
+
+**Local definition**:
+```ad-note
+title: 
+$f: X \to Y$ is continuous at a point $x \in X$ if for every open set $V \in \mathscr{T}_Y$ containing $f(x)$, there exists an open set $U \in \mathscr{T}_X$ containing $x$ such that $f(U) \subset V$.
+```
+
+
 
 ---
 # Related Problems
