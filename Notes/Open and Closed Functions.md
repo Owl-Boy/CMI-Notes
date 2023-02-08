@@ -25,6 +25,9 @@ Neither are **Open** functions the same as **Closed functions**
 ---
 # Related Problems
 
+1) Show that the projection maps from $\mathbb{R}^2$ to $\mathbb{R}$ are open but not closed. 
+	$A_n$ := $[1/n,1-1/n] \times \{n\}$, the union of these sets project onto $(0,1)$. Hence this map is not closed.  
+
 ---
 # References
 [[Continuous Functions]]
