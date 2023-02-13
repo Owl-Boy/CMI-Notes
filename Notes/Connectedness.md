@@ -96,11 +96,11 @@ $f: X \to \{0,1\}$ is constant.
    #### Proof:
    A cts function f on the union takes a fixed value at the common point, and hence the same value over all of the union. 
    
-3) Finite product of connected spaces is connected.
+3) **Finite product** of connected spaces is connected.
    #### Proof:
    Let $f: X\times Y \to \{0,1\}$ then $f((x_1,y_1)) = f((x_1,y_2)) = f((x_2,y_2))$.  You need to show that the restriction of $f$ to X is continuous.
    
-4) Arbitrary product of connected spaces is connected.
+4) **Arbitrary product** of connected spaces is connected.
    #### Proof: 
    Let X = $A \sqcup B$, then there is some coordinate where the projection of A and B is disjoint and open and covers that component, and so that component is disconnected. Contradiction.
    **Alternate**: Fix a point $(a_{\alpha}) \in X$. 
@@ -108,7 +108,7 @@ $f: X \to \{0,1\}$ is constant.
    The union Y of all X_K's is connected by construction (2).
    Hence the closure of Y = X is also connected.
    
-5) Quotient of a connected space is connected.
+5) **Quotient** of a connected space is connected.
    #### Proof:
    Quotient map is continuous and surjective, cts maps take connected spaces to connected spaces.
 ---
@@ -123,3 +123,5 @@ The connected components of a space X are connected disjoint spaces of X, whose 
 ---
 # References
 [[Intermediate Value Theorem]]
+[[Product topology]]
+[[Quotient Topology]]
