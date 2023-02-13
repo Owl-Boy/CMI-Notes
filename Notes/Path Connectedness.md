@@ -39,6 +39,13 @@ title: Theorem
 If $A \subseteq \mathbb{R}^n$ is open then $A$ connected $\iff A$ path connected.
 ```
 
+#### Proof:
+**Claim**: If $A \subset \mathbb{R}^n$ is open, then the _path components_ (equivalence classes under the relation $x\sim y \iff$ there is a path from x to y) of A are also open.
+_Proof_: Let $x \in P \subset A$, where P is a path component, then $B_r(x)$ is contained in A for some r, and hence also in P (since it's path connected). $\square$
+
+Now suppose A were not path connected, then there is some x in A such that the path component of x is not the whole of A, call it U. Then $A = U \sqcup V$ where V is the union of the other path components. But then V = $\phi$ since U is non empty.
+Hence A is path connected
+
 ---
 # Related Problems
 
