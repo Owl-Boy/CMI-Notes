@@ -26,8 +26,8 @@ Let X be a topo space, $A \subset X, x \in X$.
 2) If X is metrizable (first countable) and $x \in Cl(A)$ then there is a sequence of points $x_n \in A$ such that $x_n \to x$.
 ```
 #### Proof:
-1) Suppose not, then there is a nhbd of x that is completely outside A and so the points x_n cannot converge to x, contradiction.
-2) First note that $x \in Cl(A) \implies$ every nbhd of x intersects A. Just take x_n to be a point in $\bigcap \limits_{i=1}^{n} B_i$ other than x, and this gives a sequence converging to x.
+1) Suppose not, then there is a nhbd of $x$ that is completely outside A and so the points $x_n$ cannot converge to $x$, contradiction.
+2) First note that $x \in Cl(A) \implies$ every nbhd of $x$ intersects A. Just take $x_n$ to be a point in $\bigcap \limits_{i=1}^{n} B_i$ other than $x$, and this gives a sequence converging to $x$.
 
 ## Lemma:
 
