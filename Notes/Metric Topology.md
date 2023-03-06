@@ -106,7 +106,7 @@ TO DO
 
 ---
 # Related Problems
-[[Product topology]]
 
 ---
 # References
+[[Product topology]]

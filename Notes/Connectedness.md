@@ -8,25 +8,26 @@ Tags : [[Topology]]
 ```ad-note
 title:
 $X$ is non empty, topological space.
-A _separation_ of X is a pair of subsets $U,V$ which are disjoint, open and non empty.
+$A$ _separation_ of $X$ is a pair of subsets $U,V$ which are disjoint, open and non empty.
 ```
 
 ```ad-note
 title:
-X is _connected_ if $\nexists$ a separation of X. Otherwise it's called _disconnected_.
+$X$ is _connected_ if $\nexists$ a separation of $X$. Otherwise it's called _disconnected_.
 ```
 
 ```ad-note
 title:
-X is called _totally disconnected_ if only singleton subsets of X are connected.
+$X$ is called _totally disconnected_ if only singleton subsets of $X$ are connected.
 ```
 
 ```ad-note
 title: Proposition
 The following are equivalent:
-1) X is disconnected.
-2) $\exists$ nonempty, disjoint, closed subsets A, B s.t. $X = A \sqcup B$.
+1) $X$ is disconnected.
+2) $\exists$ nonempty, disjoint, closed subsets $A, B$ s.t. $X = A \sqcup B$.
 3) $\exists$ a subset $A \subset X$ both open and closed s.t. $A \neq \phi$ or $X$.
+4) $\exists$ a non trivial clopen set.
 ```
 
 ```ad-note
@@ -48,21 +49,21 @@ $\mathbb{R}$ is connected.
 ```
 
 #### Proof:
-Suppose not, then $\mathbb{R} = X \sqcup Y$ where X and Y are open. Let $a \in X, b \in Y$ such that a < b. Let $A = X \cap (-\infty,b]$, Let p = sup A. 
-If p is in X, then $(p-\epsilon,p+\epsilon) \subset X$ and since $p \neq b$, then this interval is also contained in $(-\infty,b]$ and hence $(p-\epsilon,p+\epsilon) \subset A$, contradiction to sup A = p.
-If p is not in X, then since Y is open,  $(p-\epsilon,p+\epsilon) \subset Y$, then $p-\epsilon$ is also an upperbound to A. Contradiction.
+Suppose not, then $\mathbb{R} = X \sqcup Y$ where X and Y are open. Let $a \in X, b \in Y$ such that $a < b$. Let $A = X \cap (-\infty,b]$, Let $p = \sup A$. 
+If p is in X, then $(p-\epsilon,p+\epsilon) \subset X$ and since $p \neq b$, then this interval is also contained in $(-\infty,b]$ and hence $(p-\epsilon,p+\epsilon) \subset A$, contradiction to sup$ A = p$.
+If p is not in $X$, then since $Y$ is open,  $(p-\epsilon,p+\epsilon) \subset Y$, then $p-\epsilon$ is also an upperbound to $A$. Contradiction.
 
 
 ```ad-note
 title: Definition
-A linearly ordered set L having more than one element is called a _linear continuum_ if
-1) L has the lub property
+A linearly ordered set $L$ having more than one element is called a _linear continuum_ if
+1) $L$ has the least upper bound property
 2) If $x < y$, $\exists z$ s.t. $x < z < y$.
 ```
 
 ```ad-note
 title: Theorem
-If L is a linear continuum then it is connected in the order topology and so are the rays and intervals of L.
+If $L$ is a linear continuum then it is connected in the order topology and so are the rays and intervals of $L$.
 ```
 
 #### proof:
@@ -83,7 +84,7 @@ The continuous image of a connected space is connected.
 
 ```ad-note
 title: Theorem
-A topological space X is connected iff every cts function 
+A topological space X is connected iff every [[Continuous Functions|continuous function]] 
 $f: X \to \{0,1\}$ is constant.
 ```
 
@@ -128,3 +129,4 @@ The connected components of a space X are connected disjoint spaces of X, whose 
 [[Intermediate Value Theorem]]
 [[Product topology]]
 [[Quotient Topology]]
+[[Continuous Functions]]
