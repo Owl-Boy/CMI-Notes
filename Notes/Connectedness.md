@@ -119,6 +119,9 @@ The connected components of a space X are connected disjoint spaces of X, whose 
 
 ---
 # Related Problems
+[[Local Connectedness]]
+[[Path Connectedness]]
+[[Local Path Connectedness]]
 
 ---
 # References

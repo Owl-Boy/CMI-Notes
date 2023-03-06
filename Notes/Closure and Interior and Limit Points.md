@@ -46,9 +46,9 @@ $x \in Cl(A) \iff$ every open nbhd of x intersects A.
 ### Definition
 ```ad-note
 title: Limit points
-x is a limit point of A if every opne nbhd of x contains a point of A other than x.
+$x$ is a limit point of $A$ if every open nbhd of $x$ contains a point of $A$ other than $x$.
 
-A' := set of limit points of A.
+$A'$ := set of limit points of $A$.
 ```
 
 ### Theorem 

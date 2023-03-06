@@ -26,3 +26,5 @@ Conversely, for any nbhd U of x, there is a path component of U that contains x,
 
 ---
 # References
+[[Path Connectedness]]
+[[Connectedness]]
