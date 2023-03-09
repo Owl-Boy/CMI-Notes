@@ -1,7 +1,7 @@
 202301181801
 
 Type : #Note
-Tags :
+Tags : [[Topology]]
 
 ---
 # Continuous Functions
