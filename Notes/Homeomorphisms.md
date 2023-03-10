@@ -18,6 +18,7 @@ Properties of topological spaces which are preserved under homeomorphisms are ca
 
 ---
 # Related Problems
+1) $f : X \to Y$ is bijective and continuous, and X is compact and Y is hausdorff, then $f$ is a homeomorphism. (See [[Compactness]])
 
 ---
 # References

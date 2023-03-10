@@ -6,7 +6,7 @@ Tags : [[Algebra]]
 ---
 # Ring
 ```ad-important
-title: Motivatoin Begind Ring Theory
+title: Motivation Behind Ring Theory
 Ring Theory was created to number theory of a set that is larger than number, for example take the questions :
 Find integer solution of $x^2+y^2 = z^2$, This is a very tedious problem but instead if we do this.
 $(x - yi)(x + yi) = z^2$ this now becomes a factorization problem in $\mathbb Z[i]$

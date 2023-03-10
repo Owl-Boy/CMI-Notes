@@ -4,7 +4,7 @@ Type : #Note
 Tags :[[Complex Analysis]]
 
 ---
-# The Reimann Sphere
+# The Riemann Sphere
 **Idea:** Construct an extended compelx plane with $\infty$
 Let $$S=\{(x_1,x_2,x_3):x_1^2+x^2_2+x_3^2=1\}\subseteq\mathbb R^3$$
 Define
@@ -37,7 +37,7 @@ This is equivalent to circle inversion.
 
 ---
 # Related Problems
-#### exercise:
+#### Exercise:
 Let $d(p,q)$ denote the distance in $\mathbb{R}^3$. Show that:
 1. $d(\sigma(z),\sigma(z')) = \dfrac{2|z-z'|}{\sqrt{1+|z|^2}\sqrt{1+|z'|^2}}$ 
 2. $d(\sigma(z),0) = \dfrac{2}{\sqrt{1+|z|^2}}$

@@ -82,6 +82,11 @@ By [[Tube Lemma]], there is a nbhd $U_p$ s.t. $U_p \times Y \subset N_p$.
 Therefore, $\{U_p\}_{x \in X}$ is a cover of $X$ hence $\{U_{p_i}\}$ is a cover of $X$. Hence $U_{p_i} \times Y$ covers $X\times Y$, and so $N_{p_i}$ covers $X\times Y$. $\square$
 
 ```ad-note
+title: Theorem
+Arbitrary product of compact spaces is again compact.
+```
+
+```ad-note
 title: Proposition
 X is compact iff for all collections $\mathcal{C}$ of closed subsets of X having [[Finite Intersection Property]], $\bigcap\limits_{C\in \mathcal{C}} C$ is non empty.
 ```
@@ -92,11 +97,40 @@ If the intersection of all subsets in $\mathcal{C}$ is empty, then the collectio
 **Converse**:
 Take a cover of $X$ which does not have a finite subcover. Now take the complement of each element in this cover, we get a family of closed subsets of $X$ having the FIP. But then the intersection of all elements of the family is non empty and so the cover does not contain some point of $X$ which is a contradiction.
 
+### Theorem
+```ad-note
+title:
+Each closed interval $[a,b]$ in $\mathbb{R}$ is compact.
+```
+
+#### Corollary
+```ad-note
+title:
+Any finite product of closed intervals $\displaystyle \prod \limits_{i=1}^{n} [a_{i},b_{i}]$ is compact.
+```
+
+### Theorem
+```ad-note
+title: Heine Borel
+A subspace $A$ of $\mathbb{R}^{n}$ is compact iff it is closed and bounded.
+```
+
+### Theorem
+```ad-note
+title:
+Let $f : (X,d) \to (Y,d')$ be a continuous map on metric spaces. If $X$ is compact, then $f$ is uniformly continuous.
+```
+
+
 ---
 # Related Problems
+1. $X$ is non empty Hausdorff compact space. If $X$ has no isolated points, i.e. no point $x$ such that $\{ x \}$ is open, then $X$ is uncountable. **(Theorem 27.7 Munkres)**
 
 ---
 # References
 [[Lindelof Space]]
 [[Finite Intersection Property]]
 [[Tube Lemma]]
+[[Homeomorphisms]]
+[[Hausdorff Property]]
+[[Quotient Topology]]
