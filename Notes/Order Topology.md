@@ -31,7 +31,13 @@ Let X be a linearly ordered set with $\tau_X$ order topo, $Y$ be a convex subset
 TO DO
 
 ---
+# Related Results
+1) Order topology is regular.
+
+
+---
 # Related Problems
 
 ---
 # References
+[[Regular Spaces]]
