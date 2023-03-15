@@ -32,7 +32,7 @@ The [[Turing Machine Configuration|configuration]] of the stack symbol is an ele
 
 ![[Recursive and Recursively Eumberable Sets#Decidable an Semidecidable]]
 
-There are several different flavours of turing machines and other machines that may seem more or less powerful but are computationally equivalent, some of them are:
+There are several different flavours of turing machines and other machines that may seem more or less powerful but are computationally equivalent, some of them are, also known as **Turing Complete**: ^71be18
 - [[Turing Machines with multiple tapes]]
 - [[Two-Way Infinite Tape Turing Machine]]
 - [[Two Stacks]]
