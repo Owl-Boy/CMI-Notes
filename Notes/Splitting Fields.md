@@ -56,11 +56,31 @@ $[L_{1}:K_{1}] > 1$:
 #### Now Theorem 1 follows by putting $K_{1}=K_{2}=K, \sigma = id_{K}$.
 
 #### NOTE:
-In the above proof, we can even show that the number of extensions $\sigma_{2}$, are infact equal to $[L_{1}:K_{1}]$. Since, if we assume this to be the induction hypothesis, then we can show that the number of extensions to $K_{1}(\alpha) \to K_{2}(\alpha')$ is **exactly** equal to $\mathrm{deg}(\pi)$ by showing that all roots of $\sigma \pi$ are distinct. Since if that's the case then there are $\mathrm{deg}(\sigma \pi)$ many possibilities of $\alpha'$, each giving a distinct isomorphism. 
+In the above proof, we can even show that the number of extensions $\sigma_{2}$, are infact equal to $[L_{1}:K_{1}]$. Since, if we assume this to be the induction hypothesis, then we can show that the number of extensions to $K_{1}(\alpha) \to K_{2}(\alpha')$ is **exactly** equal to $\mathrm{deg}(\pi)$ by showing that all roots of $\sigma \pi$ are distinct. Since if that's the case then there are $\mathrm{deg}(\sigma \pi)$ many possibilities of $\alpha'$, each giving a distinct isomorphism (this is possible when $\sigma \pi$ is _separable_).
 Suppose two choices gave the same isomorphism, that would mean $K_{2}(\alpha_{1}') = K_{2}(\alpha_{2}')$, which would mean that between $K_{2}(\alpha_{1}')$ and $K_{2}(\alpha_{2}')$ there are two isomorphisms, one is just identity, and the other sends $\alpha_{1}'$ to $\alpha_{2}'$. This is a contradiction to the fact that there is unique isomorphism between $K(\alpha)$ and $K[x]/(f)$ for any irreducible $f$ and $\alpha$ a root of $f$.
 
----
-# Related Problems
+## Theorem 3:
+```ad-note
+title:
+Let $K_{1},K_{2}$ be fields with $\sigma : K_{1} \to K_{2}$ an isomorphism between them. And let $f(x)$ be nonconstant in $K_{1}[x]$. If $L_{1}$ is a splitting field of $f(x)$ over $K_{1}$ and let $L_{2}$ be a splitting field of $(\sigma f)(x)$ over $K_{2}$ respectively, then if $f(x)$ is separable then:
+1) $[L_{1}:K_1] = [L_{2}: K_2]$ 
+2) $\sigma$ extends to an isomorphism $\sigma_2 : L_{1} \to L_{2}$ fixing all of $K$. 
+3) The number of such extensions $L_{1} \to L_{2}$ is exactly $[L_1:K_1]$ 
+```
+##### Proof:
+Refer to the note above and Theorem 2's proof to show this.
+
+### Corollary:
+If $L/K$ is the splitting field of a separable polynomial then there are $[L:K]$ automorphisms of $L$ that fix the elements of $K$.
 
 ---
+# Examples
+1) The extension $\mathbb{Q}(\sqrt{ 2 }, \sqrt{ 3 })/\mathbb{Q}$ is a splitting field of $(x^{2}-3)(x^{2}-2)$. 
+   Its degree is 4, so there are 4 automorphisms that fix $\mathbb{Q}$.
+   To find the automorphisms, just observe that $\sqrt{ 2 }$ can only go to $\pm \sqrt{ 2 }$, similarly $\sqrt{ 3 }$ can only go to $\pm \sqrt{ 3 }$. Thus there are 4 possibilities, but since we know that there are exactly 4 automorphisms, then all of these should work.
+   
+---
 # References
+[[Field Extensions]]
+[[Separable Extensions]]
+[[Separable Polynomials]]

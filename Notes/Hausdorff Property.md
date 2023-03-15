@@ -11,8 +11,15 @@ A Topological Space $X$ is called a **Hausdorff Space** if for each pair of poin
 If a Topology is finer than a Hausdorff Topology then it is also a Housdorf Topology
 
 ---
-# Related Problems
+# Examples
+1) $\mathbb{R}^{\omega}$ with product topology is Hausdorff. (See [[R^w]])
+2) Every metric space is Hausdorff.
+
+---
+# Related Results
+1) Compact + Haudorff $\implies$ Normal
 
 ---
 # References
 [[Separation Axioms]]
+[[R^w]]
