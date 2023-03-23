@@ -36,6 +36,6 @@ $\mathrm{disc}(\alpha_{1},\dots,\alpha_{n}) = 0$ iff $\alpha_{1},\dots,\alpha_{n
 # References
 [[Number Field]]
 [[Embeddings of fields]]
-Trace 
+[[Trace]] 
 [[Algebraic Number]]
 [[Algebraic Integer]]
