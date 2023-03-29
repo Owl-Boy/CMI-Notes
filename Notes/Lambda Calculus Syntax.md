@@ -7,7 +7,7 @@ Tags : [[Lambda Calculus]]
 # Lambda Calculus Syntax
 
 ## Syntax
-**Lambda Calculus** has a minimal syntac which captures the intrinsional definition of a function, the syntax is as follows
+**Lambda Calculus** has a minimal syntax which captures the intrinsional definition of a function, the syntax is as follows
 
 You have a *countably Infinite set* of **variables**, which can be any character except $\lambda\; .\; (\;)$ because these characters have predefined meanings
 
@@ -21,7 +21,7 @@ like, in the expression ^BindingsOfVariables
 $$
 x(\lambda y.y)
 $$
-Here $x$ is *unbounded*, while the first occurence of $y$ is $binding$ and the second one is *bound*.
+Here $x$ is *unbounded*, while the first occurence of $y$ is *binding* and the second one is *bound*.
 
 Composition of lambda expression is left associated:- $ABC=(AB)C$
 

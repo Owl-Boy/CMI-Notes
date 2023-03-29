@@ -41,7 +41,7 @@ $M=\lambda y.yy$ which is not desired,
 The desired goal was, that $N$ would take $2$ inputs, and apply the first one on the second one, but the following lambda expression would ignore the first input provided by $M$ and just take one input, applying it to itself.
 
 This can be fixed in the follwing way
-let $N=(\lambda xz.xz)$, which is an alpha conversion of the inner lambda term, replacing $y$ with $z$ and now the lambda expression $M$ evaluates to $(\lambda y.zy)$, which was the desired result
+let $N=(\lambda xz.xz)$, which is an $\alpha$-conversion of the inner lambda term, replacing $y$ with $z$ and now the $\lambda$ expression $M$ evaluates to $(\lambda z.yz)$, which was the desired result.
 
 
 ---
