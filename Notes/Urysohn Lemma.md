@@ -38,10 +38,22 @@ $$
 exists and lies in $[0,1]$.
 Now see that $f(x) = 0$ for $x \in A$, and $f(x) = 1$ for $x \in B$.
 
+To show that $f$ is continuous, first observe that if $x \in Cl(U_{r})$ then $f(x)\le r$.
+And also, if $x \notin U_{r}$, then $f(x) \geq r$.
+
+Now let $x \in X$, pick a nbhd $(c,d)$ of $f(x)$. Take dyadic numbers $p,q$ such that $c < p <f(x)< q < d$. 
+This means that $x \notin Cl(U_{p})$ but $x \in U_{q} \implies x \in U := U_{q} \setminus Cl(U_{p})$.
+But then for any $y \in U$, $y \notin U_{p}$, and so $f(y) \geq p$. Also since $y \in U_{q}$, $f(y)\le q$. This gives $f(U) \subset (c,d)$.
+Hence $f$ is continuous.
 
 
 ---
 # Related Problems
+[[Urysohn Metrization Theorem]]
 
 ---
 # References
+[[Normal Spaces]]
+[[Closure and Interior and Limit Points]]
+[[Continuous Functions]]
+
