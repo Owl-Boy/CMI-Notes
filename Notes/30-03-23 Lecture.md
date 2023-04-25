@@ -125,7 +125,7 @@ $\implies$ $h$ induces $k : S ^{1}\to S ^{1}$. $k \circ q = q\circ h$
 $q(b_{0}) =  h(b_{0}) = b_{0} \implies k(b_{0}) = b_{0}$ as well, $k(-b_{0}) = -b_{0}$.
 
 - To show $k_{*}: \Pi_{1}(S ^{1}) \to \Pi_{1}(S ^{1})$ is non trivial
-- q is a covering map. Note that if $\widetilde{f}$ is any path in $S ^{1}$, from $b_{0}$ to $-b_{0}$ then $f := g \circ \widetilde{f}$ is a loop that corresponds to a non trivial element in $\Pi_{1}(S ^{1}, b_{0})$. [end point != beginning point]
+- q is a covering map. Note that if $\widetilde{f}$ is any path in $S ^{1}$, from $b_{0}$ to $-b_{0}$ then $f := g \circ \widetilde{f}$ is a loop that corresponds to a non trivial element in $\Pi_{1}(S ^{1}, b_{0})$. (end point != beginning point)
 - Claim: $k_{*}([f])$ is non trivial
 $k_{*}([f]) = [k \circ g\circ \widetilde{f}] = [q \circ h \circ \widetilde{f}]$
 $h_{0} \circ \widetilde{f}$ is a path in $S ^{1}$ from $b_{0}$ to $-b_{0}$ so that $[g \circ (h\circ \widetilde{f})]$ is not trivial.

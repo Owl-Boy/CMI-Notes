@@ -1,12 +1,17 @@
 0. What is a discrete valuation on a field.  $v : K^{\times} \to \mathbb{Z}$ such that $v(a+b) \ge \min(v(a),v(b))$ and $v(ab) = v(a)+v(b)$.
-1. What is an absolute value or multiplicative valuation on a field.
-   Show examples as in the notes
-2. Non archimedean absolute values
-3. Absolute value is non archimedean iff it takes bounded values on $\{m \cdot 1 | m \in \mathbb{Z} \}$
-4. If $\mathrm{char} K \neq 0$ then $K$ has only non archimedean abs values.
-5. Relation between absolute value and additive valuations:
+1. This can be extented to whole of $K$ by defining $v(0) = \infty$. We follow the first definition in this lecture.
+2. The ring $A := \{ x \in K \mid v(x) \ge 0\}$ is called the _valuation ring_ of $K$. 
+3. What is an absolute value or multiplicative valuation on a field. Archimedean, Non archimedean.
+4. Why is it called non archimedean?
+5. Show examples as in the notes. Define p-adic absolute value on $\mathbb{Q}$. 
+6. Can go from a valuation to an absolute value and vice versa. $v(x) = -\log(|x|)$
+1. Relation between absolute value and additive valuations:
    A discrete (additive) valuation $\mathrm{ord} : K^{\times} \to \mathbb{Z}$  determines an absolute value by $|x| = e^{-\mathrm{ord}(x)}$
    An absolute value on $K$ determines an additive valuation (need not be discrete) on $K^{\times}$ by $\log_{e}|x| = -\mathrm{ord}(x)$
+7. 
+   ### Lemma:
+   Absolute value is non archimedean iff it takes bounded values on $\{m \cdot 1 | m \in \mathbb{Z} \}$
+	1. Corollary: If $\mathrm{char} K \neq 0$ then $K$ has only non archimedean abs values.
 
 ### Proposition:
 ```ad-note
