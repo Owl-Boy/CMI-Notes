@@ -43,6 +43,18 @@ The desired goal was, that $N$ would take $2$ inputs, and apply the first one on
 This can be fixed in the follwing way
 let $N=(\lambda xz.xz)$, which is an $\alpha$-conversion of the inner lambda term, replacing $y$ with $z$ and now the $\lambda$ expression $M$ evaluates to $(\lambda z.yz)$, which was the desired result.
 
+## $\eta$-reduction
+$\eta-$reduction is a method to simplify a lambda expression by eliminating redundent inputs and modifying the defintion such that the function.
+$\lambda x.N\; x\longmapsto N$ is the simplest example of $\eta-$reduction
+an example of a slightly more complex $\eta-$reudction would be 
+$$
+\begin{aligned}
+\lambda mnfx.\; (n\; m (\lambda x.fx))\; x&\longmapsto \lambda mnf.\; n\;m\;(\lambda x.fx)\\
+&\longmapsto \lambda mnf.\;n\;m\;f\\
+&\longmapsto \lambda mn.\;n\;m
+\end{aligned}
+$$
+
 
 ---
 # References

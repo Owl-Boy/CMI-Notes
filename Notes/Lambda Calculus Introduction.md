@@ -16,6 +16,7 @@ Then what do functions act on?
 Other functions!!!
 
 But even with this restrictions, this model of computation is [[Turing Machines#^71be18|Turing Complete]], as in its a **Universal Computation Model**
+This was done by finding a set of [[Functions Computable in Lambda Calculus|computable functions]] by $\lambda-$calculus which was later found to be the same as the set of functions computable by Turing Machines.
 
 we can encode [[Church Booleans|Booleans]] and [[Church Numerals|Natural Numbers]] using lambda calculus.
 
