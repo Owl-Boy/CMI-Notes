@@ -84,6 +84,7 @@ Therefore, $\{U_p\}_{x \in X}$ is a cover of $X$ hence $\{U_{p_i}\}$ is a cover 
 ```ad-note
 title: Theorem
 Arbitrary product of compact spaces is again compact.
+This is called [[Tychonoff's Theorem]].
 ```
 
 ```ad-note
@@ -123,6 +124,11 @@ Let $f : (X,d) \to (Y,d')$ be a continuous map on metric spaces. If $X$ is compa
 
 
 ---
+# Related Results
+1) Compact + Hausdorff $\implies$ Normal
+
+
+---
 # Related Problems
 1. $X$ is non empty Hausdorff compact space. If $X$ has no isolated points, i.e. no point $x$ such that $\{ x \}$ is open, then $X$ is uncountable. **(Theorem 27.7 Munkres)**
 
@@ -134,3 +140,4 @@ Let $f : (X,d) \to (Y,d')$ be a continuous map on metric spaces. If $X$ is compa
 [[Homeomorphisms]]
 [[Hausdorff Property]]
 [[Quotient Topology]]
+[[Tychonoff's Theorem]]
