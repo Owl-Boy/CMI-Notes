@@ -87,7 +87,6 @@ $g$ is cts iff $h$ is. $g$ is a quotient map iff $h$ is.
    Take g-saturated open set in Y, $g^{-1}(V)$ open in Y, but $g^{-1}(V) = f(h^{-1}(V))$. Therefore, $f^{-1}(g^{-1}(V)) = h^{-1}(V)$ is open in X, and so V is open in Z. Hence g is quotient map.
 
 ---
-# Related Problems
-
----
 # References
+[[Continuous Functions]]
+[[Open and Closed Functions]]

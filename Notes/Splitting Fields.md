@@ -48,15 +48,16 @@ $[L_{1}:K_{1}] > 1$:
    Then $(\sigma_{2}\pi)(\sigma_{2}\alpha) = (\sigma \pi)(\sigma_{2}(\alpha)) = \sigma(\pi(\alpha)) = \sigma(0) = 0$. Hence, $\sigma_{2}$ takes $\alpha$ to roots of $\sigma \pi$.
 4) Now we show that $\sigma \pi$ has a root in $L_{2}$. Since $\pi(x) | f(x)$ then $\sigma\pi(x) | \sigma f(x)$. Since $\sigma f$ splits in $L_{2}$, $\sigma \pi$ does too, and hence has a root $\alpha'$ in $L_{2}$.
 5) Hence, we can extend $\sigma$ to $\sigma_{1} : K_{1}(\alpha) \to K_{2}(\alpha')$ where $\sigma_{1}$ is unique once the choice for $\alpha'$ has been made.
-6) Now since $[L_{1}:K_{1}(\alpha)] < [L_{1}:K_{1}]$, we can induct (here $K_{1},K_{2}$ gets replaced by $K_{1}(\alpha), K_{2}(\alpha')$ respectively). This gives
-   an extension of $\sigma$ to $\sigma_{2} : L_{1} \to L_{2}$, so we are done for 2. For 1, just see that $[K_{1}(\alpha):K_{1}] = [K_{2}(\alpha) : K_{2}]$.
+6) Now since $[L_{1}:K_{1}(\alpha)] < [L_{1}:K_{1}]$, we can induct (here $K_{1},K_{2}$ gets replaced by $K_{1}(\alpha), K_{2}(\alpha')$ respectively). This gives an extension of $\sigma$ to $\sigma_{2} : L_{1} \to L_{2}$, so we are done for 2. For 1, just see that $[K_{1}(\alpha):K_{1}] = [K_{2}(\alpha) : K_{2}]$.
 7) For 3, we need to work a bit more and see that any extension $\sigma_{2}$ of $\sigma$ restricts to an isomorphism $K_{1}(\alpha) \to K_{2}(\sigma_{2}(\alpha))$.
-   Where $\sigma_{2}(\alpha)$ is a root of $\sigma_{2}\pi$ where $\pi$ is some irreducible factor of $f$.
+   Where $\sigma_{2}(\alpha)$ is a root of $\sigma_{2}\pi$ where $\pi$ is some irreducible factor of $f$. So, the number of extensions to $K_{1}(\alpha)$ is $[K_{1}(\alpha) : K_{1}]$. And by induction, the number of extensions from $K_{1}(\alpha)$ to $L_{1}$ are at most $[L_{1}:K_{1}(\alpha)]$.
+   
+   This gives that the number of extensions $\sigma_{2}$ of $\sigma$ is at most $[K_{1}(\alpha) : K_{1}][L_{1}:K_{1}(\alpha)] =[L_{1}:K_{1}]$. 
 
 #### Now Theorem 1 follows by putting $K_{1}=K_{2}=K, \sigma = id_{K}$.
 
 #### NOTE:
-In the above proof, we can even show that the number of extensions $\sigma_{2}$, are infact equal to $[L_{1}:K_{1}]$. Since, if we assume this to be the induction hypothesis, then we can show that the number of extensions to $K_{1}(\alpha) \to K_{2}(\alpha')$ is **exactly** equal to $\mathrm{deg}(\pi)$ by showing that all roots of $\sigma \pi$ are distinct. Since if that's the case then there are $\mathrm{deg}(\sigma \pi)$ many possibilities of $\alpha'$, each giving a distinct isomorphism (this is possible when $\sigma \pi$ is _separable_).
+In  the above proof, we can even show that the number of extensions $\sigma_{2}$, are infact equal to $[L_{1}:K_{1}]$. Since, if we assume this to be the induction hypothesis, then we can show that the number of extensions to $K_{1}(\alpha) \to K_{2}(\alpha')$ is **exactly** equal to $\mathrm{deg}(\pi)$ by showing that all roots of $\sigma \pi$ are distinct. Since if that's the case then there are $\mathrm{deg}(\sigma \pi)$ many possibilities of $\alpha'$, each giving a distinct isomorphism (this is possible when $\sigma \pi$ is _separable_).
 Suppose two choices gave the same isomorphism, that would mean $K_{2}(\alpha_{1}') = K_{2}(\alpha_{2}')$, which would mean that between $K_{2}(\alpha_{1}')$ and $K_{2}(\alpha_{2}')$ there are two isomorphisms, one is just identity, and the other sends $\alpha_{1}'$ to $\alpha_{2}'$. This is a contradiction to the fact that there is unique isomorphism between $K(\alpha)$ and $K[x]/(f)$ for any irreducible $f$ and $\alpha$ a root of $f$.
 
 ## Theorem 3:
@@ -71,7 +72,10 @@ Let $K_{1},K_{2}$ be fields with $\sigma : K_{1} \to K_{2}$ an isomorphism betwe
 Refer to the note above and Theorem 2's proof to show this.
 
 ### Corollary:
+```ad-note
+title:
 If $L/K$ is the splitting field of a separable polynomial then there are $[L:K]$ automorphisms of $L$ that fix the elements of $K$.
+```
 
 ---
 # Examples
@@ -81,6 +85,8 @@ If $L/K$ is the splitting field of a separable polynomial then there are $[L:K]$
    
 ---
 # References
-[[Field Extensions]]
+[[Extension Field]]
 [[Separable Extensions]]
 [[Separable Polynomials]]
+[[Splitting Fields]]
+
