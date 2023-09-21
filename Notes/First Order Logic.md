@@ -37,5 +37,9 @@ title:Goal
 The goal of first order logic is to capture the properties of mathematical structures.
 ```
 
+```ad-todo
+Revisit Groups after finishing First Order Logic Syntax and Semantics
+```
+
 ---
 # References
