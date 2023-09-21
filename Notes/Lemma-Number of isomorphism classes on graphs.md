@@ -9,7 +9,7 @@ tags : [[Algebraic Graph Theory]]
 
 **Lemma:** The actual number of isomorphism classes on graphs are 
 $$(1+o(1))\frac{2^{n\choose 2}}{n!}$$ ^8f4dba
-###  Answer:
+###  Proof:
 
 Let _Support_ be the set of points that are not fixed by a permutation. If the support is the  even number $2r$ then the maximum number of orbits are given by $r$ cycles of length $2$. Looking at the effect of these permutations on edges. there are $2$ ways an edge can not be fixed by the permutation. First is if both the edges of the edge are in the support and the second is if exactly of the ends are in the support.
 Given that there are $2r$ vertices that in the support, the number of edges that are not fixed are 
