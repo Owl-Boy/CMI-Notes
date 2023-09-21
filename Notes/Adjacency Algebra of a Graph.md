@@ -45,6 +45,7 @@ Hence matrix containing column sums along a column is the same as the matrix con
 
 Thus $AJ=JA=kJ$ 
 Existence of $J$ in the algebra also gives that the graph is connected.
+As otherwise, relabel the vertices of $A$ such that vertices of connected components are together, then the adjacency matrix would look like blocks along diagonal and everything else is $0$, which means $J$ could not be in the algebra.
 
 ---
 # References

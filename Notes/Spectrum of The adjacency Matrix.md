@@ -27,3 +27,5 @@ by subtracting the eigenvalues of $J$ and $I$.
 ---
 # References
 [[Traces of Powers of Adjacency Matrices]]
+[[Spectrum of a Cube Graph]]
+[[Spectrum of the complement of a graph]]

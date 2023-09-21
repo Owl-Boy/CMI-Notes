@@ -1,6 +1,10 @@
+---
+tags:
+  - Note
+  - Incomplete
+---
 {{date:YYYYMMDD}}{{time:HHMM}}
 
-Type : #Note
 Tags :
 
 ---

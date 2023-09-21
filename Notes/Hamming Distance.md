@@ -16,6 +16,13 @@ It can be thought of as a channel that takes in $n-$length words and can make up
 
 **Hamming Distance is a Distance**
 
+The selecting the valid code with the least *Hamming Distance* is a standard way of correcting erros
+
+Given a code $C$ the following are equivalent
+- $C$ has minimum distance $d\ge 2$
+- $C$ can correct $\left\lfloor(d-1)/2\right\rfloor$ errors
+- $C$ can correct $d-1$ errors
+- $C$ can correct $d-1$ erasures
 ---
 # References
 [[Error Correcting Codes]]

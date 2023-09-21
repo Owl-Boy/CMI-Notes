@@ -34,3 +34,4 @@ The second property above is useful for finding transitivity of graphs.
 [[Orbits on X and X * X]]
 [[Generously Transitive]]
 [[Kneser Graph]]
+[[Edge-Transitive, Non Transitive is Bipartite]]

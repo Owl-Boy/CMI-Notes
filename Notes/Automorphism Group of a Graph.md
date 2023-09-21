@@ -23,4 +23,4 @@ Peterson Graph
 Hoffmann-singleton Graph
 [[Permutation Matrix Theorem]]
 [[Edge-Transitive, Non Transitive is Bipartite]]
-[[Support of an Automorphism on a Graph]]
+[[Support of an Automorphism on a Graph]] ^8a19cf

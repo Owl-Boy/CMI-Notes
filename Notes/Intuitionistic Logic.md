@@ -27,8 +27,18 @@ $$
 \end{align*}
 $$
 ```
+*Intuitionistic Logic* was made for _Constructivist Mathematics_, so instead of basing our logical statements on **Truth**, we base them on **Constructions**. 
+
+- A construction of $\varphi_{1}\land\varphi_{2}$ consists of a construction of $\varphi_{1}$ and a construction of $\varphi_{2}$.
+- A construction of $\varphi_{1}\lor\varphi_{2}$ consists of a an indicator $i\in\{1,2\}$ and a construction of $\varphi_{i}$ 
+- A construction of $\varphi_1\to\varphi_2$ is a function that transforms every construction of $\varphi_1$ to a construction of $\varphi_2$ 
+- There is no construction for $\perp$ 
 
 The language of Intuitionistic Logic was later simplified in a language called [[Natural Deduction]]
 
+Where as [[Heyting Algebra]] and [[Kripke Models]] are some of the ways to proved semantics to **Intuitionistic Logic**.
+
+
 ---
 # References
+Algebraic Semantics of Logic: [[Lattice]]

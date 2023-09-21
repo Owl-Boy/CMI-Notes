@@ -16,3 +16,4 @@ $\text{Aut}(J(7,3,1))=S_{8}$
 
 ---
 # References
+[[Johnson Graphs]]
