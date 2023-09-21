@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202309211209
 
@@ -19,10 +18,10 @@ linear constraints:
     $x_i \geq 0$
 
 Variables: $x_i$
-Every solution *x* is a point in $\mathbb{R}^n$.
+Every solution $x$ is a point in $\mathbb{R}^n$.
 
 ## Properties
-- The feasible region is convex. It is a convex polyhedron in $\mathbb{R}^n$.
+- The feasible region is a convex polyhedron in $\mathbb{R}^n$.
 - The optimum is always attained at a vertex/extreme point of the feasible region.
 - Linear programs can be solved in polytime.
 

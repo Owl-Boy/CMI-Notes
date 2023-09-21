@@ -16,7 +16,7 @@ Set of $n$ possible locations for opening facilities.
 
 **Goal:** Choose a set of facilities to open s.t. total cost (opening + connections) is minimum.
 
-### LP
+## LP
 Minimize $\sum_i f_ix_i + \sum_{i,j} c_{ij}y_{ij}$ s.t.:
 - $\sum_i y_{ij} \geq 1 \forall j$
 - $x_i \geq y_{ij} \forall i,j$
