@@ -66,6 +66,22 @@ $$
 $$
 2. We know from proposition 2, $p = |g(\chi)|^{2} = g(\chi)\overline{g(\chi)} = g(\chi)g(\overline{\chi})\chi(-1)$.
 
+### Theorem 1:
+```ad-note
+title:
+For a quadratic gauss sum (a gauss sum over the quadratic character $\chi$) $g(\chi)$, 
+$$
+g(\chi) = \begin{cases}
+\sqrt{p} & \text{if } p \equiv 1\ (\mathrm{mod} \ 4) \\ 
+i\sqrt{p} & \text{if } p \equiv 3\ (\mathrm{mod} \ 4)
+\end{cases}
+$$
+```
+###### Proof:
+We know $|g(\chi)|^{2} = p$ and $\overline{g(\chi)} = g(\chi)\chi(-1) = g(\chi)\left(\frac{-1}{p} \right)$. This gives $$
+g(\chi)^{2}\left( \frac{-1}{p} \right) = p
+$$
+Hence the result.
 
 ---
 # References
