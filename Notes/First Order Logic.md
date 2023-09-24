@@ -1,6 +1,7 @@
 ---
 tags:
   - Note
+  - Incomplete
 ---
 202309211409
 
@@ -43,3 +44,4 @@ Revisit Groups after finishing First Order Logic Syntax and Semantics
 
 ---
 # References
+[[Isomorphism Between First Order Interpretations]]
