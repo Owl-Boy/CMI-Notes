@@ -1,13 +1,15 @@
+---
+tags:
+  - Example
+---
+
 {{date:YYYYMMDD}}{{time:HHmm}}
 
-type : #Example
 tags : 
 
 #  {{title}}
 ---
- ### Question:
-###  Answer:
+## Question:
+##  Answer:
 ---
 # Related
-
-

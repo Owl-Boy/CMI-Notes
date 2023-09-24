@@ -13,7 +13,8 @@ The number $\delta$ is called a Lebesgue number of $\mathcal{C}$.
 ##### Proof:
 If $X \in \mathcal{C}$ then we are done.
 Otherwise, since $X$ is compact, there is a finite subcover $U_{1},\dots,U_{n}$ of $X$. Now let $C_{i} := U_{i}^{c}$. 
-Define $$
+Define 
+$$
 f(x) = \frac{1}{n} \sum\limits_{i=1}^{n} d(x,C_{i}) 
 $$
 Since $X$ is compact, this achieves a minimum value $\delta$, we claim this is the required _Lebesgue Number_.
@@ -26,4 +27,3 @@ Let $B$ be a set with diameter $<\delta$, then there is a point $p \in B$ such t
 
 ---
 # References
-[
