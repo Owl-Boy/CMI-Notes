@@ -4,7 +4,7 @@ Type : #Note
 Tags : [[Topology]]
 
 ---
-# R^w with the product topology
+# $\mathbb{R}^{\omega}$ with the product topology
 ```ad-note
 title:
 $\mathbb{R}^{\omega} = \prod \limits_{n=1}^{\infty}\mathbb{R}$. 
@@ -17,7 +17,7 @@ The topology on $\mathbb{R}^{\omega}$ is given by the basic open sets of the for
 - Locally compact
 - Normal
 
-# R^w with uniform topology
+# $\mathbb{R}^{\omega}$ with uniform topology
 ```ad-note
 title:
 The uniform topology is the topology given by the uniform metric.
@@ -33,6 +33,16 @@ $$
 - Hausdorff
 - Metrizable
 - Normal
+
+# $\mathbb{R}^{\omega}$ with the box topology 
+```ad-note
+title:
+Box topo is the topo where the basic open sets are $\prod U_{\alpha}$ with each $U_\alpha$ open in the $X_\alpha$.
+```
+
+### This space has the following properties:
+- Hausdorff
+- Not metrizable (show that it doesn't satisfy sequence lemma)
 
 ---
 # Related Problems
