@@ -16,14 +16,14 @@ Set of $n$ possible locations for opening facilities.
 
 **Goal:** Choose a set of facilities to open s.t. total cost (opening + connections) is minimum.
 
+---
 ## LP
-Minimize $\sum_i f_ix_i + \sum_{i,j} c_{ij}y_{ij}$ s.t.:
-- $\sum_i y_{ij} \geq 1 \forall j$
-- $x_i \geq y_{ij} \forall i,j$
-- $x_i, y_{i,j} \in [0,1] \forall i,j$.
+Minimise $\sum\limits_{i} f_{i}x_{i} + \sum\limits_{i,j} c_{ij}y_{ij}$ s.t.:
+- $\sum\limits_{i} y_{ij} \geq 1$ $\forall j$
+- $x_i \geq y_{ij}$ $\forall i,j$
+- $x_i, y_{i,j} \in [0,1]$ $\forall i,j$.
 
-There is a simple reduction from set cover to facility location.
-No constant factor approximation.
+There is a simple reduction from set cover to facility location. So this problem has no constant factor approximation either.
 So we'll assume metric property: $c_{i',j'} \leq c_{ij'} +c_{i'j} +c_{ij}$. (since no triangles)
 
 Solve LP. Let LP OPT be $x^*, y^*$.
@@ -33,10 +33,10 @@ Two stages of rounding:
 1. $x^*,y^* \to x',y'$ (not integral solution)
 2. $x',y' \to$ integral solution
 
-LP OPT value $= \sum_i f_ix^*_i + \sum_{i,j}c_{ij}y_{ij}^*$
-Connection cost in LP OPT for customer $j = \sum_i c_{ij} y_{ij}^* = c^*_j$
+LP OPT value $= \sum\limits_{i} f_{i}x^{*}_{i} + \sum\limits_{i,j}c_{ij}y_{ij}^*$
+Connection cost in LP OPT for customer $j = \sum\limits_i c_{ij} y_{ij}^* = c^*_j$
 
-In LP OPT $\sum_i y_{ij}^* = 1$ $\forall j$ and $y^*_{ij} =$ Pr\[connecting $j$ to $i$\] 
+In LP OPT $\sum_i y_{ij}^* = 1$ $\forall j$ and $y^*_{ij} = Pr[\text{connecting } j \text{ to } i]$ 
 
 We will set all the connections that take more than $2c^*_j$ to $0$, because they are 'too expensive'. (Here $2$ is chosen arbitrarily, we can do the same thing with some constant $\alpha$.)
 
