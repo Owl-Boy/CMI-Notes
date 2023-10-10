@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202309211509
 
@@ -61,7 +60,7 @@ And Considering them we have the following:
 If $\sigma$ and $\sigma'$ agree on $FV(\varphi)$ then $(\mathcal M,\sigma)\models \varphi$ iff $(\mathcal M,\sigma')\models \varphi$
 
 ## Logical Consequence
-**Logical Consequence** has the same meaning as that in *Propositional logic*. Given a set $X$ of first order equations. We say $X\models \varphi$ if for every $\mathcal I$ such that $\mathcal I\models$X we have $\mathcal I\models \varphi$.
+**Logical Consequence** has the same meaning as that in *Propositional logic*. Given a set $X$ of first order equations. We say $X\models \varphi$ if for every $\mathcal I$ such that $\mathcal I\models X$ we have $\mathcal I\models \varphi$.
 
 ---
 # References

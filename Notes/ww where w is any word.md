@@ -7,7 +7,7 @@ tags : [[Theory of Computation]]
 ---
 ### Question: $\{ww|w\in \{a, b\}^*\}$ is a recursive set 
 ###  Answer:
-The machine first scans through the word until it finds the first $\sqcup$ and keeps track of the size of the word in mod 2, rejecting immediately if the word is not  of even length.
+The machine first scans through the word until it finds the first $\sqcup$ and keeps track of the size of the word in mod 2, rejecting immediately if the word is not of even length.
 If it is then it puts a $\dashv$ at the end and then repeatedly scans back and forth the input.
 On each passing from right to left, it marks the first unmarked $a$ or $b$ with a $'$ and on each passing from left to right, it marks the first unmarked letter with $`$, it continues until all symbols are marked.
 

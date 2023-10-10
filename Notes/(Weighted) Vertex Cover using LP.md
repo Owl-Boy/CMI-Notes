@@ -55,11 +55,11 @@ At least one of $x_i^*, x_j^* \geq 1/2$
 ---
 ### Rounding
 $\{x_i^*\}_{i = 1, \cdots , n}$, fractional
-Construct integral solution $x'$
-Set $x'_i = 1$ iff $x_i^* \geq 1/2$
-otherwise set $x'_i = 0$
+- Construct integral solution $x'$.
+- Set $x'_i = 1$ iff $x_i^* \geq 1/2$,
+otherwise set $x'_i = 0$.
 
-Rounded integral solution $x' = {x'_i}$
+Rounded integral solution $x' = {x'_i}$.
 
 *Claim:* $x'$ is a valid vertex cover.
 For each $i$, $x'_i \leq 2x_i^*$.
@@ -68,7 +68,6 @@ $\sum_{i=1}^n w_i x'_i \leq 2\sum_{i=1}^n w_i x_i^* = 2OPT(LP).$
 $OPT(LP) \leq OPT(ILP)$
 **Integrality gap:** ratio of $OPT(ILP)$ to $OPT(LP)$ over all instances
 approx ratio $\geq$ integrality gap
-
 
 
 ---

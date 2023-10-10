@@ -5,7 +5,7 @@ Tags : [[Timed Automata]]
 
 ---
 # Event Recording Automata
-An *Even Recording Automata* is a timed automata, such that we have a clock for each letter in the alphabet and those are the only clock $\{X_{a},X_{b}\dots X_{n}\}$, and a clock is reset iff the letter corresponding to the clock is read.
+An *Event Recording Automata* is a timed automata, such that we have a clock for each letter in the alphabet and those are the only clock $\{X_{a},X_{b}\dots X_{n}\}$, and a clock is reset iff the letter corresponding to the clock is read.
 
 ```ad-info
 title: Motivation: Subset Construction
@@ -35,6 +35,16 @@ Here reseting or not reseting the clock messes up guards and timings of atleast 
 An example of a language accepted by ERA would be $\{(ab*a)\ :\ \text{distance between the }\text 2\ a's\text{ is } 1\}$
 An example of a language which cannot be accepted by an ERA would be
 $\{(aaa) : \text{distance between last } 2\ a's \text{ is } 1\}$
+
+*Event Recording Languages* are closed under 
+- Intersection
+- Union
+- Complementation
+
+And all *Event Recording Automata* are determinizable by the subset construction
+
 ---
 # References
 [[Deterministic Timed Automata]]
+[[Event Predicting Automata]]
+[[Event Clock Automata]]
