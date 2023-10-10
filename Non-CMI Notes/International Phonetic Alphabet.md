@@ -16,7 +16,7 @@ The **International Phonetic Alphabet** is an alphabetic notation of sounds prim
 
 The alphabet is designed to be intuitive for people to speak some of the European languages.
 
-![[IPA_chart_2020.svg]]
+	![[IPA_chart_2020.svg]]
 
 The **IPA** has divided the letters in to mainly the following 3 categories:
 - [[Pulmonic Consonants]]
