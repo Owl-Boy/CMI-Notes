@@ -9,11 +9,17 @@ Tags :
 
 ---
 # German Pronounciation
+Ich (I) = /ɪç/
+Du (you) = /du:/
+Er (he) = /e:r/
+Es (it) = /ɛs/
+Sie (she/you/they) = /zi:/
+wir (we) = /viːɐ̯/
+ihr (you, to address a group or for respect) = /iɐ̯/
+
 Wie (How) = /vi:/
 Wer (Who) = /ve:ɐ̯/
-Sie (she/you/they) = /zi:/
 Heißen (To be called) = /ˈhaɪ̯sən/
-Ich (I) = /ɪç/
 Woher (Where) = /voˈheːɐ̯/
 Kommen (To come) = /ˈkɔmən/
 Aus (from) = /aʊs/
@@ -47,7 +53,23 @@ neun =  /nɔʏ̯n/
 zehn = /t͡seːn/
 elf = /ɛlf/
 zwölf =  /t͡svœlf/
-
+dreizehn
+vierzehn
+fünfzehn
+sechzehn
+siebzehn
+achtzehn
+neunzehn
+zwanzig (20) = /ˈtsvantsɪç/
+einundzwanzig
+dreizig
+vierzig
+fünfzig
+sechzig
+siebenzig
+achtzig
+neunzig
+hundert (100)
 # Time
 spät (time)= /ʃpɛːt/
 vor (before) = /fo:r/
@@ -57,7 +79,6 @@ nach (after) = /nax/
 
 15:45 = Est is viertel vor vier
 14:30 = Est is halb drei
-
 
 
 
