@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202309210909
 
@@ -23,5 +22,9 @@ As an example, we have the $Y$ Combinator $\lambda f.(\lambda x.f(xx))(\lambda x
 
 We can add Types to our combinatory logic analogous to Lambda Calculus and get [[Typed Combinatory Logic]]
 
+This shows that *Combinatory Logic* is just as strong as *Lambda Calculus* and that the $S,K$ Combinators are Complete.
+
 ---
 # References
+[[Combinatory Logic]]
+[[Lambda Calculus Syntax|Lambda Calculus]]

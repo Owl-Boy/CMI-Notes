@@ -1,0 +1,20 @@
+- Shubh
+	- Study for courses
+	- Non course Studies
+	- Guitar
+	- Keyboard
+	- Physical Activities
+	- Annoying People
+	- Chilling
+	- Completing bucket list
+- Aditi
+	- Course Work
+	- Yoga`
+	- Annoying Profs (pun intended)
+	- ReLaX
+	- Swimming
+	- Cycling
+	- Ukulele
+	- Annoying People
+	- TIFR application
+	- Timepass

@@ -1,7 +1,7 @@
 202305250905
 
 Type : #Note
-Tags : [[Note]]
+Tags : [[Algebra]]
 
 ---
 # Algebraic Closure

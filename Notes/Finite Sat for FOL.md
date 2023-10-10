@@ -16,7 +16,8 @@ Simply replacing each formula with an atomic proposition doesn't work because we
 $\{p_{12},p_{23},p_{31},p_{12}\land p_{23}\implies\lnot p_{31}\}$, however, works!
 
 2. $\{\forall x(r(x)\implies s(x)),\forall x (r(x)),\exists x (\lnot s(x))\}$
-The previous way shouldn't work because it's not as straightforward to see that two of these formulas imply that the third should be negated. If we were to try proving that, it would be equivalent to finding whether this set is satisfiable in FOL itself, which defeats the purpose.
+The previous way shouldn't work because it's not as straightforward to see that two of these formulas imply that the third should be negated. (In fact it only works for $\equiv$ and $\exists$.)
+If we were to try proving that, it would be equivalent to finding whether this set is satisfiable in FOL itself, which defeats the purpose.
 
 **Prime formulas:** formulas of the form $t_{1}\equiv t_{2}, r(t_{1},\dots,t_{n}),\text{ or }\exists x\varphi$.
 $\{\lnot\exists x (r(x)\land s(x)),\lnot\exists x\lnot r(x),\exists x\lnot s(x)\}$
@@ -36,7 +37,7 @@ $\{\lnot p_{1},\lnot p_{2},p_{3}\}$
 
 - Equality is transitive.
 - Suppose $\exists x\varphi(x)$ is true. There is a term $t_{\varphi}$ which certifies this. We add $\exists x \varphi(x)\implies\varphi(t_{\varphi})$.
-- Suppose $\lnot\exists x\varphi(x)$ is true. Every element satisfies $\lnot\varphi$. We add $\lnot\exists x\varphi(x)\implies\lnot\varphi(t)$ for an arbitrary term $t$.
+- Suppose $\lnot\exists x\varphi(x)$ is true. Every element satisfies $\lnot\varphi$. We add $\lnot\ \exists x\varphi(x)\implies\lnot\varphi(t)$ for an arbitrary term $t$.
 
 ---
 # References

@@ -15,6 +15,12 @@ title: History
 Until around 1990, it was a common belief that there is no [[Curry Howard Isomorphism]] for **Classical Logic**. Timothy Griffin then discovered that $\lnot\lnot p\rightarrow p$ can be implemented in the typing of *Control Flow* 
 ```
 
+```ad-info
+title:Motivation
+One of main uses of *Type Theory* is in *Static Analysis* for *Software Verification*. The process being, we have built the calculus in such a way that, it will correspond to some valid logical statement. 
+Correspondingly, If a program *crashes*(which it cannot for $\lambda$-calculus, but say it does) and corresponds to a logical statement. A good way to interpret it would be that the statement if **False**. This is exactly the idea behind $\lambda\mu$ calculus, where we use control flow to model something like *try-catch*. We use the $\mu$ stuff where we guarantee that a statement is going to be false, hence safely giving it a negated type, and evaluating it can lead to elimination of double negation, and hence help us prove satements from classical logic.
+```
+
 *Types* are formulas of the form $\Phi(\rightarrow,\perp)$
 *Variables* are of the from $x,y,z:\tau\in\Phi(\rightarrow,\perp)$
 *Addresses* are of the form $a,b,c:\lnot\sigma\in\Phi(\rightarrow,\perp)$
@@ -25,14 +31,6 @@ $$
 $$
 We write $\varepsilon_\varphi(M)= \mu a:\lnot\varphi M$ where $a\notin \text{FV}(M)$ which represents $\perp$, but has $\varphi$ associated to it for type checking purposes.
  
-```ad-info
-title:Try-Catch
-Its Not possible to encode try-catch like procedure in Lambda Calculus, but here we try to use addresses to do just that. This is to encode `not` by just throwing a negative around it
-```
-```ad-warning
-fix the above info block after class.
-```
-
 The *Syntax* for the calculus is described by the following **Context-Free Grammar**
 
 $$
