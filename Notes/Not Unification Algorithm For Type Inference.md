@@ -4,7 +4,7 @@ Type : #Note
 Tags : [[Type Theory]], [[Lambda Calculus]]
 
 ---
-# Unification Algorithm For Type Inference
+# Not Unification Algorithm For Type Inference
 
 **Unification** is an algorithmic process for solving equations between symbolic expression.
 
@@ -13,7 +13,7 @@ It's famous use cases are **Logic Programming** and in making type systems for p
 This algorithm gives the most general type for a give lambda expression
 
 ```ad-warning
-I have not confirmed if this is the exact algorithm, but I think it is along the same idea, it is based on my recollection of the algorithm discussed in and some random bits and pieces from multiple places online. Also I will modify and add to it when I sort out let bindings etc etc.
+This is not the usual [[Unificate Algorithm For Type Inference|Unification Algorithm]]. I have figured it out based on my partial memory from whatever prof did in class.
 ```
 
 The procedure involves assigning types, then finding constraints and solving them. 
@@ -88,4 +88,5 @@ $$
 [[Curry-Style typing]]
 [Northeastern University Notes On Type Inference](https://course.ccs.neu.edu/cs4410sp19/lec_type-inference_notes.html#%28part._.Unification%29)
 [Cornell University Notes on Type Inference](https://www.cs.cornell.edu/courses/cs3110/2016fa/l/17-inference/notes.html)
-[Wikipedia](https://en.wikipedia.org/wiki/Type_inference?useskin=vector#cite_note-Damas-and-Milner-1982-16)
+[Wikipedia for Type Inference](https://en.wikipedia.org/wiki/Type_inference?useskin=vector#cite_note-Damas-and-Milner-1982-16)
+[Wikipedia for Unification Algorithm](https://en.wikipedia.org/w/index.php?title=Unification_(computer_science)&useskin=vector#A_unification_algorithm)

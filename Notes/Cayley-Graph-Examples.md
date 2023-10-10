@@ -1,6 +1,6 @@
 202308231114
 
-type : #Example #Incomplete 
+type : #Example 
 tags : [[Algebraic Graph Theory]]
 
 #  Cayley-Graph-Examples

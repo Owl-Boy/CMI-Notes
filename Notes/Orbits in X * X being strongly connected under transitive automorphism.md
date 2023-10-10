@@ -1,6 +1,6 @@
 202308211048
 
-type : #Example #Incomplete 
+type : #Example
 tags : [[Algebraic Graph Theory]]
 
 #  Orbits in $X\times X$ being strongly connected under transitive automorphism
