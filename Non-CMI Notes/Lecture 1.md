@@ -7,14 +7,20 @@ tags:
 Tags : [[German]]
 
 ---
-# German Pronounciation
+# German Pronunciation
 | word            | Translation            | IPA           |
 | --------------- | ---------------------- | ------------- |
+| Ich             | I                      | /ɪç/          |
+| Du              | You                    | /du:/         |
+| Er              | He                     | /e:r/         |
+| Es              | It                     | /ɛs/         |
+| Sie             | She/they               | /zi:/         |
+| Wir             | We                     | /viːɐ̯/       |
+| Ihr             | You (formal)           | /iːɐ̯/        |
 | Wie             | How                    | /vi:/         |
 | Wer             | Who                    | /ve:ɐ̯/       |
 | Sie             | she/you/they           | /zi:/         |
 | Heißen          | To be called           | /ˈhaɪ̯sən/    |
-| Ich             | I                      | /ɪç/          |
 | Woher           | Where                  | /voˈheːɐ̯/    |
 | Kommen          | To come                | /ˈkɔmən/      |
 | Aus             | from                   | /aʊs/         |
