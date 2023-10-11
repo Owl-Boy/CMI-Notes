@@ -34,7 +34,7 @@ Tags : [[German]]
 | vierzehn | /ˈfɪʁt͡seːn/    |
 | fünfzehn | /ˈfʏnft͡seːn/   |
 | sechzehn | /ˈzɛçtseːn/     |
-| siebzehn | ˈziːp.tseːn/    |
+| siebzehn | /ˈziːp.tseːn/    |
 | achtzehn | /ˈaxˌt͡seːn/,   |
 | neunzehn | /ˈnɔʏ̯nˌt͡seːn/ |
 | zwanzig  | /ˈtsvantsɪç/    |
@@ -50,7 +50,7 @@ Tags : [[German]]
 
 
 ## Formal Vs Informal Questions
-**Fromal**
+**Formal**
 Wie Heißen Sie?
 Ich Heiße Shubh.
 Woher Kommen Sie?
@@ -65,6 +65,14 @@ Wo wohnst du?
 ## Other
 Wie alt bist du?
 Ich bin zwanzig Jahre alt.
+
+##### Heißen (To be called):
+Ich heiße = /ˈhaɪ̯sə/
+Du heißt = /ˈhaɪ̯st/
+Er/es/sie heißt = /ˈhaɪ̯st/
+wir heißen = /ˈhaɪ̯sən/
+ihr heißt = /ˈhaɪ̯st/
+sie heißen = /ˈhaɪ̯sən/
 
 ---
 # References
