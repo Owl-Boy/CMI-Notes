@@ -14,31 +14,6 @@ Moin (greeting in northern germany) = /mɔːɪn/
 Gruß (greeting in southern germany) = /ɡʁuːs/
 alt (old) = /alt/
 jahre (years) = /ˈjaːʁə/
-
-##### Sein (to be):
-Ich bin = /bɪn/ 
-du bist =  /bɪst/
-er/es/sie ist = /ɪst/
-wir sind = /zɪnt/
-ihr seid = /zaɪ̯t/
-sie/Sie sind = /zɪnt/
-
-##### Kommen (to come)
-Ich komme = /ˈkɔmə/
-du kommst = /ˈkɔmst/
-er/es/sie kommt = /ˈkɔmt/
-wir kommen =/ˈkɔmən/
-ihr kommt = /ˈkɔmt/
-sie/Sie kommen = /ˈkɔmən/
-
-##### Wohnen (To live)
-Ich wohne = /'vo:nə/
-du wohnst = /'vo:nst/
-er/es/sie wohnt = /'vo:nt/
-wir wohnen =/'vo:nən/
-ihr wohnt = /'vo:nt/
-sie/Sie wohnen = /'vo:nən/
-
 deine (your) = /ˈdaɪ̯nə/
 handynummer (phone number) = /ˈhɛndiˌnʊmɐ/
 
@@ -74,14 +49,6 @@ Z = /tsɛt/
 Türkei = /tʏʁˈkaɪ̯/
 Großbritannien = /ˌɡʁoːs.bʁɪˈtan.jən/
 
-##### Haben (To have)
-Ich habe = /'ha:bə/
-Du hast = /hast/ 
-Er/es/sie hat = /hat/
-Wir haben = /'ha:bən/
-Ihr habt = /'ha:pt/
-sie/Sie haben = /'ha:bən/ 
-
 Zimmer (room) = /ˈt͡sɪmɐ/
 Reserviert (Reserved) = /rezɛrˈviːɐt/
 Buchstabieren (Spelling) = /ˌbuːx.ʃtaˈbiː.rən/
@@ -101,6 +68,11 @@ Formular = /fɔrmuˈlaːɐ/
 Sprachen (Language) = /ˈʃpʁaːxn̩/
 die (article, feminine) = /di:/
 
+Muttersprache (mother tongue) = /ˈmʊtɐˌʃpʁaːxə/
+Welche (which) = /ˈvɛl.çə/
+ein bisschen (little bit) = /aɪ̯n/ /ˈbɪsçən/
+
+## Conjugations
 ##### Sprechen (To speak):
 Ich spreche = /ˈʃprɛçə/  
 Du sprichst = /ʃpʁɪçst/,
@@ -117,9 +89,45 @@ Wir lernen = /ˈlɛɐnən/
 Ihr lernt = /ˈlɛɐnt/ 
 sie/Sie lernen = /ˈlɛɐnən/
 
-Muttersprache (mother tongue) = /ˈmʊtɐˌʃpʁaːxə/
-Welche (which) = /ˈvɛl.çə/
-ein bisschen (little bit) = /aɪ̯n/ /ˈbɪsçən/
+##### Haben (To have)
+Ich habe = /'ha:bə/
+Du hast = /hast/ 
+Er/es/sie hat = /hat/
+Wir haben = /'ha:bən/
+Ihr habt = /'ha:pt/
+sie/Sie haben = /'ha:bən/ 
+
+##### Sein (to be):
+Ich bin = /bɪn/ 
+du bist =  /bɪst/
+er/es/sie ist = /ɪst/
+wir sind = /zɪnt/
+ihr seid = /zaɪ̯t/
+sie/Sie sind = /zɪnt/
+
+##### Kommen (to come)
+Ich komme = /ˈkɔmə/
+du kommst = /ˈkɔmst/
+er/es/sie kommt = /ˈkɔmt/
+wir kommen =/ˈkɔmən/
+ihr kommt = /ˈkɔmt/
+sie/Sie kommen = /ˈkɔmən/
+
+##### Wohnen (To live)
+Ich wohne = /'vo:nə/
+du wohnst = /'vo:nst/
+er/es/sie wohnt = /'vo:nt/
+wir wohnen =/'vo:nən/
+ihr wohnt = /'vo:nt/
+sie/Sie wohnen = /'vo:nən/
+
+##### Heißen (To be called)
+Ich heiße
+du heißt
+er/es/sie heißt
+wir heißen
+ihr heißt
+Sie heißen
 
 ## Time:
 Es ist kurz vor vier (It is little before 4) = /kʊʁt͡s/
