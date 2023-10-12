@@ -36,12 +36,12 @@ Tags : [[German]]
 | L                   |                     |                  |
 
 
-| word      | indefinite article | definite article  | negationartikel |
-| --------- | ------------------ | ----------------- | --------------- |
-| maculin   | der                | ein               | kein            |
-| feminin   | die                | eine              | keine           |
-| neutral   | das                | ein               | kein            |
-| plural    | die                | Literally nothing | keine           |
+| word    | definite article | indefinite article  | negationartikel |
+| ------- | ---------------- | ----------------- | --------------- |
+| maculin | der              | ein               | kein            |
+| feminin | die              | eine              | keine           |
+| neutral | das              | ein               | kein            |
+| plural  | die              | Literally nothing | keine           |
 
 
 | Word      | Translation  | F/M/N/P |
