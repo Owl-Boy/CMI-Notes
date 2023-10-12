@@ -1,6 +1,7 @@
 ---
 tags:
   - Note
+  - Incomplete
 ---
 202309211509
 
@@ -8,6 +9,12 @@ Tags : [[Logic]]
 
 ---
 # Semantics of First Order Logic
+```ad-quote
+title: Tarskian Semantics
+==TODO:== Fill this
+```
+
+
 To give meaning to our formulas, we first fix a set $S$, which we call the **Universe**. And we then interpret our formulas in terms what we have in the universe. To do that we have an interpretation function $\iota$. Together they make a **First Order Structure**
 
 ## First Order Structures

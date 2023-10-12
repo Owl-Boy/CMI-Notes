@@ -27,17 +27,24 @@ Also, given that $a\in\Sigma_{i}$ and $a\in \Sigma_{j}$. The *Automata* $\mathca
 
 ```ad-example
 title: Example of a Network
+![[Drawing 2023-10-11 01.28.18.excalidraw]]
+
+Here the Automata have the languages $\{a,c\}$ and $\{b, c\}$ respectively.
+
+The language accepted by this is either `ab` or `ba` at time stamps $1\dots n-1$ and accept a $c$ at time $n$
 ```
 
 To emphasize of the *"Synchronization Condition"* a bit more, if two Automata accept a common letter, and their configuration is such that, one of them is in a state which accepts the common letter, and the other is in a state which does not, even in that condition the letter will not be accepted by the **Network**. Even if the letter is not accepted in any transition for the second automaton but is in the first automaton. The **Network** will not accept it.
 
 ```ad-example
-title: Network which does not accept anything
+title: Network which does not accept due to synchronization problems
+
+In the above example if we let the alphabet of the first automaton to be $\{a,b,c\}$ then the network cannot accept $b$, hence the Language of the network will be $\{c\}$
 ```
 
 [[Train Track Crossing for Timed Automata|Here]] is a more non trivial example where a **Network** would be useful.
 
-The Above example also shows the importance of having a fast [[Algorithm for Reachability for Networks of Timed Automata]]
+The Above example also shows the importance of having a fast Algorithm for Reachability for Networks of Timed Automata. One way to do its to it is to construct a [[Monolithic Timed Automaton for a Network of Timed Automata|Monolithic Timed Automaton]] and make its [[Zone Automata|Zone Automaton]], and check for reachability on it.
 
 ---
 # References
