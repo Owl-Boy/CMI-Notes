@@ -14,6 +14,7 @@ Tags : [[German]]
 | ----------------- | ------------------- | ------- | ----------- |
 | croissant         | croissant           | N       |             |
 | Brot mit schinken | Bread with ham      |         |             |
+| Brot              | Bread               | N        |             |
 | kakao             | cocoa               | M       |             |
 | Kaffee            | coffee              | M       |             |
 | Tee               | Tea                 | M       |             |
@@ -56,7 +57,7 @@ Tags : [[German]]
 | Paprika           | Bell pepper         | F       |             |
 | Blumenkohl        | Cauliflower         | M       |             |
 | Döner             |                     | M       |             |
-| Currywurst        |                     | F        |             |
+| Currywurst        |                     | F       |             |
 
 ##### Nehmen (To take):
 Ich nehme = /ˈneːmə/
