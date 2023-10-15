@@ -34,7 +34,7 @@ $$\sum\limits_{v|(u,v)\in E}x_{uv} - \sum\limits_{w|(w,u)\in E}x_{wu} =
 \begin{cases}
 	1, & \text{if } u=s \\
 	-1, & \text{if } u=t \\
-	0, & text{otherwise.}
+	0, & \text{otherwise.}
 \end{cases}$$
 
 $x_{uv}\geq 0$ $\forall (u,v)\in E$.

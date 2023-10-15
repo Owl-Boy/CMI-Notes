@@ -30,7 +30,7 @@ We have one evaluation for each of $n$ points $\alpha_1, \dots, \alpha_n$, but w
 
 ## Pattern matching
 
-All these algorithms - Berlecamp-Welch, Sudan, Guruswami-Sudan, have the following two step structure:
+All these algorithms - Berlekamp-Welch, Sudan, Guruswami-Sudan, have the following two step structure:
 **Step 1 (Interpolation step):** Find non zero $Q(X,Y)$ st $Q(\alpha_i, y_i)=0$
 **Step 2 (Root finding):** If $Y-P(X)$ is a factor of $Q(X,Y)$ then output $P(X)$.
 
