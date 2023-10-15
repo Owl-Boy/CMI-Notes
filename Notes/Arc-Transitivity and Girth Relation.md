@@ -1,6 +1,6 @@
 202308251128
 
-type : #Incomplete  #Example  
+type :  #Example  
 tags : [[Algebraic Graph Theory]]
 
 #  Arc-Transitivity and Girth Relation

@@ -5,7 +5,7 @@ Tags : [[Logic]], [[Type Theory]]
 
 ---
 # Natural Deduction
-Natural Deductions(denoted by $\text{NJ}(\to,\land,\lor,\perp)$) is a simpler syntax for Intuitionistic logic. Natural deduction uses "Judgments" to prove statements
+Natural Deductions (denoted by $\text{NJ}(\to,\land,\lor,\perp)$) is a simpler syntax for Intuitionistic logic. Natural deduction uses "Judgments" to prove statements
 
 ```ad-info
 title:Judgements
@@ -24,6 +24,8 @@ Natural deductions has the following rules
 It has mainly two types of rules
 - Rules that Introduce an operator (Labelled with $I$)
 - Rules that use, or eliminate an operator (Labelled with $E$)
+
+The following are the rules for *natural deductions* in [[Intuitionistic Logic]].
 
 ![[Pasted image 20230909123138.png]]
 

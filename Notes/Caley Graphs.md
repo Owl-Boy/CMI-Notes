@@ -1,6 +1,6 @@
 202308231008
 
-Type : #Note #Incomplete 
+Type : #Note 
 Tags : [[Algebraic Graph Theory]]
 
 ---

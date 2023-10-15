@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202309210909
 
@@ -18,4 +17,9 @@ S &: (\alpha\to\beta\to\gamma)\to(\alpha\to\beta)\to\alpha\to\gamma
 \end{align*}
 $$
 and application works as modus ponens.
+
+Since *Combinatory Logic* can be rewritten as *Lambda Calculus*. It enjoys all the properties of [[Simply Typed Lambda Calculus Syntax|Typed Lambda Calculus]]
+
+---
 # References
+[[Combinatory Logic]]
