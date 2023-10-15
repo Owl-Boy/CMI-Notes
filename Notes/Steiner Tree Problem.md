@@ -7,7 +7,7 @@ tags:
 Tags : [[Advanced Algorithms]]
 
 ---
-# Steiner Tree problem
+# Steiner Tree Problem
 
 $G=(V,E)$,
 costs $c_{uv}\geq 0$ $\forall(u,v)\in E$,
@@ -56,7 +56,7 @@ Minimise $\sum\limits_{e\in E}c_{e}x_{e}$ s.t.
 
 ## Dual
 Maximise $\sum\limits_{S}y_{S}$ s.t.
-- $\sum\limits_{S|e\in\delta(S)}\le c_e$ $\forall e\in E$
+- $\sum\limits_{S|e\in\delta(S)}y_{S}\le c_e$ $\forall e\in E$
 - $y_{S}\ge 0$ $\forall S$
 
 ```ad-warning
