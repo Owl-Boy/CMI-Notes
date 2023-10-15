@@ -8,7 +8,7 @@ Tags : [[Logic]]
 
 ---
 # Semantics of First Order Logic
-To give meaning to our formulas, we first fix a set $S$, which we call the **Universe**. And we then interpret our formulas in terms what we have in the universe. To do that we have an interpretation function $\iota$. Together they make a **First Order Structure**
+To give meaning to our formulas, we first fix a set $S$, which we call the **Universe**. And we then interpret our formulas in terms what we have in the universe. To do that we have an interpretation function $\iota$. Together they make a **First Order Structure**.
 
 ## First Order Structures
 Given a [[Syntax of First Order Logic#First Order Languages|First Order Language]] $L$, A **First Order Structure** $L$ is a pair $\mathcal M=(S,\iota)$ where $S$ is a _non-empty_ set and $\iota$ a function defined over $R\sqcup F\sqcup C$ such that

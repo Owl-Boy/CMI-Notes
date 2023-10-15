@@ -21,10 +21,12 @@ Set of $n$ possible locations for opening facilities.
 Minimise $\sum\limits_{i} f_{i}x_{i} + \sum\limits_{i,j} c_{ij}y_{ij}$ s.t.:
 - $\sum\limits_{i} y_{ij} \geq 1$ $\forall j$
 - $x_i \geq y_{ij}$ $\forall i,j$
-- $x_i, y_{i,j} \in [0,1]$ $\forall i,j$.
+- $x_i, y_{ij} \in [0,1]$ $\forall i,j$.
 
+```ad-info
 There is a simple reduction from set cover to facility location. So this problem has no constant factor approximation either.
 So we'll assume metric property: $c_{i',j'} \leq c_{ij'} +c_{i'j} +c_{ij}$. (since no triangles)
+```
 
 Solve LP. Let LP OPT be $x^*, y^*$.
 
@@ -50,10 +52,12 @@ So we scale all of them to make the sum equal to $1$.
 
 $y'_{ij} = \dfrac{y^*_{ij}}{\sum_{i \in S_j} y^*_{ij}}$  $\forall i \in S_j$.
 
-##### Lemma 1: $\sum_{i \in S_j} y^*_{ij} \geq 1/2$
-$\implies y'_{ij} \leq 2y^*_{ij}$.
-
-**Proof:** $$
+```ad-info
+title:
+**Lemma 1:** $\sum\limits_{i \in S_j} y^*_{ij} \geq 1/2.$
+($\implies y'_{ij} \leq 2y^*_{ij}$.)
+*Proof:*
+$$
 \begin{align*}
 c_j^* &= \sum_i c_{ij} y^*_{ij}\\
 &\geq \sum_{i \notin S_j} c_{ij} y^*_{ij}\\
@@ -61,7 +65,8 @@ c_j^* &= \sum_i c_{ij} y^*_{ij}\\
 c^*_j &> 2c^*_j \sum_{i \notin S_j} y^*_{ij}\\
 \sum_{i \notin S_j} y^*_{ij} &< \frac{1}{2}.\\
 \end{align*}
-	$$
+$$
+```
 
 $y'_{ij} \geq y^*_{ij}$ $\forall i \in S_j$
 $x'_i \geq y'_{ij}$

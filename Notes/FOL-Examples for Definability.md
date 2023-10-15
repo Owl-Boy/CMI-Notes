@@ -5,10 +5,10 @@ tags:
 ---
 202309221209
 
-Tags :
+Tags : [[Logic]]
 
 ---
-# First Order Logic-Examples
+# First Order Logic-Examples for Definability
 
 Terms: $t = c|x|f(t_{1},\dots t_n)$
 Formulas: $\phi = t_{1}\equiv t_{2} | R(t_{1},\dots t_{n}) | \lnot \phi | \phi \lor \phi | \exists x \phi$  
@@ -27,7 +27,7 @@ $\mathcal{I}:$ $S=\mathbb{N}, <^{\mathcal{I}} (\text{usual order on }\mathbb{N})
 - $\exists x \forall y (x \not\equiv y \rightarrow x<y)$ - There is a minimum element (integers vs naturals)
 - $\forall x \forall z \exists y ((x \not\equiv z) \rightarrow (x<y \land y<z))$ - Differentiates between rationals and integers
 
-But we can't differentiate between $(0,\infty)$ and $(0,1)$ in first order logic. In fact we can show an *isomorphism* between the two.
+But we can't differentiate between $(0,\infty)$ and $(0,1)$ in the first order structure $(S_{i},<)$. In fact we can show an *isomorphism* between the two.
 
 ---
 ## Free variables
@@ -54,3 +54,4 @@ for every $r\in R$, $(e_{1,\dots})$
 
 ---
 # References
+[[Isomorphism Between First Order Interpretations]]
