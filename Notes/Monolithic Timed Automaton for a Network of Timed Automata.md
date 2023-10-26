@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202310121910
 
@@ -35,3 +34,4 @@ The number of states this leads to is $\prod |Q_{i}|$ which gets big very quickl
 
 ---
 # References
+[[Networks of Timed Automata]]

@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202310101210
 
@@ -34,7 +33,7 @@ Here the Automata have the languages $\{a,c\}$ and $\{b, c\}$ respectively.
 The language accepted by this is either `ab` or `ba` at time stamps $1\dots n-1$ and accept a $c$ at time $n$
 ```
 
-To emphasize of the *"Synchronization Condition"* a bit more, if two Automata accept a common letter, and their configuration is such that, one of them is in a state which accepts the common letter, and the other is in a state which does not, even in that condition the letter will not be accepted by the **Network**. Even if the letter is not accepted in any transition for the second automaton but is in the first automaton. The **Network** will not accept it.
+To clarify on the *Synchronization* part, another interesting situation is when two automata from the network are in a configuration where only one of the automata can accept a common letter, then the entire network will come to a halt.
 
 ```ad-example
 title: Network which does not accept due to synchronization problems
@@ -48,3 +47,6 @@ The Above example also shows the importance of having a fast Algorithm for Reach
 
 ---
 # References
+[[Monolithic Timed Automaton for a Network of Timed Automata]]
+[[Zone Automata]]
+[[Train Track Crossing for Timed Automata]]

@@ -32,3 +32,4 @@ The following are the rules for *natural deductions* in [[Intuitionistic Logic]]
 ---
 # References
 [[P implies not-not P - Intuitionistic Logic]]
+[[Sequent Calculus]]

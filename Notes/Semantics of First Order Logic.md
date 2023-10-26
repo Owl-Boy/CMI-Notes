@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202309211509
 
@@ -12,8 +11,18 @@ Tags : [[Logic]]
 To give meaning to our formulas, we first fix a set $S$, which we call the **Universe**. And we then interpret our formulas in terms what we have in the universe. To do that we have an interpretation function $\iota$. Together they make a **First Order Structure**.
 
 ```ad-quote
-title: Tarskian Semantics
-==TODO:== Fill this
+title:History: Tarskian Semantics
+In 1935, Alfred Tarski attempeted for formulate a new theory of _Truth_ in order to resolve the Liar's paradox.
+
+The idea to formulate linguistic theoreis without paradoxes like the Liar's paradox, it is generally necessary to distinguish the language that one is talking about (Semantics/object language) with the language one is using to talk (Syntax/ metalanguage).
+
+Tarski's thoery of truth demanded that the object language must be contained in the meta language. For example 
+- 'Snow is white' is true if and only if snow is white.
+seem trivial because the object language is the same as the metalanguage and is called a 'T' sentence.
+- 'Schnee ist weiß' is true if and only if snow is white.
+has its object language is German, and metalanguage is English. 
+
+The original formulation involved in inductive definition and only applied to formal languages, like **First Order Logic**.
 ```
 
 
