@@ -44,7 +44,7 @@ $$
 L(U) = \{M\#x\ |\ x\in L(M)\}
 $$
 Although Universal Turing Machines can simulate other Turing Machines, doing more advanced analysis on turing machines isn't easy, sometimes not even possible. 
-[[Undecidability of the Halting Problem]] and [[Undecidability of the Membership Problem]] are some of the examples.
+[[Undecidability of the Halting Problem]] and [[Undecidability of the Membership Problem]] are some of the examples. ^71406d
 
 
 

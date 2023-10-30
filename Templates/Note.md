@@ -6,9 +6,8 @@ tags:
 {{date:YYYYMMDD}}{{time:HHMM}}
 
 Tags :
-
----
 # {{title}}
+---
 
 ---
 # References

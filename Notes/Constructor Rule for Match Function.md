@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202310251710
 
@@ -66,9 +65,9 @@ match (u:us) (qs1 ++ ... ++ qsk) E
 ```
 where each `qsi` has the form 
 ```
-[ (((ci psi1'):psi1), E),
+[ (((ci psi1'):psi1), Ei1),
   ...
-  (((ci psim'):psim), E)] 
+  (((ci psim'):psim), Eim)] 
 ```
 that is, its list of constructor pattern matches for the first argument, rest of the pattern and the expressions, for the constructor $c_{i}$.
 
@@ -86,6 +85,14 @@ where each `qsi'` is of the from
   ((psim' ++ psim), Eim) ]
 ```
 that is, for each branch of the case, the new variables used in the constructor are also added , but only via the variable rule.
+
+--- 
+## Optimisation
+As seen in the [[Constructor Rule for Match Function#Constructor Rule|above section]]. The expression $E$ is repeated several times, this can cause a huge blow up of the compiled file size if $E$ is huge. To deal with that we use $\text{FAIL}$ and $\triangleright$ and rewrite the above definition in the following way
+
+![[Optimisations for Overlapping Patterns#^11a949]]
+
+discussed with and example in [[Optimisations for Overlapping Patterns]].
 
 ---
 ## Termination

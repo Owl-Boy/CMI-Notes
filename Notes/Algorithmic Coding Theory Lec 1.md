@@ -1,6 +1,6 @@
 202308101508
 
-Type : #Note #Rename #Incomplete
+Type : #Note #Rename
 Tags : [[Algorithmic Coding Theory]]
 
 ---

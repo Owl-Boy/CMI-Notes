@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202310251410
 
@@ -11,7 +10,7 @@ Tags : [[Programming Languages]]
 # Evaluating Pattern Matching in Lambda Calculus
 
 ```ad-note
-This note is motivation for the [[Match Function for Enriched Lambda Calculus|solution]].
+This note is motivation for the solution: [[Match Function for Enriched Lambda Calculus]].
 ```
 
 ## Intuitive Approach
@@ -62,3 +61,4 @@ One way to convert pattern match expressions to case statements is the [[Match F
 - [[Patterns]]
 - [[Enriched Lambda Calculus]]
 - [[Translating Haskell Programs to Lambda Calculus]]
+- [[Match Function for Enriched Lambda Calculus]]

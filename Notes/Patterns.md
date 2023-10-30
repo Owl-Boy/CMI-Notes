@@ -43,6 +43,8 @@ f = \x.(  ((\p1'.E1') x)
 here `x` is a new variable which is not free in any `E`.
 
 ---
+## Semantics for the $\triangleright$ operator
+
 ```ad-warning
 title: Notation Difference
 The book uses a symbol called fatbar instead of $\triangleright$, I cannot find the latex definition for it.

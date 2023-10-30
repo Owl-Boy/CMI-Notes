@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202310251410
 
@@ -78,3 +77,6 @@ The following rules are used repeatedly to convert *match* syntax to $\text{case
 
 ---
 # References
+- [[Optimisations for Overlapping Patterns]]
+- [[Optimisations for Expressions containing FAIL and I>]]
+- [[Uniform Definition of Haskell Functions]]
