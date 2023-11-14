@@ -2,7 +2,7 @@
 tags:
   - Note
 ---
-	202309261809
+202309261809
 
 Tags : [[Algorithmic Coding Theory]]
 
@@ -41,7 +41,7 @@ The minimum distance is $n/2$. Local correction is only possible up to half of m
 **Lemma:** For every $\delta\in(0,\frac{1}{4})$, Hadamard code is a $(2,\delta,\frac{1}{2}-2\delta)$ $LCC$.
 *Proof:* Suppose we are given a corrupted version of a codeword $H(x)$, say $\tilde{H}$ s.t. $\Delta(H(x),\tilde{H}(x))\le\delta n$.
 To correct the symbol at $y\in\mathbb{F}_{2}^{k}$, the local correcter algorithm makes queries $\tilde{H}(x)$ at $z$ and $z+y$ for a uniformly random $z\in\mathbb{F}_{2}^{k}$.
-With probability at least $1-2\delta$, $\tilde{H(x)}_{z}+\tilde{H(x)}_{z+y}=\langle x,z\rangle +\langle x,z+y\rangle=\langle x,y\rangle$.
+With probability at least $1-2\delta$, $\tilde{H}(x)_{z}+\tilde{H}(x)_{z+y}=\langle x,z\rangle +\langle x,z+y\rangle=\langle x,y\rangle$.
 And then just compute the parity of the two bits.
 
 
