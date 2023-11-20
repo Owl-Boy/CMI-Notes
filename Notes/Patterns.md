@@ -66,7 +66,7 @@ Suppose `f` is applied to multiple arguments, and one of the initial arguments f
 $$
 \text {FAIL}\;\;E\quad \to\quad\text{FAIL}
 $$
-This property is followed by the fixed point of the $R$ combinator called **Eater**. 
+This property is followed by the fixed point of the $K$ combinator called **Eater**. 
 
 ---
 ## Semantics of Pattern Matching
@@ -86,6 +86,8 @@ $$
 \end{align*}
 $$
 
+^974443
+
 ### Sum Constructors
 The idea is somewhat similar, we first check if the constructor matches for the pattern, then we recursively pattern match each field of the constructor. We fail if the constructor does not match.
 $$
@@ -97,6 +99,8 @@ $$
 \end{align*}
 $$
 
+^b7ccdc
+
 ### Product Constructor
 The reason why this is a different section is because we choose to make the product constructors lazy, specifically to handle the case when none of the components are used.
 
@@ -107,6 +111,9 @@ $$
 &(\text{SEL-t-}r\;a)
 \end{align*}
 $$
+
+^55a864
+
 Where $\text{SET-t-}i$ is a built in function that extracts the $i^{th}$ component of $a$.
 $$
 \begin{align*}

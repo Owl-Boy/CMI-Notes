@@ -22,8 +22,7 @@ Here
 We define  the function $\mathbf{Eval}$ that takes *expressions* to *values*.
 
 ```ad-seealso
-Here we use a variant to lambda calculus that contains some built in functions and constants. This variant is called [[Enriched Lambda Calculus]]
-
+Here we use a variant to lambda calculus that contains some built in functions and constants.
 ```
 ---
 ## The $\textbf{Eval}$ function
