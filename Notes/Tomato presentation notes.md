@@ -10,7 +10,7 @@ Tags :
 ---
 - History
 	- want to model systems, so TA
-	- want to model systems interacting with external, uncontrollable components: some transitions of the automaton cannot be forced or prevented to happen. The reachability problem then asks whether there is a strategy to reach a given state, whatever the uncontrollable components do. This problem can also be decided, in exponential time.
+	- want to model systems interacting with external, uncontrollable components: some transitions of the automaton cannot be forced or prevented to happen. The reachability problem then asks whether there is a strategy to reach a given state, whatever the uncontrollable components do. 
 - Plan
 - What is a weighted tomato?
 	- (tomato, cost) on Locations $\cup$ Edges, definition in both
