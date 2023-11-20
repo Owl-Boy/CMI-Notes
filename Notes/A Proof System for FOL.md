@@ -8,7 +8,7 @@ tags:
 Tags : [[Logic]]
 
 ---
-# Proof Systems for FOL
+# A Proof System for FOL
 ## Axioms
 - All propositional axioms
 - $A_{2a}:x\equiv x$ for all variables $x$

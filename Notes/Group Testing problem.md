@@ -8,7 +8,7 @@ tags:
 Tags : [[Algorithmic Coding Theory]]
 
 ---
-# Group testing problem
+# Group Testing problem
 
 ```ad-tip
 title: Problem

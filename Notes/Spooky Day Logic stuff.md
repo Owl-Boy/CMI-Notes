@@ -1,5 +1,5 @@
 - Define a 2-counter Automaton, and prove reachability in Counter Automata is undecidable.
-- Given a 2 counter Automaton and 2 natural number, check if there is a run that takes $\langle q_{0},0,0\rangle$ to $\langle q,n_{1},n_{2}\rangle$.
+- Given a 2 counter Automaton and 2 natural numbers, check if there is a run that takes $\langle q_{0},0,0\rangle$ to $\langle q,n_{1},n_{2}\rangle$.
 - For a given machine, we create a first order formula $\phi$ such that, the machine will only reach the configuration if the first order formula would be valid
 	- $L=(R,F,C)$
 		- $C=Q \cup \{0\}$
@@ -9,7 +9,7 @@
 	- $\varphi_{t}=\forall x\forall y\forall z\ \text{conf}(q_{1},x,y)\land (S(z)\equiv y) \to \text{conf}(q_{2},S(x),z)$ 
 	- Make bigger formula which is just a huge `and` block
 	- Proof is induction on the number of steps required to reach the thingy
-	- Then you write a formula which says that if you can reach a given configuratoin then you can reach the next configuration, and thne you make a formula that says you can get to the desired state if the transitions allow it.
+	- Then you write a formula which says that if you can reach a given configuration then you can reach the next configuration, and thne you make a formula that says you can get to the desired state if the transitions allow it.
 	- lemma
 		- If the formula is valid, then there are 2 numbers that will imply that a state is reachable
 		- proof is consider the model where universe is $Q \cup \mathbb N$. The Interpretation is true in this model.
