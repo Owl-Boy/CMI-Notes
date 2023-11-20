@@ -7,11 +7,11 @@ tags:
 
 tags : [[Timed Automata]]
 
-#  Train Track Crossing for Timed Automata
+# Train Track Crossing for Timed Automata
 ---
 ```ad-question
 There is a *Road* and *Train Tracks* that cut through it.
-On either side of the *Train Tracks* there are gates. Which closes when a train is passing to prevent vehicles and pedestrion from being run over by the train.
+On either side of the *Train Tracks* there are gates which close when a train is passing to prevent vehicles and pedestrians from trying to cross at the same time.
 
 Design a system to automate the functioning of the gates.
 ```
