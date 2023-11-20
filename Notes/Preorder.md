@@ -1,3 +1,9 @@
+---
+aliases:
+  - Quasi-Order
+tags:
+  - Note
+---
 202301270401
 
 Type : #Note
@@ -18,6 +24,11 @@ A **Preorder** relation on a set $X$ is a binary relation on $X$ denoted with $\
 - The Booleans $\mathbb B=\{\text{true, false}\}$ have a natural preorder which is $\text{true}\le\text{false}$
 - Partial Orders are [[Skeletality|Skeletal]] Preorders
 - A graph can by used the represent a pre order where nodes represents elements of the sets and an edge from $a$ to $b$ is equivalent to $a \le b$
+- *Lexicographic Order* : $AB \sqsubseteq_{L} A AB \sqsubseteq_{L} A A A B\dots$
+- *Prefix Order*: $A B \subseteq_{P}  A B A \subseteq_{P} A B A A\dots$
+- *Subword Order:* $\text{HIGMAN}\preceq \text{HIGHMOUNTAIN}$ 
+
 
 ---
 # References
+[[Well-Preorder]]

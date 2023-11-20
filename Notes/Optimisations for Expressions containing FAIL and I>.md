@@ -5,7 +5,7 @@ tags:
 ---
 202310291410
 
-Tags :
+Tags : [[Programming Languages]]
 # Optimisations for Expressions containing $\text{FAIL}$ and $\triangleright$
 ---
 >[!warning] Redundancies
