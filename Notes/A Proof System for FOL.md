@@ -8,7 +8,7 @@ tags:
 Tags : [[Logic]]
 
 ---
-# Proof Systems for FOL
+# A Proof System for FOL
 ## Axioms
 - All propositional axioms
 - $A_{2a}:x\equiv x$ for all variables $x$
@@ -25,7 +25,36 @@ You can take a look at this [[Example for Proof System in FOL|example]].
 ## Soundness
 If $X\vdash\varphi$ then $X\vDash\varphi$.
 
+```ad-hint
+title: Motivation
+We just need to prove that
+- the axioms are true
+- the derivation rules preserve validity (i.e. if a formula is valid, MP or Gen on it will be valid)
+
+Then we look at the derivation of $\varphi$ from $X$ and be like every step in the derivation is either an axiom, which we have shown is sound, or uses previous stuff and a derivation rule, which we have also shown is sound.
+```
+
 **Proof:** By induction on the length of the derivation $X\vdash\varphi$.
+- Propositional axioms:
+  - $a\implies(b\implies a)$
+  For every interpretation $\mathcal{I}$, we want to show that either $\mathcal{I}\vDash\lnot a$ or $\mathcal{I}\vDash\lnot b \lor a$.
+  If $\mathcal{I}\vDash\lnot a$, we are done.
+  Otherwise $\mathcal{I}\vDash a$ which implies $\mathcal{I}\vDash\lnot b\lor a$, and we are done.
+  - $(a\implies(b\implies c))\implies((a\implies b)\implies(a\implies c))$
+  For every interpretation $\mathcal{I}$, we want to show that either $\mathcal{I}\vDash a\land(b\land \lnot c)$ or $\mathcal{I}\vDash(a\land \lnot b)\lor(\lnot a \lor c)$.
+  If $\mathcal{I}\vDash\lnot a$ or if $\mathcal{I}\vDash c$ we are done.
+  So $\mathcal{I}\vDash a$ and $\mathcal{I}\vDash\lnot c$.
+  If $\mathcal{I}\vDash b$, we are done, and so are we if $\mathcal{I}\vDash\lnot b$.
+  - $(a\implies b)\implies((\lnot a\implies b)\implies b)$
+  For every interpretation $\mathcal{I}$, we want to show that either $\mathcal{I}\vDash a\land \lnot b$ or $\mathcal{I}\vDash(\lnot a\land \lnot b)\lor b$.
+  If $\mathcal{I}\vDash b$, then we are done.
+  Otherwise, $\mathcal{I}\vDash\lnot b$. Now if $\mathcal{I}\vDash a$, we are done and so are we if $\mathcal{I}\vDash\lnot a$.
+- $A_{2a}$
+Given an interpretation $\mathcal{I}$, $\sigma(x)=e$ for some element $e$ in the universe, which is literally the same as saying $\sigma(x)=e$.
+- $A_{2b}$
+Suppose $\sigma(t)=e$, $e$ element in the universe. This means $\sigma(u)=e$. $\varphi^{\mathcal{I}}(t)=\varphi^{\mathcal{I}}(u)$.
+- $A_{3}$
+
 
 
 
@@ -52,3 +81,5 @@ $X\vdash\beta_{1}\implies(\beta'_{2}\implies\dots\beta'_{m})$
 
 ---
 # References
+[[First Order Logic]]
+[[Satisfiability in First Order Logic]]
