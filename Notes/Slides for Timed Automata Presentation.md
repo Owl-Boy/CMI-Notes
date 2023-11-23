@@ -95,6 +95,8 @@ We modify the definition of $E$ to respect $\mathcal I$
 ## Example
 ![[Pasted image 20231120095817.png]]
 
+note: point out at the x <= 1
+
 ---
 ## Some important Things
 ![[Pasted image 20231119204522.png|700]]
