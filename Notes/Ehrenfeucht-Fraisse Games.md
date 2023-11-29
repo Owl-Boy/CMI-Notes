@@ -1,13 +1,12 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202310201210
 
 Tags : [[Logic]]
 
-# Ehrenfeucht-Fraisse Games
+# Ehrenfeucht-Fraïssé Games
 ---
 // stuff from last lecture: definition etc
 
