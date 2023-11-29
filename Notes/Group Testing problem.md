@@ -42,7 +42,7 @@ $M_{t\times N}:$ binary matrix
 $M_{i}=\{ j\ |\ m_{ij}=1 \}:$ $i^{th}$ pool
 $M^{j}=\{ i\ |\ m_{ij}=1 \}:$ set of pools that $j$ belongs to
 
-$M_{t\times N}x_{N\times_{1}}=y_{t\times_{1}}$ (test outcome vector)
+$M_{t\times N}x_{N\times1}=y_{t\times1}$ (test outcome vector)
 $y=\bigcup\limits_{j\in D}M^{j}$
 We want to uniquely identify $D$.
 
