@@ -33,4 +33,4 @@ Spoiler wins! ❇️
 # References
 [[First Order Logic]]
 [[FOL Inexpressibility]]
-[[Ehrenfeucht-Fraisse Games]]
+[[Ehrenfeucht-Fraisse Games Proof]]

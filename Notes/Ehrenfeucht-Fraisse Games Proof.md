@@ -6,7 +6,7 @@ tags:
 
 Tags : [[Logic]]
 
-# Ehrenfeucht-Fraïssé Games
+# Ehrenfeucht-Fraïssé Games Proofs
 ---
 // stuff from last lecture: definition etc
 
