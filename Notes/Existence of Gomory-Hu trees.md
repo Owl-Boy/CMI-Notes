@@ -7,8 +7,9 @@ tags:
 
 Tags : [[Advanced Algorithms]]
 
----
 # Existence of Gomory-Hu trees
+---
+
 **Definition:** $T$ is a *Gomory-Hu tree* for $G$ if:
 - $T=(V,F)$, weights $w'\geq 0$, and
 - for every $(u,v)\in F$, $w'(u,v)=w(\text{a }u-v\text{ min-cut in }G)$ and $T \setminus \{ (u,v) \}$ is the $u-v$ mincut in $G$.

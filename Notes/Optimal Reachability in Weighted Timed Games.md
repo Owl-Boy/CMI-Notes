@@ -83,8 +83,6 @@ A *strategy* is a partial function that associates with a finite run, $(d,e)=$ (
 - cost of winning strategy = sup (cost of all plays)
 - optimal cost = inf (cost of all winning strategies)
 
-note: Mention that the game is not turn based
-- final locations are sinks, have cost 0, and have self loops
 
 ---
 <!-- .slide style="font-family:'Cantarell';" --><!-- .slide style="font-family:'Cantarell';" -->
