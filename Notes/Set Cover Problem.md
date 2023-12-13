@@ -5,10 +5,8 @@ tags:
 202309281909
 
 Tags : [[Advanced Algorithms]]
-
----
 # Set Cover Problem
-
+---
 Universe $U=\{e_{1},\dots,e_{n}\}$
 Family of subsets of $U$, $\mathcal{F}=\{S_{1},\dots,S_{i}\}$, $S_{i}\subset U\ \forall i$, $\bigcup\limits_{S_{i}\in\mathcal{F}}S_{i}=U$.
 Cost $c: \mathcal{F}\to Q^{+}$
@@ -74,3 +72,4 @@ Thus the analysis is tight and we get an $H_n-$approximation.
 # References
 [[Approximation Algorithms]]
 [[Vertex Cover Problem]]
+-> [[Travelling Salesman Problem]]

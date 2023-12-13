@@ -5,19 +5,17 @@ tags:
 202309211309
 
 Tags : [[Advanced Algorithms]]
-
----
 # Shortest Path using Primal-Dual
-
+---
 - $G = (V,E)$, directed,
 - non negative weight $w_{uv} \forall (u,v) \in E$,
 - two vertices $s,t$
 **Goal:** Find a min weight $s-t$ path.
 
----
 ## LP
+---
 ### Primal
-Variables $x_{uv}, (u,v) \in E$
+Variables: $x_{uv}, (u,v) \in E$
 Minimise $\sum\limits_{(u,v)\in E}x_{uv}w_{uv}$ s.t.:
 
 ```ad-warning
@@ -64,12 +62,12 @@ title: Combinatorial interpretation of the dual
 **Marble and string analogy-** How far apart can $s$ and $t$ be placed on a number line s.t. $\text{dist}(u,v) \leq w_{uv}$?
 ```
 
+## Optimality
 ---
-### Optimality
-
 - primal solution = $\sum\limits_{(u,v)\in P}w_{uv}=\sum\limits_{(u,v)\in P}(y_u-y_v)=y_s-y_t$ = dual solution
 
 
 ---
 # References
 [[Linear Programming]]
+-> [[Steiner Tree Problem]]

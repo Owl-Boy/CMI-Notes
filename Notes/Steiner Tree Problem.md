@@ -5,45 +5,40 @@ tags:
 202309211309
 
 Tags : [[Advanced Algorithms]]
-
----
 # Steiner Tree Problem
-
+---
 $G=(V,E)$,
 costs $c_{uv}\geq 0$ $\forall(u,v)\in E$,
 two types of vertices: required and Steiner
 
 **Goal:** To find a min-cost subset $T \subset E$ st $T$ is a tree that includes all required vertices and any subset of Steiner vertices.
 
----
-
-- **Lemma:** Any approximation for metric case $\implies$ the same approximation for non metric case
-
----
+> [!note] **Lemma:** Any approximation for metric case $\implies$ the same approximation for non metric case
 
 ## Algorithm
+---
 Find an $MST$ on terminal vertices.
 
 ## Analysis
+---
 Let $T$ be an optimal Steiner tree.
 Double all edges of $T$ and find an Euler tour (so that later you can go over an edge at most twice).
-Obtain a $TSP$ tour by shortcutting and eliminating Steiner vertices.
+Obtain a $TSP$ tour by short cutting and eliminating Steiner vertices.
 
 $\text{cost}(MST) \le \text{cost}(TSP \text{ tour}) \le 2.OPT$
 
-So we get a $2-$approximation.
+> [!success] So we get a $2-$approximation.
 
----
 # Generalised Steiner tree/Steiner forest problem
-
+---
 $G=(V,E)$
 costs $c_{e}\ge 0$ $\forall e \in E$
 $s_{1},t_{1},s_{2},t_{2},\dots,s_{k},t_{k} \in V$
 
 **Goal:** To find a min cost $F \subset E$ s.t. $F$ has a path between $s_{i},t_{i}$ $\forall i$.
 
----
 ## LP
+---
 ## Primal
 
 We want one constraint for each $S \subset V$ s.t. $\exists i S \cap \{s_{i},t_{i}\}=1$
@@ -53,7 +48,7 @@ Minimise $\sum\limits_{e\in E}c_{e}x_{e}$ s.t.
 - $\sum\limits_{e\in\delta(S)}x_{e}\ge 1$ $\forall S\subset V, \exists i S\cap\{s_{i},t_{i}\}=1$
 - $x_{e}\ge 0$ $\forall e\in E$
 
-
+---
 ## Dual
 Maximise $\sum\limits_{S}y_{S}$ s.t.
 - $\sum\limits_{S|e\in\delta(S)}y_{S}\le c_e$ $\forall e\in E$
@@ -81,7 +76,7 @@ $|F\cap\delta(S)|$ can be as large as $k$ or even $\frac{n}{2}$ so we can't boun
 
 
 ### New algorithm:
-
+---
 Let $C$ be the set of *connected* components $S$ (s.t. $\exists i$ s.t. $S\cap\{s_{i},t_{i}\}=1$) in $G'=(V,F).$
 Increase dual variables *simultaneously* for each $S \in C$.
 
@@ -114,3 +109,4 @@ $$
 
 # References
 [[Linear Programming]]
+-> [[Karger's min-cut algorithm]]

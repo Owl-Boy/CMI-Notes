@@ -76,7 +76,8 @@ $X\vdash\alpha_{1}\implies(\alpha_{2}\implies\dots\implies\alpha_{n}\implies\bet
 We replace witnessing constants by variables:
 $X\vdash\alpha'_{1}\implies(\alpha'_{2}\implies\dots\implies\alpha'_{n}\implies\beta'_{1}\implies\beta'_{2}\implies\dots\implies(\beta'_{m}\implies\varphi))$
 
-$X\vdash\beta_{1}\implies(\beta'_{2}\implies\dots\beta'_{m})$
+$X\vdash\beta'_{1}\implies(\beta'_{2}\implies\dots(\beta'_{m}\implies\varphi))$
+
 
 
 ---
