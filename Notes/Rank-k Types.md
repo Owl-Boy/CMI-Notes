@@ -25,11 +25,11 @@ That was a rather concrete motivation. This is because once we give a structure 
 >\text{tp}_{k}(\mathfrak A,\vec{a})=\{\;\varphi\in \text{FO}[k]\quad|\quad\mathfrak A\models\varphi(\vec{a})\;\}
 >$$
 
-From the Intuition/Theorem above, we get that there are only finitely many rank-$k$ $m$-types. Since we have finitely  many formulas upto equivalence, a type can be identified with the maximal subset of $\text{FO}[k]$ formulas that it satisfies. so each type has a representative element which is:
+From the Intuition/Theorem above, we get that there are only finitely many rank-$k$ $m$-types. Since we have finitely many formulas up to equivalence, a type can be identified with the maximal subset of $\text{FO}[k]$ formulas that it satisfies. so each type has a representative element which is:
 $$
 \alpha_{K}(\vec{x})=\bigwedge_{i\in K}\varphi_{i}\land\bigwedge_{j\not\in K}\lnot\varphi
 $$
-where $K$ represents the indices of elemets in a subset of $\text{FO}[k]$.
+where $K$ represents the indices of elements in a subset of $\text{FO}[k]$.
 
 ---
 >[!note] Theorem

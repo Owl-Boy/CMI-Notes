@@ -6,8 +6,8 @@ tags:
 
 Tags : [[Advanced Algorithms]]
 
----
 # Uncapacitated Facility location (no max number of customers for each facility)
+---
 
 Set of $n$ possible locations for opening facilities.
 - Cost $f_i \geq 0$ for opening a facility at $i^{th}$ location
@@ -16,8 +16,8 @@ Set of $n$ possible locations for opening facilities.
 
 **Goal:** Choose a set of facilities to open s.t. total cost (opening + connections) is minimum.
 
----
 ## LP
+---
 Minimise $\sum\limits_{i} f_{i}x_{i} + \sum\limits_{i,j} c_{ij}y_{ij}$ s.t.:
 - $\sum\limits_{i} y_{ij} \geq 1$ $\forall j$
 - $x_i \geq y_{ij}$ $\forall i,j$
@@ -42,8 +42,8 @@ In LP OPT $\sum_i y_{ij}^* = 1$ $\forall j$ and $y^*_{ij} = Pr[\text{connecting 
 
 We will set all the connections that take more than $2c^*_j$ to $0$, because they are 'too expensive'. (Here $2$ is chosen arbitrarily, we can do the same thing with some constant $\alpha$.)
 
+### Rounding I
 ---
-#### Rounding I
 $\forall j$ $S_j = \{ i | c_{ij} \leq 2c^*_j\}$
 $y'_{ij} = 0$ if $i \notin S_j$
 
@@ -52,13 +52,12 @@ So we scale all of them to make the sum equal to $1$.
 
 $y'_{ij} = \dfrac{y^*_{ij}}{\sum_{i \in S_j} y^*_{ij}}$  $\forall i \in S_j$.
 
+
 ```ad-info
-title:
-**Lemma 1:** $\sum\limits_{i \in S_j} y^*_{ij} \geq 1/2.$
-($\implies y'_{ij} \leq 2y^*_{ij}$.)
-*Proof:*
-$$
-\begin{align*}
+title:**Lemma 1:** $\sum\limits_{i \in S_j} y^*_{ij} \geq 1/2.$
+ ($\implies y'_{ij} \leq 2y^*_{ij}$.)
+ *Proof:*
+$$\begin{align*}
 c_j^* &= \sum_i c_{ij} y^*_{ij}\\
 &\geq \sum_{i \notin S_j} c_{ij} y^*_{ij}\\
 &> \sum_{i \notin S_j} 2c^*_j y^*_{ij}\\
@@ -77,10 +76,8 @@ Set $x'_i = \min\{2x^*_i, 1\}$
 *Observe:* $x', y'$ is a feasible solution of LP.
 
 cost $(x', y') \leq 2$.cost $(x^*, y^*)$
-
+### Rounding II
 ---
-#### Rounding II
-
 1. Pick a customer $j$ st $c_j^*$ is minimum.
 2. Pick $i \in S_j$ with minimum $f_i$. Open $i$. Connect $j$ to $i$.
 3. For every (unassigned) customer $j'$ st $S_j \cap S_{j'} \neq \phi$. Connect $j'$ to $i$.
@@ -90,16 +87,19 @@ Let $L$ be the set of facilities opened
 Let $C_f(L) =$ opening cost of $L$
 	$C_r(L) =$ connection cost of $L$.
 
-##### Lemma 2:
+```ad-info
+title:Lemma 2:
 1. $C_f(L) \leq 2\sum_i f_i x^*_i$
-2. $C_r(L) \leq 6 \sum_{ij} c_{ij}y^*_{ij}$ 
+2. $C_r(L) \leq 6 \sum_{ij} c_{ij}y^*_{ij}$
 $\implies$ cost$(L) \leq 6 LP.OPT$.
+```
 
 *Observe:* If $j_1$ and $j_2$ are picked in Step 1 of the algorithm then $S_{j_1} \cap S_{j_2} = \phi$.
 
-
-
+> [!success] Thus we get a $6-$approximation algorithm!
+> By changing $\alpha=2$ to $\alpha=\frac{4}{3}$, we can get a $4-$approx algo.
 
 ---
 # References
 [[Linear Programming]]
+--> [[Shortest Path using Primal-Dual]]

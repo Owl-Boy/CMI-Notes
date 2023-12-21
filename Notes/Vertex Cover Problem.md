@@ -6,8 +6,8 @@ tags:
 
 Tags : [[Advanced Algorithms]]
 
----
 # Vertex Cover Problem
+---
 
 **Given:** Graph $G=(V,E)$
 **Goal:** If $S\subset V$ is s.t. every edge has at least one endpoint in $S$, it is called a *Vertex Cover*. Minimise $|S|$.
@@ -23,9 +23,8 @@ $OPT\ge$ size of any matching
 **Analysis:** $A\le2.\text{(size of a matching)}\le2.OPT$.
 Thus we get a $2-$approximation.
 
+## Natural next questions
 ---
-## Natural questions
-
 - Can we get a $(>2)-$approximation using the same algorithm and the same LB? (Can the analysis be improved?)
 *Answer:* No. Consider $K_{n,n}$. Max $VC=n$, max matching $=n$.
 Our solution will have cost $2n$, which means our analysis is tight.
@@ -37,3 +36,4 @@ Our solution will have cost $2n$, which means our analysis is tight.
 ---
 # References
 [[Approximation Algorithms]]
+-> [[Set Cover Problem]]

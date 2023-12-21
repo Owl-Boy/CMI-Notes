@@ -3,6 +3,7 @@ title: Optimal Reachability in Weighted Timed Games
 theme: black
 height: "900"
 bg: black
+tags: Note
 ---
 
 <grid drop="2 10" drag="95 35" style="font-family:'lato',sans-serif;background-color:#303030;border-radius:8px!important;padding:auto;align:center;">
@@ -202,3 +203,5 @@ Simulate the 2-counter automaton using these modules. A run either terminates in
 # Thank you<!-- .element style="font-family:'Cantarell';" -->
 
 ![[Pasted image 20231121022404.png|500]]
+
+[[Timed Automata]]
