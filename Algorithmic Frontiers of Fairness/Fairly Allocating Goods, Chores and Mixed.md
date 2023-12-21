@@ -1,0 +1,41 @@
+# Fairly Allocating Goods, Chores and Mixed - Ruta Mehta
+- Intro
+	- Chores appear in our daily life as frequently as goods, so chore allocation is just as important as allocating goods
+	- we want to allocate both chores(negative) and goods(positive) and have a fair division
+	- Assets vs liability and defence budgets vs duties is another example
+- Model
+	- A set of $n$ agents
+	- A set of $m$ divisible items
+- Competitive (market) Equilibrium *CE*
+	- Optimal bundle refers to whatever the agents want to buy disregarding the supply constraints
+	- The collection of optimal bundle is demand
+	- and CE is when demand = supply
+	- CEEI (CE equal income) is when all agents have the same budget
+		- This is envy free and everything is allocated
+		- Also we can get pareto optimal and nash welfare for a wide range of functions
+		- This only words when items are divisible.
+	- Computation of CE is extremely important apparently
+- CE with Bads/Chores
+	- Prices are now payments
+	- Agents have earning requirements
+	- both the things together you we have a bundle 
+	- bundles together create a demand and now we minimise pain instead of maximising uhh happy and CE is when we have demand = supply
+	- Equal budget corresponds to equal income
+- 1-homogeneous
+	- value of a scaled bundle is the same as scaled value of the bundle
+	- Even with CEEI with additive vals, bad only does not give a non convex set.
+	- With number of agents and number of items is a constant, we have poly time algorithm
+- Approximation Algorithm - exterior point method
+	- Bads W linear
+		- A: set of agents who need to earn atleast 1 and linear valuation
+		- M; set of $m$ divisible bad chores
+		- feasable means demand = supply
+		- Nash Welfare: Minimize the product of disutilities given the constraint that every variable is positive
+		- But this is not a convex set so we only go after a local optima as global optima would be hard to find
+		- Local optima condition is normal to the tangent hyperplane is equal to the gradient
+		- Naive idea: gradient descent, always goes to the boundry where it should not go. because that is where the minima is but we disqualify it by extra constraints
+		- Idea: Pick a point $e$ in the exterior, go to the closest point.
+		- Then we go the nearest valid point.
+		- Then we move along the tangent hyperplane and find the best point in it. this will likely be another exterior point but it will be objectively beter.
+		- If we converge we are sure that we are at a solution and we converge in polynomial time.
+- She looks like he knows about her field very well

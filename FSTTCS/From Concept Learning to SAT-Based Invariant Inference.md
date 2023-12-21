@@ -1,0 +1,35 @@
+# From Concept Learning to SAT-Based Invariant Inference - Sharon Shoham
+
+- Safety Verification
+	- No null derefernces
+	- No mutual exclusion violation
+	- No consensus violation
+	- $\cdots$
+- We have a module over Integer
+	- Initial state is $\langle 0,0,0,0\dots 0\rangle$ : $\mathbb N^n$
+	- The operation takes 2 inputs $\alpha$ and $\beta$  and does $(\alpha+2\cdot\beta\mod n)$ 
+	- Properties
+		- Initiation: Should contain Initial state
+		- Safety: does not intersect with the bad cases
+		- Consecution: Closed under the transition operation
+- Goal: Find inductive invariant automatically by employing a SAT solver
+- Learning Model
+	- Content
+		- learning Algorithm - wants to learn an inductive invariant
+		- Oracle - sat solver
+	- Method
+		- Learning Algorithm can ask Oracle some questions
+		- Oracle replies with yes or no, and if no gives a counter example
+		- Based on the answer, the learning algorithm comes up with new questions and figures out the stuff
+- Query Model
+	- Counter example is a state that takes you outside the invariant
+	- Model based inference
+		- If guess is not inductive, we check if adding it lets us go to the bad model, otherwise we weaken our invariant
+	- Hoare-Query Model
+		- Counter examples are traces
+		- This is more efficient then inductiveness
+- Complexity Lower and Upper Bounds
+	- requires $2^{\Omega(n)}$ steps
+	- Invariant also holds for monotonic case
+- Invariant Inference is harder than concept learning
+- We can derive complexity results for invariant inference from concept learning
