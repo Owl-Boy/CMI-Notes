@@ -5,12 +5,11 @@ tags:
 202309211209
 
 Tags : [[Advanced Algorithms]]
-
----
 # (Weighted) Vertex Cover using LP
+---
 
 ## Vertex Cover
-
+---
 $|V| = n$
 $|E| = m$
 
@@ -32,9 +31,8 @@ Minimise $|S|$, wrt constraints:
 @ makes the problem NP hard, so we sacrifice the integrality constraint, and just require the variables to be non negative. (We don't need $x_i \leq 1$ constraint because the program will anyway minimise $|S|$.)
 We then use [[(Weighted) Vertex Cover using LP#Rounding|rounding]] techniques to get an actual solution.
 
----
-
 ## Weighted Vertex Cover
+---
 
 Graph $G$, each vertex $v_i \in V$ has a weight $w_i \geq 0$.
 Find a vertex cover of minimum weight.
@@ -49,11 +47,11 @@ Minimise $\sum_{i=1}^n w_ix_i$ (weight of the vertex cover) wrt:
 - $x_i \geq 0 \quad\forall v_i \in E.$
 
 Opt solution of LP: $x^* = {x^*_1, x^*_2, \cdots , x^*_n}$
-For any edge ($v_i,v_j$), $x_i^* + x_j^* \geq 1$
-At least one of $x_i^*, x_j^* \geq 1/2$
+For any edge ($v_i,v_j$), $x_i^* + x_j^* \geq 1$.
+At least one of $x_i^*, x_j^* \geq 1/2$.
 
+## Rounding
 ---
-### Rounding
 $\{x_i^*\}_{i = 1, \cdots , n}$, fractional
 - Construct integral solution $x'$.
 - Set $x'_i = 1$ iff $x_i^* \geq 1/2$,
@@ -73,5 +71,5 @@ $OPT(LP) \leq OPT(ILP).$
 
 ---
 # References
-[[Integrality Gap]]
 [[Linear Programming]]
+-> [[Uncapacitated Facility location]]

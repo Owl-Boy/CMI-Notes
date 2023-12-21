@@ -43,4 +43,4 @@ Approximation is good as a ratio and not as an additive factor because we can sc
 
 ---
 # References
-[[Vertex Cover Problem]]
+-> [[Vertex Cover Problem]]
