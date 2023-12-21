@@ -1,0 +1,15 @@
+# A generalized quantum branching program
+- Classical Branching program
+	- deterministic branching program
+		- Size is the total number of nodes in the branching tree
+		- length is the longest path from source to sink node
+		- For a levelled graph, the width is the maximum number of nodes in any level
+	- probabilistic branching programs
+- Quantum branching program
+	- Nakanashi's qbp
+		- It is derived from the probabilistic branching program so you go to a node with an amplitude instead of a probability
+	- Albayev's qbp
+		- This uses something called a quantum transformation which is a tuple of state, and 2 evolution functoin
+		- if input is 0 then apply 1 transformation program, if it is 1 then apply the other.
+	- AQBP is too simple to have nice properties, NQBP is to complex to perform an analysis on
+	- so we have generalized qbp

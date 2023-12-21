@@ -1,0 +1,37 @@
+# Algorithms in the presence of Biased Inputs - Nisheeth Vishnoi
+
+- Classical Computation Problems
+	- Examples
+		- Shortest Paths
+		- Set selection
+		- Bipartite Matching
+		- Classification
+	- Designed with the assumption that the input is static
+		- For example the length of the road is static but the traffic is not which significantly affects the travel time
+		- A search for CEO picks a set out of the million of pics tagged as CEO, then these algorithms results misrepresent the truth, which is problematic is actually affect the people - set selection
+		- Ranking is can also be used to influence people opinions on politics and items and all
+- Subset selection
+	- We are given $m$ items and we have to select $n$ of them, and each item has a utility or weight, and we decide the utility of weight accordingly.
+	- *Assumption:* Utility correlates to "quality" of an individual .....
+- Ranking
+	- Given $m$ individual and $n$ positions, we have a utility for each individual for each position. Output is a ranking of highest utility
+- Problems
+	- The inputs, if the sample space is say of people, contain the target features, but also socially salient features like race, gender and so on, and the salient features affect the targeted features in the form of "noise" (variations).
+	- One way to get around the process is to artificially add noise to the data, which is related to how differential telemetry preserves privacy, but these addition noise can cause algorithms to fail.
+- Stochastic noise
+	- say we want to eliminate telemetry of gender data, then we can alter someone's data by flipping it with some probability, and then extrapolate the original data based on the output it cannot really tell who is of which gender
+	- We want to come up with algorithm that deal with data pertubation of even different kinds
+- Subset Selection problem
+	- We have a set, with a utility to each item in the set, and we need to pick a subset of that with maximum utility
+	- Simplificatoin of model - for the disadvantaged group, there is a disadvantage factor $\beta$ such that the observed utility of the members of the group is $\beta$ times the their latent utility.
+	- Using that idea, using the observed utility, gives us the wrong answer for the question, knowing beta would help us get the correct answers.
+- Rooney Rule: Affirmative Action intervention
+	- Kleinberg and Raghavan showed that Rooney Rule can improve the latent utility of the selection
+	- This method might reveal true utility of the item, this means that even the value of $\beta$.
+- Intersectionality
+	- The groups are not necessarily disjoint, example black women
+	- traditional solution, separately dealing with stuff is not enough to deal with biases. Non intersectional constraints have their constraints.
+- General Model of an Evaluation process
+	- The model has resource constraint $\tau$ and a risk-averseness parameters $\alpha$.
+	- Goal is to extract information given resource constraints. The approach is optimisation based.
+	- We find something that minimised the risk averseness based on the parameter $\alpha$. Having entropy more than $\tau$ ????

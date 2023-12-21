@@ -34,7 +34,7 @@ Here:
 We extend the binary relation to use it for propositions too
 - $c\Vdash \varphi\land\psi$ iff $c\Vdash\varphi$ and $c\Vdash\psi$ 
 - $c\Vdash \varphi\lor\psi$ iff $c\Vdash\varphi$ or $c\Vdash\psi$
-- $c\Vdash \varphi\to\psi$ iff $c'\Vdash \psi$ whenever $c'\Vdash\psi$ for all $c'\ge c$ (In the future, if we find $\varphi$, we will also, always get $\psi$ along with it)
+- $c\Vdash \varphi\to\psi$ iff $c'\Vdash \psi$ whenever $c'\Vdash\varphi$ for all $c'\ge c$ (In the future, if we find $\varphi$, we will also, always get $\psi$ along with it)
 - $c\Vdash \lnot\varphi$ if $c'\not\Vdash\varphi$ for all $c'\ge c$
 
 [[Drawing 2023-09-11 12.11.46.excalidraw|Here]] is an example of a Kripke Model such that $c\Vdash\lnot\lnot(p\lor q)$ and $c\Vdash(p\to q)\to q$ but $c\not\Vdash p\lor\lnot p$ 

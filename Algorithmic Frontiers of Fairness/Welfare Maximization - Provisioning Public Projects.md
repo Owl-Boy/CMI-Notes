@@ -1,0 +1,52 @@
+# Welfare Maximisation - Provisioning Public Projects - Manisha Padala
+- Motivation
+	- modelling crowed funding
+		- getting people together to come to a concensus
+			- Wooden pedestrian bridge in Rotterdam
+			- One belt one Road
+		- sounds kinda similar to resource allocation differences being
+			- non-rivalrous
+				- everyone gets something 
+			- non-excludable
+				- we cannot exclude people who did not contribute
+- Problem setting
+	- Centralised
+		- People vote for preferred projects
+		- Aggregate their votes to find a desirable subset of projects
+		- Specify each Agent's contribution
+			- each agent comes with a budget and cannot contribute more than that, so the central budget must be at most total crowd budget
+			- The entire money pool comes from the agents
+			- Agents care about where their money is used
+	- Decentralised
+		- Agents arrive at a platform
+		- realize the valuations for each project
+		- voluntarily contribute
+		- Public projects are non-executable
+		- no incentive to contribute - free riding is a thing
+		- Must have refunds
+- Centralised - truthful agents
+	- $N=[n]$ agents
+	- budget $b_i$ and $B$ is their sum
+	- $M=[m]$ project 
+	- cost $C_{j}$ of projects
+	- valuation $v_{ij}$, value of a project $j$ by agent $i$
+	- We maximize sum of utility such that the budget constraints are met and each agent has non zero utility
+	- Results
+		- No poly time approx 
+		- no poly time approx for identical cost setting
+		- admits and FPTAS when agents are laminar single minded
+		- UWU_WP (UWO-WP)
+- Decentralised - strategic agent
+	- $N=[n]$ agents
+	- budget $b_i$ and $B$ is their sum
+	- $M=[m]$ project 
+	- cost $C_{j}$ of projects
+	- valuation $v_{ij}$, value of a project $j$ by agent $i$
+	- A bonus $\mathcal B$. its the extra stuff that the event organiser adds to incentivize others
+	- Incentive structure: they want their own profit to get maximized.
+	- Bonus scheme
+		- project if funded agent gets $v_i-x_i$
+		- project does not get funded, the agent gets a fraction of the bonus back corresponding to the amount they pair along with $x_i$ that they paid
+- Summary
+	- Bounded approx for uwo-wp in single mided setting is open
+	- restrictions that by pass inapproxability

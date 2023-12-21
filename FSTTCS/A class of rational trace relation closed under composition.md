@@ -1,0 +1,39 @@
+# A class of rational trace relations closed under composition - Dietrich Kuske
+- Rational Languages 
+	- construction from finite languages using
+		- Union
+		- concatenation
+		- interation
+	- These are nice because
+		- There are many examples
+		- Alternative characterizations
+		- most of it is decidable
+		- nice closure properties
+	- applications
+- Rational Relations or Rational Transductions
+	- Its a binary relation on set of words, if it can be created with 
+		- Union
+		- concatenation
+		- interation from finite relations
+	- These are nice beacuse
+		- Many e xamples
+		- Alternate characterizations
+		- nice closure properties
+		- Right and left application preserves regularity (projections) give regular languagesrec 
+		- Caucal '92
+- Trace Monoid
+	- Independence alphabet $(\Sigma, I)$ where $I$ is a symmetric
+	- We say two words are congruent if we can transpose symmetric letters of the first word to get the second word
+	- Tracy monoid is the set of words quotiented under the relation.
+- Rational Trace relations
+	- If you have a rational relation, replacing pairs of words with pairs of trace classes of words gets u a Rational Trace Relation.
+	- has all nice properties as above but not composition
+- Salvation
+	- $R\subseteq \Gamma^* \times\Gamma^*$ is left closed if $\sim\circ R\subseteq R\circ\sim$
+	- Closure Properties
+		- Composition
+		- Trace relations is rations iff it is a composition of inverse lc ration and lc rational
+		- No inverse
+		- left application of lc rational to recognizable is recognizable
+	- Alternative charactersation
+		- homomorphic images of regular languages
