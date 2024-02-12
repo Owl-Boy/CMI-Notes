@@ -1,7 +1,7 @@
 202302191902
 
 Type : #Note
-Tags :[[Complexity Theory]]
+Tags : [[Complexity Theory]]
 
 ---
 # EXP Complexity Class
@@ -13,8 +13,6 @@ Class of decisin problems that can be decided by a [[Turing Machines|Determinisi
 $$
 EXP = \bigcup_{n\in\mathbb{N}}DTIME\left(2^{n^{c}}\right)  
 $$
-### Example
-
 
 ---
 # Related Problems
