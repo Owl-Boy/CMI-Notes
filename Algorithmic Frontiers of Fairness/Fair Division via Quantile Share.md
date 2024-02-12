@@ -1,0 +1,27 @@
+# Fair Division via Quantile Shares
+(Shubh)
+- Problem - Fair division of Indivisible Items/chores
+- Fair Shares - proportionality and Maxmin shares
+	- $m$ items
+	- $n$ agents with monotone valuation
+	- Agent does not care about other agent's share
+- A share is feasable if for every profile of valuation, there is some allocation for every valuation
+- Maxmin share 
+	- Maxmin share, one person cuts and gets his lowest part, it is infeasable
+	- Constant fraction of maximum share $\frac{3}{4}$ is feasable for additive
+	- Some constant fractoins are feasible for submodular
+	- no constant fraction is feasible for general monotone valuations
+- proportional share
+	- no fraction of the proportional share is feasible
+- *Quantile Share*
+	- Consider an agent who believes that the allocation of items will be done uniformly at random. Idea is to use this as a benchmark for fairness
+	- Agent asks "What is the prob that my bundle is worse in a uniformly random allocation is weakly worse than the bundle I receive" 
+	- An allocation is $q-fair$ if this probability is atleast $q$ for all $i$
+	- this is infeasible for $q>\frac{1}{e}$
+	- $q\leq \frac{1}{2e}$, then it is always feasible if rainbow erdos mathcing conjecture is true
+	- for $q < \frac{0.14}{e}$ then this is feasible for Additive valuations
+	- for $q= \frac{1}{e}$ is the critical balue between feasibility and infeasibility.
+- Quantile share and veto lists
+	- Every agent submits a veto list of atmost size $L$ of allocations
+	- what is the largest $L$ such that the allocator can always pick an allocation which is not in any of the veto list
+	- For all $n-tuples$ od monotone consistent veto list of size $l>\frac{1}{2e}$ aaa
