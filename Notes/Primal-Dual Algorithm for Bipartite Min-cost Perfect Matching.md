@@ -6,7 +6,7 @@ tags:
 202401241401
 
 Tags : [[Combinatorial Optimisation]]
-# Primal-Dual Algorithm for Min-cost Bipartite Perfect Matching
+# Primal-Dual Algorithm for Bipartite Min-cost Perfect Matching
 ---
 paper written stuff
 
