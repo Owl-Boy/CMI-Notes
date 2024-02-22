@@ -6,9 +6,8 @@ tags:
 
 Tags : [[Logic]]
 
----
 # Finite Sat for FOL Motivation
-
+---
 We will try what we did in propositional logic.
 
 1. $\{x_{1}\equiv x_{2},x_{2}\equiv x_{3},x_{3}\not\equiv x_{1}\}$.
