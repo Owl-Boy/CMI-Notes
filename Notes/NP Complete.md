@@ -18,5 +18,5 @@ _Proof_:
 
 ---
 # References
-[[NP Complexity Class]]
+[[NP (Complexity Class)]]
 [[Reduction]]

@@ -8,7 +8,7 @@ tags:
 Tags : [[Algorithmic Coding Theory]]
 
 ---
-# Expander Graphs
+# Bipartite Expander Graphs
 Bipartite graphs: $G=(L,R,E)$
 
 Given any $[n,k]_{2}$ code $C$ with parity check matrix $H$, we'll call the bipartite graph $G_{H}$ with $A_{G_{H}}=H$.
@@ -16,7 +16,7 @@ Given a bipartite graph $G=(L,R,E)$, with $|L|\geq |R|$, the corresponding code 
 
 $G$ is sparse, each vertex in $L$ has at most a fixed number of neighbours in $R$,...
 
-**Left Regularity:** A bipartitite graph $G=(L,R,E)$ is $D-$left regular if every vertex in $L$ has degree exactly $D$.
+**Left Regularity:** A bipartite graph $G=(L,R,E)$ is $D-$left regular if every vertex in $L$ has degree exactly $D$.
 
 **Neighbour Set:**
 
@@ -39,3 +39,4 @@ $|U(S)|\geq D(1-2\epsilon)|S|>0$, $\epsilon< \frac{1}{2},|S|\geq 1$
 
 ---
 # References
+[[Expander Graphs and Applications]]

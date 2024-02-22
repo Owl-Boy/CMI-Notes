@@ -1,0 +1,38 @@
+# Matching with fairness constraints
+(Shubh)
+- Input
+	- A set of Items
+	- A set of platform
+	- Platforms have quota
+	- Platforms define classes of items
+	- Classes have quota
+	- Classes are subsets of neighborhoods
+	- Classes define fairness constraints
+- Goal: Match maximum number of items to platforms
+- Some natural examples
+	- Committee - needs to have experts of all areas. Justifies why every platform has its own class
+	- Projects - wasteful to have many employees with the same skill. studied previously for clustering and stuff
+- Polytime Algorithm for laminar classes
+	- Classes do not have non trivial intersection - disjoint or containment
+	- Maximum matching in laminar classes reduces to max flow
+		- maximum matching in $G \Leftrightarrow$ max flow in $H$
+- There is a reductoin from independent set.
+	- take a graph, add a node to it which represents a platform and connect all nodes
+	- Then make 2 adjaced edges in the og graphs a part of a single class with quota 1
+	- This means that even the 1 platform case is NP-Hard
+- $\frac{1}{2}$ approximation for $O(1)$ classes
+	- One platform => exact algorithm by solving integer linear program
+	- say we have $\Delta$ classes, so for the nodes we define types which are just set of classes they are in, so we hvae $2^{\Delta}$ classes, we make a variable for each and do ILP somehow
+	- $\alpha$ approximation for 1 platform, gives $\frac{\alpha}{1+\alpha}$ approximatoin
+	- Find, $\alpha$ approximation for each platform from remaining items
+		- ???????????? 
+	- If the number of classes is not known, but each item is contained in atleast $\Delta$ many classes, by the greedy algorithm, we get $\frac{\Delta}{1+\Delta}$ approximation
+- Connection with Hypergraph Independent Set
+	- strong independent set we get a $\frac{1}{\Delta}$ approx
+	- weak independent set we get a $\frac{\log\Delta}{\Delta \log \log\Delta}$ approx
+- Proportional bounds
+	- For $M(p) = \alpha$ many items bound to the class, we want  to allocate $a|\alpha|$ and $b|\alpha|$
+	- For disjoint classes $O(l)$ approx takes $O(n^{2})$ time.
+- Future Direction
+	- extending proportional fairness for non-disjoint classes
+	- Incorporate item/platfrom preferences 
