@@ -6,7 +6,7 @@ tags:
 202402211202
 
 Tags : [[Logic]], [[Automata Theory]]
-# Buchi Automata for Linear Temporal Logic
+# Büchi Automata for Linear Temporal Logic
 ---
 Given a Linear Temporal Logic formula $\varphi$, let $\sigma$ be a sequence of valuations that satisfy $\varphi$ at $0^{\text{th}}$ index.
 Let a the Alphabet be the set of all possible valuations of free variables are used in $\varphi$.

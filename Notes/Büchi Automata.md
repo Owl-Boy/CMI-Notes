@@ -1,6 +1,8 @@
 ---
 tags:
   - Note
+aliases:
+  - Buchi Automata
 ---
 202401041201
 

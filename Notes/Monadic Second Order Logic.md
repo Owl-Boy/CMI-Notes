@@ -42,3 +42,4 @@ This example also shows that *MSO* is **more expressible** than *FO*.
 
 ---
 # References
+[[Büchi Automata for Monadic Second Order Logic]]

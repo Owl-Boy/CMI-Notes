@@ -25,5 +25,5 @@ Then $w\in L_1(L_2)^\omega$.
 
 ---
 # Related
-[[Lemma 3 for Büchi Automata]]
-[[Lemma 1 for Büchi Automata]]
+[[Lemma 3 for Complementation of omega-Regular Languages]]
+[[Lemma 1 for Complementation of omega-Regular Languages]]
