@@ -12,9 +12,13 @@ Tags : [[Automata Theory]]
 >[!tip] Variety
 >$\omega$-Automata are a set of variants of [[Finite State Automaton]] that runs on infinite words. Since the acceptance condition for these automata cannot be the state at which the computation terminates (because it does not) there are a variety of accepting conditions and good states, some of them are listed below.
 
-- **Buchi Automata** 
+- **Büchi Automata** 
 	- There is one set of good states $G$.
-	- A word is accepted if there is a run of the word on the automata that goes the set $G$(any one) infinitely many times.
+	- A word is accepted if there is a run of the word on the automata that goes over the set $G$(any one element) infinitely many times.
+- **Generalized Büchi Automata**
+	- There is a set of good states $\langle G_i \rangle$
+	- A word is accepted if there is a run of the word on the automata that goes over all the sets $G_i$ infinitely many often.
+	- The language of this Automata is exactly the intersection of Büchi Automata with good states given by $G_i$.
 - **Rabin Automata** 
 	- There is a sequence(typically finite) of pairs of set of good and bad states $\langle G_i, B_i\rangle$
 	- A word is accepted if there is a run on the automata such that for some $i$ for which $G_i$ is visited infinitely many times and $B_i$ is visited only finitely many times.

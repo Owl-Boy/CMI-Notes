@@ -31,7 +31,7 @@ The direct complementation of Büchi Automata is a very complicated procedure, h
 		- we make 2 copies of the automata, and delete all the states that are not in the good set from one of them.
 		- Then we make epsilon transitions from the first copy to the second one, and only make the good states in the second one.
 	- Given the above construction, we can take the union for each of the sets.
-	- [[Last Action Record Conversion]]
+	- [[Last Appearance Record]]
 
 This conversion is much simpler to follow than the conversion given by Büchi.
 

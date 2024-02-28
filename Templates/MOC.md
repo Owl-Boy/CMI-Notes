@@ -1,5 +1,6 @@
 ---
 tags: MOC
+sticker: lucide//map-pin
 ---
 # {{title}}
 ---

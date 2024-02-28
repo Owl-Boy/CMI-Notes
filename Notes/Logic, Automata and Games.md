@@ -1,6 +1,7 @@
 ---
 tags:
   - MOC
+sticker: lucide//map-pin
 ---
 # Logic, Automata and Games
 ---
@@ -27,6 +28,7 @@ tags:
 	- [[Büchi Automata]]
 		- [[Another way to Complement a Büchi Autromata]]
 		- [[Deterministic Rabin Automata accept omega-regular languages]]
+		- [[Last Appearance Record]]
 	- [[Language of Infinite words]]
 	- [[Omega-Regular Languages]]
 	- [[Closure Properties of Büchi Automata and Omega-regular languages]]
@@ -42,6 +44,7 @@ tags:
 - [[Linear Temporal Logic]]
 	- [[Semantics for LTL]]
 	- [[Büchi Automata for Linear Temporal Logic]]
+		- [[Closure and Atoms for Büchi construction of LTL formulas]]
 
 --- 
 ## MOCs
