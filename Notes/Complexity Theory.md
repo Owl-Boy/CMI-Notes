@@ -1,7 +1,6 @@
 ---
 tags:
-  - Note
-  - Incomplete
+  - MOC
 ---
 202402121702
 
@@ -26,7 +25,7 @@ The *Church-Turing thesis* (all that is computable is computable by a Turing Mac
 7. Interactive Proofs, Zero-knowledge proofs
 
 ---
-## Index
+## Notes
 
 - [[Complexity Theory]]
 - [[Cook-Levin Theorem]] ($SAT$ is $NP-$complete.)
@@ -42,13 +41,14 @@ The *Church-Turing thesis* (all that is computable is computable by a Turing Mac
 - [[Immerman–Szelepcsényi Theorem]]
 - [[Non deterministic Space Hierarchy Theorem]]
 
-
+---
+## MOCs
 
 ---
 # References
-[Sipser]
-[Hopcroft-Ullman]
-[Arora-Barak]
-[Luca Trevisan - UCB]
-[Dieter van Melkebeek - University of Wisconsin]
-[Prahladh Harsha, Ramprasad Saptharishi - TIFR]
+- [Sipser]
+- [Hopcroft-Ullman]
+- [Arora-Barak]
+- [Luca Trevisan - UCB]
+- [Dieter van Melkebeek - University of Wisconsin]
+- [Prahladh Harsha, Ramprasad Saptharishi - TIFR]
