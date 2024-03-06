@@ -1,15 +1,17 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202401171501
 
 Tags : [[Automata Theory]], [[Logic]]
-# Motivation for Rabin Automata
+# Rabin Automata accept $\omega$-Regular Languages
 ---
 >[!attention] Notation Abuse
 >I will be using characters like $V$ for both a language and an automata for the langauge. 
+
+>[!tldr]
+>We will try to construct a deterministic *Büchi Automata* for a regular language and we shall see that the construction breaks at some point, requiring non-determinism, which can then be fixed by changing the acceptance condition.
 
 Looking at the closer properties of $\omega-$regular languages. 
 Given two regular languages $U$ and $V$. We know that $U\cdot \hat V$ is $\omega-$regular.
@@ -80,6 +82,8 @@ If there is $w$ that is accepted  by the above automata:
 
 >[!seealso] Rabin Automata (informal)
 >The accepting condition above is precisely the Rabin Accepting condition, where we have pairs of good(accepting) and bad($\bot$) states and we want to visit the good states infinitely often and the bad states only finitely many times.
+
+Union of two deterministic Rabin Automata can be accepted by a deterministic rabin automata, this construction is easy to prove. Hence Given any Non-Deterministic Buchi Automata, we can convert it to a Deterministic Rabin Automata.
 
 ---
 # References

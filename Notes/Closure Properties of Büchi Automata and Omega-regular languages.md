@@ -58,12 +58,12 @@ We give an equivalence class over elements of $\Sigma^+$, such that for each $v,
 - Furthermore, we make a similar condition for paths that contain good states.
 
 >[!theorem] Lemmas
->[[Lemma 1 for Büchi Automata|Lemma 1]]: $\sim_A$ has finitely many equivalence classes, all of which are regular languages.
->[[Lemma 2 for Büchi Automata|Lemma 2]]: For each $w\in\Sigma^\omega$,  there are $\sim_A$ classes $L_1$ and $L_2$ such that $w\in L_1(L_2)^\omega$.
->[[Lemma 3 for Büchi Automata|Lemma 3]]: If $L_1$ and $L_2$ are equivalence classes, then $L_1(L_2)^\omega$ is either a subset of $L_A$ or disjoint from it.
+>[[Lemma 1 for Complementation of omega-Regular Languages|Lemma 1]]: $\sim_A$ has finitely many equivalence classes, all of which are regular languages.
+>[[Lemma 2 for Complementation of omega-Regular Languages|Lemma 2]]: For each $w\in\Sigma^\omega$,  there are $\sim_A$ classes $L_1$ and $L_2$ such that $w\in L_1(L_2)^\omega$.
+>[[Lemma 3 for Complementation of omega-Regular Languages|Lemma 3]]: If $L_1$ and $L_2$ are equivalence classes, then $L_1(L_2)^\omega$ is either a subset of $L_A$ or disjoint from it.
 
 
-By using the above lemmas, we can get the finite set of equivalence classes ([[Lemma 1 for Büchi Automata|Lemma 1]]) and partition them into ones that are disjoint from $L_A$ and ones that are a subset of it ([[Lemma 3 for Büchi Automata|Lemma 3]]).  We know that these partition cover all of $\Sigma^\omega$ ([[Lemma 2 for Büchi Automata|Lemma 2]]) so the first partition must be the complement of $L_A$ and we can construct a Büchi automata for it(like the constuction in [[Set of Languages accepted by Büchi Automata are exactly Omega-Regular]]).
+By using the above lemmas, we can get the finite set of equivalence classes ([[Lemma 1 for Complementation of omega-Regular Languages|Lemma 1]]) and partition them into ones that are disjoint from $L_A$ and ones that are a subset of it ([[Lemma 3 for Complementation of omega-Regular Languages|Lemma 3]]).  We know that these partition cover all of $\Sigma^\omega$ ([[Lemma 2 for Complementation of omega-Regular Languages|Lemma 2]]) so the first partition must be the complement of $L_A$ and we can construct a Büchi automata for it(like the constuction in [[Set of Languages accepted by Büchi Automata are exactly Omega-Regular]]).
 
 >[!quote] Pravin
 >I hope you notice the paradox here. There is no way to determine when this edge needs to be taken in the non-deterministic automata.
@@ -73,3 +73,4 @@ By using the above lemmas, we can get the finite set of equivalence classes ([[L
 - [[Omega-Regular Languages]]
 - [[Büchi Automata]]
 - [[Set of Languages accepted by Büchi Automata are exactly Omega-Regular]]
+- [[Another way to Complement a Büchi Autromata]]

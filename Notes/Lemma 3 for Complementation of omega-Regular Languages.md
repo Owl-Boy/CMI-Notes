@@ -29,5 +29,5 @@ hence $w'\in L_A$.
 
 ---
 # Related
-[[Lemma 1 for Büchi Automata]]
-[[Lemma 2 for Büchi Automata]]
+[[Lemma 1 for Complementation of omega-Regular Languages]]
+[[Lemma 2 for Complementation of omega-Regular Languages]]

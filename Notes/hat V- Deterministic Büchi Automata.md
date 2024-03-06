@@ -46,4 +46,4 @@ This happens to be a non-deterministic. At the places where the two automata are
 
 ---
 # References
-[[Motivation for Rabin Automata]]
+[[Deterministic Rabin Automata accept omega-regular languages]]
