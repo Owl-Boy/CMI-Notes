@@ -158,7 +158,75 @@ We can reverse the whole thing and prove 1. similarly.
 1 and 2 together give 3.
 
 ---
+.
+.
+.
+.
+> [!idea] First prove a lower bound on $\mathbb{E}[N]$.
 
+For any $(u,v)\in F$
+$$
+\begin{align}
+\mathbb{E}[\# \text{ of faulty }u\to v\text{ steps}]&=\sum\limits_{k\geq 1}\mathbb{E}[\#\text{ of faulty }u\to v\text{ steps}\mid k\ u\to v\text{ steps}]\\
+&= \sum k(Pr[u\to v\text{ step is faulty}\mid k\ u\to v\text{ steps}]).Pr[k\ u\to v\text{ steps}]  &&\text{once a faulty }u\to v\text{ step, always a faulty }u\to v\text{ step} \\
+&=\sum k.p.Pr[k\ u\to v\text{ steps}]  \\
+&=p\sum k.Pr[k\ u\to v\text{ steps}]  \\
+&=p.\mathbb{E}[u\to v\text{ steps}]
+\end{align}
+$$
+Now, the expected number of $u\to v$ steps is equal to the expected length of an ASRW times the expected number of $u\to v$ steps in one ASRW. (??)
+
+$$
+\begin{align}
+\frac{\mathbb{E}[u\to v\text{ steps}]}{\mathbb{E}[u\to v\text{ steps in one ASRW}]}&=\mathbb{E}[\text{length of an ASRW}] \\
+&=\sum\limits_{k\geq 1} \frac{1}{t}k\left( 1-\frac{1}{t} \right)^{k} \\
+&=\frac{1}{t} \frac{1}{\left[ 1-\left( 1-\frac{1}{t} \right) \right]^{2}} \\
+&=t.
+\end{align}
+$$
+
+
+.
+.
+.
+
+**Theorem:** Let $G=(n,d,\lambda)$ be an expander graph and $F\subset E$ be a set of edges. Then the probability that a random walk starting from one edge in $F$ traverses an edge from $F$ again at $t^{th}$ step $\leq\left( \frac{|F|}{|E|}+\lambda^{t+1} \right)$.
+
+*Proof:*
+Let $x$ be the initial distribution on the vertex set.
+After $(t-1)^{th}$ step of the walk, the distribution we get is $A^{t-1}x$, where $A$ is the normalised adjacency matrix.
+$(A^{t-1}x)_{w}=$ probability that we reach vertex $w$.
+
+Let $k_{w}$ be the number of edges incident on $w$, that are in $F$.
+$y_{w}= \frac{k_{w}}{d}$.
+$x=(x_{1},\dots,x_{w},\dots,x_{n})^{T}$
+$x_{w}=\frac{k_{w}}{2|F|}$
+So $y_{w}=\frac{2|F|}{d}x_{w}$.
+$$
+\begin{align*}
+\text{Probability that $t^{th}$ step lands in } F&=\sum\limits_{w\in V}(A^{t-1}x)_{w}y_{w}\\
+&=\frac{2|F|}{d}\sum\limits_{w}(A^{t-1}x)_{w}x_{w}\\
+&=\frac{2|F|}{d}\langle A^{t-1}x,x \rangle \\
+&\leq \frac{2|F|}{nd}+\lambda^{t-1}&&(*)\\
+&=\frac{2|F|}{|E|}+\lambda^{t-1}.
+\end{align*}
+$$
+$(*):$
+$$
+\begin{align*}
+\langle A^{t-1}(x_{\parallel}+x_{\perp}),(x_{\parallel}+x_{\perp}) \rangle &=\langle A^{t-1}x_{\parallel},x_{\parallel} \rangle+\langle A^{t-1}x_{\perp},x_{\perp} \rangle +0+0\\
+&=\langle x_{\parallel},x_{\parallel} \rangle   +\langle A^{t-1}x_{\perp},x_{\perp} \rangle \\
+&\leq \| x_{\parallel} \|^{2} +\lambda^{t-1}\| x_{\perp} \| ^{2}\\
+&\leq \frac{1}{n}+\lambda^{t-1}\| x \| ^{2}\\
+&\leq \frac{1}{n}+\lambda^{t-1}\max\limits_{w}|x_{w}|\\
+&\leq \frac{1}{n}+\lambda^{t-1} \frac{d}{2|F|}.
+\end{align*}
+$$
+
+
+### Alphabet reduction
+---
+[[Building of Assignment Tester]] is the algorithm we will use a lot.
 
 
 

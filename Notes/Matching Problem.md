@@ -10,6 +10,7 @@ Tags : [[Combinatorial Optimisation]]
 ---
 $G=(V,E)$
 $M\subseteq E$ is a matching if no two edges in $M$ share an endpoint.
+**Goal:** Find a maximum matching.
 
 $M$ matching
 An *alternating path* wrt $M$ in $G$ is a path that alternates between edges of $M$ and edges of $E\setminus M$.

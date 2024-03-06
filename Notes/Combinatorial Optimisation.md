@@ -41,9 +41,17 @@ The constraint matrix for max flow is *totally unimodular* (TUM).
 
 ### Matchings
 ---
-A *matching* is a subset of edges such that no two edges in the subset share an endpoint.
+A [[Matching Problem|matching]] is a subset of edges such that no two edges in the subset share an endpoint.
 For bipartite graphs, Konig's theorem gives us that |max matching| = |min vertex cover|.
 For non bipartite, not necessarily true, take a triangle for an example.
+
+---
+# Index
+1. [[Combinatorial Optimisation]]
+2. [[LP algorithm for Bipartite Matching]], Augmenting path algorithm
+3. [[Edmond's algorithm for general Matching]]
+4. [[Linear Programming]] and stuff about polyhedra
+5. 
 
 
 ---

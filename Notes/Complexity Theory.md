@@ -40,6 +40,9 @@ The *Church-Turing thesis* (all that is computable is computable by a Turing Mac
 - [[Complete problem for NL]]
 - [[Immerman–Szelepcsényi Theorem]]
 - [[Non deterministic Space Hierarchy Theorem]]
+- [[Polynomial-Time Hierarchy]]
+- [[Alternating Turing Machine]]
+- 
 
 ---
 ## MOCs

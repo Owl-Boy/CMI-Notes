@@ -20,7 +20,7 @@ Tags : [[Expander Graphs and Applications]]
 > [!success] These 'expanders' seem too good to be true! Do they even exist?
 > Professor Upendra once said, "If I define a unicorn, it doesn't mean it exists". But luckily for us, expander graphs do indeed exist, and we can show using probabilistic methods that one is highly likely to encounter an expander graph in a forest of all 3-regular graphs.
 
-> [!question] The question of how to ~~capture~~ construct such graphs explicitly, still remains to be answered.
+> [!question] Fantastic graphs and where to find (construct explicitly) them?
 > Good constructions are non trivial. They often use [[Group Theory]], [[Number Theory]], [[Representation Theory]], [[Combinatorics]].
 
 Expander graphs are super useful. They help in:
@@ -37,7 +37,12 @@ In addition to that, we will be looking at their application in:
 ---
 1. [[Expander Graphs and Applications]]
 2. [[Expander Graphs]]
-3. 
+	1. [[Expander Mixing Lemma]]
+3. [[Error Reduction for RP algorithms]]
+4. [[INW generator for Space Bounded Computation]]
+5. [[Application in Error Correcting Codes]]
+6. [[Zig-Zag Product Construction of Expander Graphs]]
+7. 
 
 
 

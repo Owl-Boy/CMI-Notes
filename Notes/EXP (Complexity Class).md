@@ -6,10 +6,8 @@ Tags : [[Complexity Theory]]
 ---
 # EXP (Complexity Class)
 ### EXP
-```ad-note
-title:
-Class of decision problems that can be decided by a [[Turing Machines|Determinisitic Turing Machine]] in $O(2^{n^{c}})$ time.
-```
+> [!definition] Class of decision problems that can be decided by a [[Turing Machines|Determinisitic Turing Machine]] in $O(2^{n^{c}})$ time.
+
 $$
 EXP = \bigcup_{n\in\mathbb{N}}DTIME\left(2^{n^{c}}\right)  
 $$
