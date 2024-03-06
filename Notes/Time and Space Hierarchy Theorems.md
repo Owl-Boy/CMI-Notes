@@ -32,6 +32,8 @@ A function $T(n):\mathbb{N}\to \mathbb{N}$ is called *time-constructible* if the
 *Fully time-constructible:* $T(n)$ is fully time-constructible if there exists a $DTM$ $M$ s.t. $\forall n$ and for all inputs of length $n$ $M$ takes exactly $T(n)$ steps.
 *Space-constructible:* $S(n)$ is space constructible if there is an $S(n)$ space bounded $DTM$ $M$ that uses exactly $S(n)$ worktape cells for some input.
 
+[[Non deterministic Time Hierarchy Theorem]]
+[[Non deterministic Space Hierarchy Theorem]]
 ## Deterministic Space Hierarchy Theorem
 if $\lim\limits_{n\to \infty} \frac{S_{1}(n)}{S_{2}(n)}=0$ and $S_{2}(n)$ is fully space constructible ($S_{2}(n)\geq\log n$) then $DSPACE(S_{1}(n))\subsetneq DSPACE(S_{2}(n))$.
 
