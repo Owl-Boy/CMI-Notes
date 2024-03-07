@@ -32,11 +32,11 @@ sticker: lucide//map-pin
 	- [[Language of Infinite words]]
 	- [[Omega-Regular Languages]]
 	- [[Closure Properties of Büchi Automata and Omega-regular languages]]
-	- [[Set of Languages accepted by Büchi Automata are exactly Omega-Regular]]
 		- [[Lemma 1 for Complementation of omega-Regular Languages]]
 		- [[Lemma 2 for Complementation of omega-Regular Languages]]
 		- [[Lemma 3 for Complementation of omega-Regular Languages]]
 		- [[Another way to Complement a Büchi Autromata]]
+	- [[Set of Languages accepted by Büchi Automata are exactly Omega-Regular]]
 	- [[hat V- Deterministic Büchi Automata]]
 - [[Monadic Second Order Logic]]
 	- [[Büchi Automata for Monadic Second Order Logic]]
@@ -45,9 +45,16 @@ sticker: lucide//map-pin
 	- [[Semantics for LTL]]
 	- [[Büchi Automata for Linear Temporal Logic]]
 		- [[Closure and Atoms for Büchi construction of LTL formulas]]
+- [[Games on Graphs]] (MOC)
+	- Basics
+		- [[Arenas for Games on Graphs]]
+		- [[Gameplay for Games on Graphs]]
+		- [[Winning Condition for Games on Graphs]]
+	- [[Strategy for Games on Graphs]]
 
 --- 
 ## MOCs
+- [[Games on Graphs]]
 
 ---
 # References

@@ -5,13 +5,16 @@ tags:
 ---
 202311172211
 
-Tags : [[Topology]]
+Tags : [[Topology]], [[Games on Graphs]]
 # Banach-Mazur Games
 ---
 >[!info] 
 >A *Banach-Mazur* game is a 2-player game where the players try to pin down points in a space. The concept is closely related to [[Baire Spaces]].
 >It was the first infinite game *positional game* with *perfect information* to be studied.
 >It was introduced by **Stanisław Mazur** as the 43rd problem in the [[Scottish Book]] and the problem was solved by **Banach**.
+
+>[!note]
+>Banach-Mazur games can be thought of as reachability games on a graph, where each each node corresponds to a set and there is an edge from a set to each of it subsets that belong to $\mathcal W$ (defined below) and where empty set is the final set.
 
 ---
 ## Setup

@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"e6305387c286c835","type":"file","file":"College Notes/Notes/Fixed Parameter Tractibility.md","x":-440,"y":-360,"width":400,"height":400},
+		{"id":"ba4a4e9a96464cf1","type":"file","file":"College Notes/Notes/Strings in Logic.md","x":-540,"y":140,"width":400,"height":400},
+		{"id":"6075e5aeee7c1a8f","type":"file","file":"College Notes/Notes/Elementary Functions.md","x":140,"y":-360,"width":400,"height":400},
+		{"id":"a5e70a7922c625f3","type":"file","file":"College Notes/Notes/Random Access Machines.md","x":120,"y":100,"width":400,"height":400},
+		{"id":"53d80587171e54ce","x":540,"y":340,"width":400,"height":400,"type":"file","file":"College Notes/Notes/Succinct Encoding of Natural Numbers Using Strings.md"},
+		{"id":"2435dd987c2389d7","x":640,"y":-520,"width":400,"height":400,"type":"file","file":"College Notes/Notes/Lemma for Natural Number Encoding.md"}
+	],
+	"edges":[]
+}

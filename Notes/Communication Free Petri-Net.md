@@ -9,8 +9,8 @@ Tags : [[Infinite State Verification]]
 # Communication Free Petri-Net
 ---
 >[!idea] Simpler Model
->This is a restricted version of a [[Petri Net]] where a transition is only allowed to consume at most 1 token in total (which also means that it can only take it from at most 1 place).
->It can put multiple tokens in multiple places, no restriction on that.
+>This is a restricted version of a [[Petri Net]] where a transition is only allowed to consume exactly 1 token in total (which also means that it can only take it from at most 1 place).
+>It can put multiple tokens in multiple places, there is no restriction on that.
 
 >[!definition]
 >Let 
@@ -27,6 +27,8 @@ Tags : [[Infinite State Verification]]
 >2. Restricting the petri net to just the transitions that are fires gives us exactly the set of states that will contain a resource at some point in the run.
 
 For the proof of the theorem, left to right is trivial. for right to left, proving point 1 is easy, for point 2 we can induct of the size of the run.
+
+>[!todo] COMMUNICATION FREE CONTEXT FREE GRAMMAR TO COMMUNICATION FREE PETRI NET
 
 ---
 # References
