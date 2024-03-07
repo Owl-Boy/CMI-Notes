@@ -34,6 +34,8 @@ Faces have dimensions $-1,0,\dots,n-1$. In particular, if $v$ is a vertex of $P$
 
 ## Integrality Gap
 ---
+For a given problem instance, there might be a difference in the optimal value that the LP for that problem gives us, and the optimal value that the *integral* LP gives. We define the highest (in a minimisation problem) such gap to be the integrality gap (as a ratio).
+For an approximation algorithm, the best approximation ratio that we can get is bounded by this gap.
 
 $OPT(LP)\le OPT(ILP)\le$ our solution
 
