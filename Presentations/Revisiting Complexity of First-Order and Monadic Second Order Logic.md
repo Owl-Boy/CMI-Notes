@@ -3,10 +3,19 @@ theme: black
 height: "1200"
 width: "1440"
 ---
-The Complexity of First Order and Monadic-Second Order Logic Revisited.
 
-presented by
-Shubh and Sreevani
+<grid drop="5 20" drag="90 25" style="font-family:'Inter',sans-serif;background-color:#303030;border-radius:8px!important;padding:auto;align:center;">
+# Complexity of MSO<!-- .element style="font-family:'lato';color:#F8F8F8;" -->
+# On words<!-- .element style="font-family:'lato';color:#F8F8F8;" -->
+</grid>
+
+<grid drop="0 55" drag="100 30" style="line-height:0.6em;" align="top">
+Shubh and Sreevani <!-- .element style="font-family:'Inter';font-size:1.6em;font-weight:500;line-height:0.6;color:#E0E0E0!important;vertical-align:bottom!important;" -->
+
+March, 2024 <!-- .element style="font-family:'Nanum Pen Script'; font-size:1.8em;color:#616161;vertical-align:top;font-weight:400;" -->
+</grid>
+
+
 
 ---
 
