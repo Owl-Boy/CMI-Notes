@@ -51,6 +51,13 @@ sticker: lucide//map-pin
 		- [[Gameplay for Games on Graphs]]
 		- [[Winning Condition for Games on Graphs]]
 	- [[Strategy for Games on Graphs]]
+		- [[Winning Arena for Reachability Games]]
+			- [[Winning Strategy for Reachability Games]]
+		- [[Winning Arena for Büchi Games]]
+			- [[Winning Strategy for Büchi Games]]
+		- [[Winning Arena for Parity Games]]
+	- [[Sub-Games]]
+	- [[Properties of the Attractor function and Traps]]
 
 --- 
 ## MOCs
