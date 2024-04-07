@@ -1,0 +1,11 @@
+---
+tags: Incomplete
+---
+- Model Checking of LTL on Buchi automata
+	- Bm internsection B(not phi) should be empty
+- Types of property
+	- Safety : Nothing Bad happens
+		- if the property fails at some position and then is never true. after that
+		- bad thing should be identifiable as a discrete event
+	- Liveness : if you wait long enough, something good is going to happen
+		- for every finite trace, we can extend it to an infinite state tath satisfies the property

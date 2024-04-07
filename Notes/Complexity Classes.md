@@ -25,6 +25,9 @@ The equality of **P** and **NP** and the equality of **P** and **BPP**, are two 
 ---
 ![[EXP (Complexity Class)#EXP]]
 
+![[Fixed Parameter Tractibility#^a19740]]
+---
+![[Elementary Functions#ELEMENTARY]]
 ---
 # Related Problems
 

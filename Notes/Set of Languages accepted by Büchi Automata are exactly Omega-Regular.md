@@ -24,7 +24,7 @@ To prove right to left:
 $\omega$-regular languages are closed under finite union, so we just need to make a *Büchi Automata* for $U\cdot V^\omega$ 
 
 Given *DFAs* for $U$ and $V$, we make the following
-- We start with $V^\omega$, given a *DFA* for $V$, we first make transitions from final states $V$ to all states that the start state in $V$ goes to with the same letters. We mark the new transitions with red.We now make copies of final states of $V$ and all edges that incoming on final states would have copies. Now we move all the red edges to the copies, make them the good states.
+- We start with $V^\omega$, given a *DFA* for $V$, we make an *NFA* such that there are no incoming transitions to the start state of it. Then for each edge going to the final state, we make a copy that goes to the start state, and make the start the only final state.
 - For $U$, we make the *DFA*, and for every transition that goes to a final state, we make a transition that goes to the start state of *DFA* of $V$
 
 ---

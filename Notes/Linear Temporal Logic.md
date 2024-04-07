@@ -1,6 +1,8 @@
 ---
 tags:
   - Note
+aliases:
+  - LTL
 ---
 202311171411
 
