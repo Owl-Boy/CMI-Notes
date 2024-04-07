@@ -42,7 +42,12 @@ The *Church-Turing thesis* (all that is computable is computable by a Turing Mac
 - [[Non deterministic Space Hierarchy Theorem]]
 - [[Polynomial-Time Hierarchy]]
 - [[Alternating Turing Machine]]
-- 
+- [[Circuit Value Problem]]
+- [[Karp-Lipton Theorem]]
+- the B something theorem
+- [[Can there be sparse sets that are NP-hard?]]
+- [[Randomised or Probabilistic Computation]]
+
 
 ---
 ## MOCs

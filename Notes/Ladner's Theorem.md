@@ -74,13 +74,13 @@ Check if $y \in SAT$ by brute force.
 Unary language $L(A)\subseteq 0^{*}$.
 $\forall A,L(A)\in NP^{A}$.
 *Goal:* Construct oracle $A$ so that $L(A)\not\in P^{A}$.
-We have to ensure that $L(A)\neq L(M_{i}^{A})$ for every *polynomial-time* oracle $DTM \ M_{i}$ with oracle $A$. ($M_{1},M_{2},\dots$ is an enumeration of all oracle $DTM$s.)
+We have to ensure that $L(A)\neq L(M_{i}^{A})$ for every *polynomial-time* $DTM \ M_{i}$ with oracle $A$. ($M_{1},M_{2},\dots$ is an enumeration of all oracle $DTM$s.)
 
 for $i=1$ to $\infty$, do:
 Current oracle is $A_{i-1}$.
 Choose $n$ more than all query or input lengths that have so far occurred in the previous stages $(1,\dots,i-1)$.
 Simulate $M_{i}$ on $0^{n}$ for $n^{\log n}$ steps. (We only need $p(n)<n^{\log n}<2^{n}$, so something like $2^{\sqrt{ n }}$ also works.)
-If $M_{i}$ queries for $q \in A$, answer according to $A_{i-1}$, and in the end if $M_{i}$ rejects(?) $0^{n}$, put an unqueried $w\in A_{i}$ of length $n$. (This exists because $n^{\log n}<2^{n}$.)
+If $M_{i}$ queries for $q \in A$, answer according to $A_{i-1}$, and in the end if $M_{i}$ rejects $0^{n}$, put an unqueried $w\in A_{i}$ of length $n$. (This exists because $n^{\log n}<2^{n}$.)
 else leave $A_{i}\cap \{ 0,1 \}^{n}=\phi$.
 
 
