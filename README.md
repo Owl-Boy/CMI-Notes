@@ -40,7 +40,7 @@ There are also some custom callouts, just put the contents of the code block in 
 ```css
 .callout[data-callout="theorem"] {
     --callout-icon: lucide-pi-square;
-    --callout-color: 93, 44, 242;
+    --callout-color: 159, 128, 249;
 }
 
 .callout[data-callout="definition"] {
@@ -51,6 +51,11 @@ There are also some custom callouts, just put the contents of the code block in 
 .callout[data-callout="idea"] {
     --callout-icon: lucide-lightbulb;
     --callout-color: 226, 232, 65;
+}
+
+.callout[data-callout="history"] {
+    --callout-icon: lucide-quote;
+    --callout-color: 158, 158, 158;
 }
 ```
 

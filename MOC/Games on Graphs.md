@@ -19,6 +19,8 @@ Games are a very elegant way of modelling systems where there are components not
 
 The [[Gameplay for Games on Graphs]] is defined here.
 
+![[Game.excalidraw]]
+
 --- 
 ## Notes
 - Basics
@@ -31,6 +33,8 @@ The [[Gameplay for Games on Graphs]] is defined here.
 	- [[Winning Arena for Büchi Games]]
 		- [[Winning Strategy for Büchi Games]]
 	- [[Winning Arena for Parity Games]]
+	- [[Winning Arena for Rabin Games]]
+		- [[Winning Arena for Rabin Games - Fail]]
 - [[Sub-Games]]
 - [[Properties of the Attractor function and Traps]] 
 - [[sigma-paradise]]
