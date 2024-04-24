@@ -66,6 +66,12 @@ sticker: lucide//map-pin
 	- [[Properties of the Attractor function and Traps]]
 	- [[sigma-paradise]]
 	- [[Alternating Finite Automaton]]
+	- [[Kripke Models]]
+	- [[Computation Tree Logic]]
+		- [[Semantics for CTL]]
+		- [[LTL vs CTL]]
+	- [[Tree Automata]]
+		- [[Trees (Automata Theory)]]
 
 --- 
 ## MOCs
