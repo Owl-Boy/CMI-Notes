@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 aliases:
   - Kripke Structures
 ---
@@ -29,10 +28,24 @@ Here:
 ---
 ## Example
 ### Mod 2
-Program : x := x + y mod 2
+Program : `x := x + y mod 2`
+
+![[mod-2-kripke.excalidraw|500]]
 
 ### Concurrency
-Copy Sreevani
+Program:
+```
+Prog1:
+1   while True
+2       wait (turn = 0)
+3       turn := 1
+
+Prog2:
+1   while True
+2   	wait (turn = 1)
+3   	turn := 0
+```
+![[Concurrency Kripke.excalidraw]]
 
 ---
 # References

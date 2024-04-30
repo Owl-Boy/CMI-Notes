@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202403251303
 
@@ -13,9 +12,10 @@ Tags : [[Games on Graphs]]
 >
 
 ## Some Properties
-- For every $\sigma$-trap $u$ in $G$, $G[u]$ is a sub-game of $G$.
-- For every family $\{ U_{i} \}_{i \in I}$ for $\sigma-$ tuple $U_i$, then $\bigcup_{i \in I} U_{i}$ is a $\sigma$-trap as well.
-- If $X$ is a $\sigma$-trap in $G$ and $Y\subseteq X$ then $Y$ is a $\sigma$-trap in $G$ iff $Y$ is a $\sigma$-trap in $X$
+- For every $p$-trap $u$ in $G$, $G[u]$ is a sub-game of $G$.
+- For every family $\{ U_{i} \}_{i \in I}$ for $p-$trap $U_i$, then $\bigcup_{i \in I} U_{i}$ is a $p$-trap as well.
+- If $X$ is a $p$-trap in $G$ and $Y\subseteq X$ then $Y$ is a $p$-trap in $G$ iff $Y$ is a $p$-trap in $X$
 
 ---
 # References
+[[sigma-paradise]]

@@ -67,9 +67,11 @@ sticker: lucide//map-pin
 	- [[sigma-paradise]]
 	- [[Alternating Finite Automaton]]
 	- [[Kripke Models]]
+		- [[Some Applications of Kripke Structures]]
 	- [[Computation Tree Logic]]
 		- [[Semantics for CTL]]
 		- [[LTL vs CTL]]
+		- [[Model Checking of CTL formulas]]
 	- [[Tree Automata]]
 		- [[Trees (Automata Theory)]]
 

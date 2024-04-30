@@ -20,10 +20,9 @@ Both [[Linear Temporal Logic|LTL]] and [[Computation Tree Logic|CTL]] are tempor
 
 ---
 ## CTL $\not\subseteq$ LTL
+
 Consider the following Kripke Structures.
-
->[!tldr] Ask Sreevani : Diagrams
-
+![[CTL not weaker than LTL.excalidraw]]
 The CTL formula $p \implies (EX\ q \land EX \lnot q)$.
 - This formula is satisfied by the left kripke structure but not by the right one.
 

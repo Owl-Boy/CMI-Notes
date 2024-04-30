@@ -51,3 +51,5 @@ The proof is a straightforward structural induction from left to right, and a st
 
 ---
 # References
+[[Linear Temporal Logic]]
+[[Büchi Automata]]

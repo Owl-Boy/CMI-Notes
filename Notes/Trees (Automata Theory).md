@@ -1,7 +1,7 @@
 ---
 tags:
   - Note
-  - Incomplete
+  - Diagram
 ---
 202404221804
 

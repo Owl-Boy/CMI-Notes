@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202403061803
 
@@ -17,19 +16,19 @@ A strategy is essentially a picking function. It chooses the next vertex for the
 Given that the existence of vertices with no out-neighbours is possible, we need to define strategy of a player as a sensible partial function from a sequence of states reaching their state to their next choice. This notion is formalised below.
 
 >[!definition] Strategy
->A *strategy* of a player $\sigma$ is a partial function $f$ such that
+>A *strategy* of a player $p$ is a partial function $f$ such that
 >$$
->f: V^*\ V_{\sigma} \to V
+>f: V^*\ V_{p} \to V
 >$$
->and $f$ is defined on $V^*\ V_\sigma$ if there exist out-neighbour of $V_\sigma$.
+>and $f$ is defined on $V^*\ V_p$ if there exist out-neighbour of $V_p$.
 
 We say a run $R$ follows a strategy $f$ for player $\sigma$ if
 $$
-\forall i\in \mathbb{N},\quad R[i]\in V_{\sigma}\to R[i+1]=f(R[0\dots i]) 
+\forall i\in \mathbb{N},\quad R[i]\in V_{p}\to R[i+1]=f(R[0\dots i]) 
 $$
 
 >[!Definition] Winning Strategy and Decidable Games
->A strategy $f$ for player $\sigma$ is called a *winning strategy* if all run following the strategy are winning for $\sigma$.
+>A strategy $f$ for player $p$ is called a *winning strategy* if all run following the strategy are winning for $p$.
 >
 >A game is called *Decidable* if given each position. There is exactly one winning strategy 
 

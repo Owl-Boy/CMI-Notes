@@ -5,7 +5,7 @@ sticker: lucide//map-pin
 ---
 # Games on Graphs
 ---
-Games are a very elegant way of modelling systems where there are components not under our control. We will discuss games that are played on graphs by 2 players. One of the players will model well behaved parts of the system that are under out control (Rajnikant) and the other player models the environment (Sreevani).
+Games are a very elegant way of modelling systems where there are components not under our control. We will discuss games that are played on graphs by 2 players. One of the players will model well behaved parts of the system that are under out control (Elster) and the other player models the environment (Adler).
 
 >[!definition] Game
 >A game is defined as follows

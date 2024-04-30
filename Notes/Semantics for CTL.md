@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202404161904
 
@@ -16,7 +15,7 @@ To say$(\sigma, j, f) \in \models$ we write $(\sigma, j)\models f$ and we let $\
 
 For defining the relation, we first consider $(\sigma, j)$ as the infinite tree-unfolding of the *Kripke Structure* from the state $j$ and we say $(\sigma, j) \vDash f$ if the root of the tree satisfies the formula in the following manner.
 
-- ***Atomic Propositions:*** $(\sigma, j) \vDash p \iff j \Vdash p$
+- ***Atomic Propositions:*** $(\sigma, j) \vDash p \iff j \Vdash p$ 
 - ***Boolean Operations:*** These are defined in the usual manner
 	- $(\sigma, j)\models\lnot f\iff(\sigma, j)\not\models f$
 	- $(\sigma, j)\models f \lor g\iff(\sigma, j)\models f \lor(\sigma,j)\models g$
@@ -28,6 +27,15 @@ For defining the relation, we first consider $(\sigma, j)$ as the infinite tree-
 - ***Path Quantifies*** (for the lack of a better term) : These operators take in a state and a path formula and quantify that path formula on the set of runs starting from the state.
 	- $E$ quantifies the formula existentially
 	- $A$ quantifies the formula universally.
+
+## Example
+- ***Propositions*** : $\psi = p$
+	- ![[CTL prop.excalidraw]]
+- ***Path Quantifiers***
+	- $\psi = EF\ p$
+		- ![[Existential finally.excalidraw]]
+	- $\psi = A (p_{1}\ \mathcal U\ p_{2})$
+		- ![[Universal until ctl.excalidraw]]
 
 ---
 # References

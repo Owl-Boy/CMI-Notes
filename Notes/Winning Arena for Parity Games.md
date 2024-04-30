@@ -1,16 +1,12 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202403201203
 
 Tags : [[Games on Graphs]]
 # Winning Arena for Parity Games
 ---
->[!tldr] Goal
->Given a parity game, we want to split the arena into 2 parts denoting the winning region for Rajnikant and Sreevani.
->
 
 >[!fail] Naive strategy that fails
 >The most obvious thing that does work would be the combination of two of these kinds of startegy
@@ -39,25 +35,25 @@ Now we just use the strategy described in [[Winning Arena for Rabin Games]].
 --- 
 ## Proof that Parity Games are Determined
 >[!tldr] Plan
->Consider the largest 1-paradise, and show that it's complement is a 0-paradise
+>Consider the largest ***Adler***-paradise, and show that it's complement is a ***Elster***-paradise
 
-Let $X^1_{i}$ be a $1$-paradise and consider all let $X^1 = \bigcup_{i\in I}$ be the union of all $1$-paradises which is the largest $1$-paradise.
+Let $X^A_{i}$ be a ***Adler***-paradise and consider all let $X^A = \bigcup_{i\in I}$ be the union of all ***Alder***-paradises which is the largest ***Adler***-paradise.
 
-But since $\text{attr}_0(X^1) \supseteq X^1$ and $\text{attr}_0(X^1)$ is a $1$-paradise, $X^1$ is its attractor, so the complement of $X^1$ is a $1$-trap.
+But since $\text{Attr}_A(X^A) \supseteq X^A$ and $\text{Attr}_E(X^A)$ is a ***Adler***-paradise, $X^A$ is its attractor, so the complement of $X^A$ is an ***Adler***-trap.
 
-We now restrict the game to the trap defined above. In that sub-game let $S_0$ be the set of points that have the colour $0$. 
+We now restrict the game to the trap defined above. In that sub-game let $S_0$ be the set of vertices that are coloured $0$. 
 
-Now we consider the part of the sub-game that is the complement of $\text{attr}_0(S_{0})$ which is a $0-$trap. Now in that sub-sub-game the number of colours used are significantly less, so by induction we can show that there is a partition sub-sub-game which are $0$ and $1$ paradises.
+Now we consider the part of the sub-game that is the complement of $\text{Attr}_E(S_{0})$ which is a ***Elster***-trap. Now in that sub-sub-game the number of colours used are strictly less, so by induction we can show that there is a partition sub-sub-game which are ***Elster*** and ***Adler*** paradises.
 
-- In the sub-sub-game, the player $1$ paradise gives a winning strategy for player 1, which will word as long as player $0$ does not move the game to the set $X^1$ from which player $1$ also has a winning strategy, therefore the entire arena of the sub-sub-game is a $0$-paradise.
-- The $0$-paradise gives a strategy for player $0$ that can be used as long as player $1$ does not go out of the sub-sub-game to the set $attr_0(S_{0})$. But if player 1 does that, player $0$ can then visit a node with value $0$ and after that either stay in the attractor or go back to the sub-sub-game. $(X^1)^c$ is a $0$-attractor.
+- In the sub-sub-game, the ***Adler***- paradise gives a winning strategy for ***Adler***, which will work as long as ***Elster*** does not move the game to the set $X^A$ from which ***Adler*** again has a winning strategy, this again contradicts the maximality of $X^A$ therefore the entire arena of the sub-sub-game is a ***Elster***-paradise.
+- The ***Elster***-paradise gives a strategy for ***Elster*** that can be used as long as ***Adler*** does not go out of the sub-sub-game to the set $Attr_E(S_{0})$. But if ***Adler*** does that, ***Elster*** can then visit a node with value $0$ and after that either stay in the attractor or go back to the sub-sub-game. $(X^A)^c$ is an ***Elster***-attractor.
 
 ![[Parity Games are determined.excalidraw|800]]
 
 ---
 ## Complexity of existence of a winning strategy in a finite-arena parity game.
 >[!question] Problem
->Given a parity game $G$ and a vertex $v$ from the vertex set of $G$, can player $0$ force a victory.
+>Given a parity game $G$ and a vertex $v$ from the vertex set of $G$, can ***Elster*** force a victory.
 
 >[!note] Complexity
 >The problem is in [[NP (Complexity Class)|NP]] $\cap$ [[Co-NP (Complexity Class)|Co-NP]].
@@ -67,16 +63,16 @@ Now we consider the part of the sub-game that is the complement of $\text{attr}_
 >[!idea]
 The Idea is to guess a strategy and to check if the strategy is winning in polynomial time.
 
-We represent selecting a strategy by removing every outgoing edge from every $v\in V_0$ except for the one picked by the strategy, so our algorithm becomes as follows:
-- We go to the description of each $v\in V_0$ and we remove all outgoing edges except for one that is picked that the strategy that was decided non-deterministically.
+We represent selecting a strategy by removing every outgoing edge from every $v\in V_E$ except for the one picked by the strategy, so our algorithm becomes as follows:
+- We go to the description of each $v\in V_E$ and we remove all outgoing edges except for one that is picked that the strategy that was decided non-deterministically.
 - In the reduced graph we now check that the strategy is correct by checking if there exists and odd-cycle in the same weakly-connected component as $v$.
-	- This is done by doing a DFA from each vertex checking if there is a path from each vertex $v \in  V_1$ that comes back to $v$ and doesn't go over a vertex that has index less than that of $v$. 
+	- This is done by doing a DFA from each vertex checking if there is a path from each vertex $v \in  V_A$ that comes back to $v$ and doesn't go over a vertex that has index less than that of $v$. 
 	- This is used to detect a cycle with $v$ as the element with colour of least index. If we find one, then we halt the machine rejecting the input. otherwise we accept.
 
 ### Co-NP Algorithm.
-Since the game is a zero-sum game without draws, if player $0$ cannot win, then player $1$ must be able to win. Hence, checking if player $0$ cannot win is the same as checking if player 1 can win. 
+Since the game is a zero-sum game without draws, if ***Elster*** cannot win, then ***Adler*** must be able to win. Hence, checking if ***Elster*** cannot win is the same as checking if ***Adler*** can win. 
 
-We use the same algorithm discussed in the previous section by modifying to so it checks if player 1 can win.
+We use the same algorithm discussed in the previous section by modifying to so it checks if ***Adler*** can win.
 
 ---
 # References

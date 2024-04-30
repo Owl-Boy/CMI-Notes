@@ -10,7 +10,7 @@ tags : [[Automata Theory]]
 #  Last Appearance Record
 ---
 >[!idea]
->We keep track of the states that are visited most recently states in order. And we have an extra marker to indicate which state was just reached. This gives us enough information to construct a Rabin Automata accepts exactly a given set of words.
+>We keep track of the states that are visited most recently in order. And we have an extra marker to indicate which state was just reached. This gives us enough information to construct a Rabin Automata accepts exactly a given set of words.
 
 This is a construction from a *Deterministic Muller Automata* to a *Deterministic Rabin Automata*.  
 

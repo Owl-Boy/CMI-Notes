@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 
 202403061703
@@ -9,7 +8,7 @@ tags:
 Tags : [[Games on Graphs]]
 # Winning Condition for Games on Graphs
 ---
-The winning condition is a set of runs $\mathcal W$, where w run is an infinitely sequence of states. If the players play a game such that $\sigma$ is the run. We say Rajnikant wins is $\sigma\in \mathcal W$ otherwise Sreevani wins.
+The winning condition is a set of runs $\mathcal W$, where w run is an infinitely sequence of states. If the players play a game such that $\sigma$ is the run. We say Elster wins is $\sigma\in \mathcal W$ otherwise Adler wins.
 
 These games are $0$ sum, so exactly one the two players always wins.
 
@@ -19,7 +18,7 @@ These games are $0$ sum, so exactly one the two players always wins.
 >In such a case, the winner is whichever player the set is associated with.
 
 Some of the standard *Winning Conditions* for games on graphs could be the following:
-- *Büchi Games* - There is a set $F$ given for Rajnikant and we define the set $\mathcal W=\{ \sigma \;|\; \text{inf}(\sigma) \cap F \neq \emptyset \}$
+- *Büchi Games* - There is a set $F$ given for Elster and we define the set $\mathcal W=\{ \sigma \;|\; \text{inf}(\sigma) \cap F \neq \emptyset \}$
 - *Muller Games* -  A set of set of final states $F$ and we define $\mathcal W = \{ \sigma\;|\; \text{inf}(\sigma) \in F\}$
 - *Parity Games* - Each vertex is labelled with $n\in \mathbb{N}$. We define the set of accepting runs as $\mathcal W = \{ \sigma\; |\; \text{ minimum index in inf}(\sigma) \text{ should be even.}  \}$
 

@@ -1,7 +1,7 @@
 ---
 tags:
   - Note
-  - Incomplete
+  - Diagram
 ---
 202404221904
 
@@ -46,6 +46,8 @@ A run of a tree automata is a *tree* that follows the following conditions
 - This means that for a state in the run of the tree, it has the same number of children as that of the input character that will be read.
 
 The accepting conditions are similar to as described for automata on words, and a tree is accepted if every path from the root to each leaf is accepted.
+
+>[!todo] Diagram : Sreevani
 
 ---
 ## Variants

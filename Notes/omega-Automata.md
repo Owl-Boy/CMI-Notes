@@ -1,7 +1,6 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202401221201
 
@@ -38,3 +37,5 @@ Tags : [[Automata Theory]]
 
 ---
 # References
+- [[Büchi Automata]]
+- [[Omega-Regular Languages]]

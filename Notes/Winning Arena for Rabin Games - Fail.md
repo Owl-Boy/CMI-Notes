@@ -1,17 +1,12 @@
 ---
 tags:
   - Note
-  - Incomplete
 ---
 202403292303
 
 Tags : [[Games on Graphs]]
 # Winning Arena for Rabin Games - Fail
 ---
->[!tldr] Goal
->Given a parity game, we want to split the arena into 2 parts denoting the winning region for Rajnikant and Sreevani.
->
-
 >[!error] This does not word
 
 ![[Winning Arena for Rabin Games#Simple Case - 1 pair of sets]]
