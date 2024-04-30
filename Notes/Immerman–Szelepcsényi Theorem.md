@@ -58,21 +58,25 @@ $c_{i}=|A_{i}|$, $c_{0}=1$
 $v\notin A_{i+1}\iff \forall u\in A_{i}$, $(u,v)$ is a non-edge.
 
 > [!success]
- $c'_{i+1}:=0$;
- $(*)$ For each $v\neq s$, do:
- {
- $counter_{i}:=0$;
- for each $u$, do:
- Guess if $u\in A_{i}$;
- If 'YES' then also guess an $s-u$ path; 
- $counter_{i}:=counter_{i}+1$
- if $(u,v)\in E$, then
- $c_{i+1}:=c_{i+1}+1$;
- goto $(*)$
- end-for
- }
- If $counter_{i}=c_{i}$, then goto $(*)$
- else REJECT
+> ```
+> c[i+1] := 0
+> for v != s in V   # TAG : *
+> {
+>	counter[i] := 0
+>	for u in V
+>	{
+>		Guess whether u in A[i]
+>		If YES then
+>		{ 
+>			guess a path s->u
+>			counter[i] ++
+>			if (u,v) in E then { c[i+1]++ }
+>			Break to *
+>		}
+>	}
+>	if counter[i] != c[i] then {reject}
+> }
+> ```
 
 Property of this $NL$ machine: On every non rejected path, $c_{i+1}$ is the correct value.
 
