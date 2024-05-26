@@ -5,7 +5,7 @@ tags:
 ---
 202402121102
 
-Tags : [[Linear Programming]]
+Tags : [[Linear Programming]], [[Combinatorial Optimisation]]
 # Farkas' Lemma
 ---
 

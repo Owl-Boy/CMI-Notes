@@ -72,7 +72,7 @@ Let $u=\left( \frac{1}{n},\dots, \frac{1}{n} \right)^{t}$ be the uniform vector.
 Let $p$ be any probability distribution on the vertex set $V$ of $G$.
 Then for any $r\geq 0$,
 $\|A^{T}p-u\|_{2}\leq\lambda^{r}$
-$\lambda^{r}\leq \frac{1}{n^{c}} \implies r\geq\Omega(\log n)$
+$\lambda^{r}\geq \frac{1}{n^{c}} \implies r\geq\Omega(\log n)$
 Complete the proof using induction on $r$.
 .
 .
