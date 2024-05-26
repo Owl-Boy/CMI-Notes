@@ -5,7 +5,7 @@ sticker: lucide//map-pin
 ---
 # Games on Graphs
 ---
-Games are a very elegant way of modelling systems where there are components not under our control. We will discuss games that are played on graphs by 2 players. One of the players will model well behaved parts of the system that are under out control (Rajnikant) and the other player models the environment (Sreevani).
+Games are a very elegant way of modelling systems where there are components not under our control. We will discuss games that are played on graphs by 2 players. One of the players will model well behaved parts of the system that are under out control (Elster) and the other player models the environment (Adler).
 
 >[!definition] Game
 >A game is defined as follows
@@ -19,6 +19,8 @@ Games are a very elegant way of modelling systems where there are components not
 
 The [[Gameplay for Games on Graphs]] is defined here.
 
+![[Game.excalidraw]]
+
 --- 
 ## Notes
 - Basics
@@ -31,6 +33,8 @@ The [[Gameplay for Games on Graphs]] is defined here.
 	- [[Winning Arena for Büchi Games]]
 		- [[Winning Strategy for Büchi Games]]
 	- [[Winning Arena for Parity Games]]
+	- [[Winning Arena for Rabin Games]]
+		- [[Winning Arena for Rabin Games - Fail]]
 - [[Sub-Games]]
 - [[Properties of the Attractor function and Traps]] 
 - [[sigma-paradise]]

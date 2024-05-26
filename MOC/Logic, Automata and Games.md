@@ -20,10 +20,12 @@ sticker: lucide//map-pin
 1. Büchi Automata and Omega Regular Languages
 2. Monadic Second Order Logic and their relations with Büchi Automata
 3. Linear Temporal Logic and its relation with Büchi Automata
-4. Games ?? will ask prof lol
+4. Games and Why
+5. Characterisation and strategies for different types of games
 
 --- 
 ## Notes
+### Part 1 : Logic and Automata
 - [[omega-Automata]]
 	- [[Büchi Automata]]
 		- [[Another way to Complement a Büchi Autromata]]
@@ -45,6 +47,8 @@ sticker: lucide//map-pin
 	- [[Semantics for LTL]]
 	- [[Büchi Automata for Linear Temporal Logic]]
 		- [[Closure and Atoms for Büchi construction of LTL formulas]]
+
+### Part 2 : Games
 - [[Games on Graphs]] (MOC)
 	- Basics
 		- [[Arenas for Games on Graphs]]
@@ -56,8 +60,20 @@ sticker: lucide//map-pin
 		- [[Winning Arena for Büchi Games]]
 			- [[Winning Strategy for Büchi Games]]
 		- [[Winning Arena for Parity Games]]
+		- [[Winning Arena for Rabin Games]]
+			- [[Winning Arena for Rabin Games - Fail]]
 	- [[Sub-Games]]
 	- [[Properties of the Attractor function and Traps]]
+	- [[sigma-paradise]]
+	- [[Alternating Finite Automaton]]
+	- [[Kripke Models]]
+		- [[Some Applications of Kripke Structures]]
+	- [[Computation Tree Logic]]
+		- [[Semantics for CTL]]
+		- [[LTL vs CTL]]
+		- [[Model Checking of CTL formulas]]
+	- [[Tree Automata]]
+		- [[Trees (Automata Theory)]]
 
 --- 
 ## MOCs

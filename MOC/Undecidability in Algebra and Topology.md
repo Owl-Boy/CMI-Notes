@@ -24,6 +24,9 @@ sticker: lucide//map-pin
 			- [[Cyclically Reduced Term]]
 	- [[Modular Machines]]
 		- [[Modular Machines are Turing Complete]]
+	- [[HNN - Extensions]]
+	- [[Britton's Lemma]]
+	- [[Word Problem for Finitely Presented Groups is Undecidable]]
 
 --- 
 ## MOCs

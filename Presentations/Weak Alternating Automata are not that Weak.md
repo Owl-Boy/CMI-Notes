@@ -1,0 +1,38 @@
+- Do the true - false transition thingy
+- Section 2 - WAA
+	- WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	- Mention the true false thingy for alternating automa
+- Section 3 - rank thingy
+	- Relation of Alternating Automata with games
+	- Mention that for $\langle q, i\rangle$ q cannot be alpha state and odd rank.
+	- remember to mention that we are working with accepting runs
+- Section 4 Co - Buchi Alt to WAA
+	- description
+		- given intuition for ranks as partial order
+		- release - before $Q'$
+		- Good set  are the same as odd rank thingies - better.
+	- Informal Proof of correctness
+	- Buchi to WAA :$A_B$ to $A_C$ by complementing, then to $W$ then complement $W$ 
+	- Improving construction
+	- minimal rank slides
+	- Do theorem 4.6 before theorem 4.5
+- Sectio
+	- Buchi to NBA:  
+		- description 
+			- ( diagram for understanding the intuition)
+			- before  n 5 Complementing Buchi
+	- Buchi to NBA: $A_{b}\to N$ 
+		- description 
+			- ( diagram for understanding the intuition)
+			- $O \neq \emptyset$ before $O = \emptyset$  
+	- NBA complementation
+	- optimal construction
+		-  define consistent 
+		-  claim for $2^{(n\log n)}$
+		- definition of construction 
+- Notation
+	- Weak Alternating Automata - $W$
+	- Alternating Co Buchi - $A_C$
+	- Alternating  Buchi - $A_B$
+	- Non Determinisitc Buchi - $N$
+	- Optimal WAA - $W_j$ 
