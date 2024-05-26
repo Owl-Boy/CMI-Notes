@@ -21,8 +21,8 @@ $$
 $$
 Here:
 - $C$ is a non-empty set, whose elements are called *states* or *possibilities worlds*.
-- $\le$ is a partial order on $C$ which represent the "Timeline".
-	- Sometimes a $R \subseteq C \times C$ successor relation is used instead of a partial order.
+- $\le$ is a quasi order on $C$ which represent the "Timeline".
+	- Sometimes a $R \subseteq C \times C$ successor relation is used instead of a quasi order.
 - $\Vdash$ is a binary relation between elements of $C$ and propositions which represents "The knowledge we know at that point in the timeline". AKA the labelling function.
 
 ---

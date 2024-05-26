@@ -25,7 +25,7 @@ For a formula $\varphi$ we will argue for its satisfiability through that of its
 Now that we have a more expressive set to work with instead of just propositions, we can construct an automata for $\varphi$ by taking $2^{\text{Cl}(\varphi)}$ as the alphabet, but it contains a ton of inconsistent states, say which contain both a formula and its negation. So we find a better subset of $2^{\text{Cl}(\varphi)}$ to work with which will be called *Atoms*
 
 >[!definition] Atoms
->A set $A\in \text{Cl}(\alpha)$ for some $\alpha$ is called an atom if :=
+>A set $A\subseteq\text{Cl}(\alpha)$ for some $\alpha$ is called an atom if :=
 >- $\forall \beta\in \text{Cl}(\alpha)$ we have $\beta \in A$ iff $\lnot \beta \not\in A$
 >- $\forall \beta \lor \gamma \in \text{Cl}(\alpha)$ we have $\beta \lor \gamma \in A$ iff $\beta\in A$ or $\gamma\in A$
 >- $\forall \beta\ \mathcal U \gamma \in \text{Cl}(\alpha)$ we have $\gamma \in A$ or $\beta, \bigcirc(\beta\ \mathcal U\ \gamma)\in A$

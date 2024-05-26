@@ -16,6 +16,7 @@ sticker: lucide//map-pin
 >
 >The second part of the course deals with games whose winning conditions are specified by logical formulas. These are tools that let us model multiple behaviours(strategies) of the environment(opponent) on the system(us). In this part we will study how to setup such games given logical formulas and use automata to model them.
 ---
+
 ## Course Plan
 1. Büchi Automata and Omega Regular Languages
 2. Monadic Second Order Logic and their relations with Büchi Automata
