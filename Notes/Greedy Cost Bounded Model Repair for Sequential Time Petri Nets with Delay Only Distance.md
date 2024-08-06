@@ -32,6 +32,17 @@ If there are multiple log traces that are furthest away from the model, then dea
 Which also implies that we should prioritise edits that improve multiple log traces at once.
 
 ## Algorithm
+The Algorithm Follows the following steps
+- ***Finding a set of Candidates runs in Petri Net***
+	- We only need to look at the alignment for each run in the log, then we recompute the alignments again using the given ones, improving those improves the overall fitness of the model.
+- ***Finding the Furthest Log Traces in the Above Set***
+	- These are the only ones that affect the fitness of the model, hence we only need to improve these. The traces that are already in the log, need not be considered at all.
+- ***Finding the Transitions that need to be Edited for Maximum Improvement in Fitness***
+	- This can be done by figuring out which transitions effect the distances from which log traces and using linear programming to find the best one.
+- ***Editing the transitions***
+	- this needs to be done tell there is a new log trace that joins the set of furthest log traces, and the above steps need to be re-done.
+- ***Repeat until the Fitness becomes Perfect or we run out of Budget***
+
 ### Maximal Trace Candidates
 Using the helper functions discussed in [[Maximal Traces for Linear Time Petri Nets for Delay Only Distance]], we can build the following functions to get the list of alignments.
 
@@ -49,7 +60,6 @@ FUNCTION all_alignments(L, F) :=
 ```
 
 ### Finding the intervals that can be changed
-Changing an interval that does not affect any of alignments is wasteful, Hence we find the intervals such that changing them would make a difference, and also how they affect each of the alignments.
 
 
 ---

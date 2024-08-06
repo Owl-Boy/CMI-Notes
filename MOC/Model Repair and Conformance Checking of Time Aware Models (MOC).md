@@ -23,6 +23,14 @@ sticker: lucide//map-pin
 	- [[Maximal Traces for Linear Time Petri Nets for Delay Only Distance]]
 
 --- 
+# Plan
+- Complexity
+- Number of Iterations required
+- Connection to subset sum
+- Make $\LaTeX$ file for the project 
+
+
+---
 ## MOCs
 - [[Conformance Checking]]
 

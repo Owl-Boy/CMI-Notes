@@ -37,7 +37,8 @@ This implies $NP \subseteq SIZE(n^{c})$, or in other words, that $SAT$ has polyn
  For any $x \in\Sigma^{*}$,
 $$
 x \in L\implies \exists y\in\{ 0,1 \}^{p(|x|)}\ \forall z\in\{ 0,1 \}^{p(|x|)} R(x,y,z), \text{ and}
-$$$$
+$$
+$$
 \begin{align}
 x\not\in L&\implies \exists z\in\{ 0,1 \}^{p(|x|)}\ \forall y \in\{ 0,1 \}^{p(|x|)}\ \lnot R(x,y,z) \\
 &\implies \forall y\in\{ 0,1 \}^{p(|x|)}\ \exists z\in\{ 0,1 \}^{p(|x|)}\ \lnot R(x,y,z)&&\text{(weakening)} \\
