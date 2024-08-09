@@ -1,0 +1,22 @@
+- What deadens us : routine and mundane stuff
+- somehow poets and writers make that lively 
+- look at an everyday object from someone from another world leads to new ideas and revelations.
+- Show Don't tell
+	- Explain the environment through sensory detail and action
+	- Chekov : Don't tell me the moon is shining. Show me the glint of light on broken glass.
+- The Significant Detail
+	- A detail that is important : Chekov's gun
+	- Too much detail feels artificial sometimes
+- Write a short paragraph about my morning in as much detail as we can
+	- Circle just 2 details and use those as a base stories 
+
+- *I woke up w bedsheets not fitted properly, all the sleeplessness and moving around absolutely ruined it.*
+- Then my 8'o clock alarm rang, and I felt so exhausted, I barely managed to get my phone to turn off the alarm and started scrolling reddit.
+- Then my 9'o clock alarm rang, and I finally decided to get up, got my toothbrush and toothpaste from my toiletries bag. 
+- A black colgate toothbrush and white colgate toothpaste. 
+- I got out of my room, and unlike most days, the light did not blind me. It was nice and cloudly, like it would have rained a while ago. 
+- Then I went ot washroom 1, that was being cleaned so I went to the one on the other side of the hostel that I like more.
+- The hostel washroom wasn't clean at all today.
+- I think the cleaning staff came late, it was a graveyard of dead insects that I toptoed around to get to the sink where *I brushed while listening to some Math Rock*.
+- Then I went to the terrace and walked there for a couple of minutes trying to think about what would happen in my day, but I kept zone-ing out. probably because of my lack of sleep.
+- then i went for work

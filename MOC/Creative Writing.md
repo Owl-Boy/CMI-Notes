@@ -20,6 +20,9 @@ This kind of child : the disability story
 ## Notes
 
 - [[Free Writing Session 5th August]]
+- [[Free Writing Session 7th August]]
+
+- [[7th august - Creative writing]]
 
 --- 
 ## MOCs
