@@ -36,6 +36,10 @@ $$
 ## Semantics
 ### State
 This is a total(or partial) function from expressions to different domains, like $\mathbb{N}$ for arithmetic expressions and $\mathbb{B}$ for boolean expressions.
+
+Informally it is the collection of values and the program counter at any point during the execution of the program.
+
+The way we deal with the semantics of the program evolving is by giving a relation between the 'pre-state' and 'post-state' of each expression.o
 ### Semantics for Expressions
 This is done in the obvious manner
 $$

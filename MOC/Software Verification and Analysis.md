@@ -44,6 +44,8 @@ sticker: lucide//map-pin
 ## Notes
 
 - [[Big Software Fails]]
+- [[WHILE programs]]
+- [[IC3 Algrorithm]]
 
 ### Model Checking
 

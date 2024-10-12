@@ -21,8 +21,11 @@ This kind of child : the disability story
 
 - [[Free Writing Session 5th August]]
 - [[Free Writing Session 7th August]]
-
+- [[Free Writing Session 12th August]]
+<br>
 - [[7th august - Creative writing]]
+- [[A Sense of Setting]]
+- [[Making stories unique]]
 
 --- 
 ## MOCs

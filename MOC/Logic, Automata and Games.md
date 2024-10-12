@@ -79,6 +79,7 @@ sticker: lucide//map-pin
 --- 
 ## MOCs
 - [[Games on Graphs]]
+- [[Logic]]
 
 ---
 # References
