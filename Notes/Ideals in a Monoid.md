@@ -26,3 +26,4 @@ Also if the monoid contains a co-unit element $0$ then the singleton containing 
 ---
 # References
 [[Forbidden Ideal of an element in a Monoid]]
+[[Monoids]]

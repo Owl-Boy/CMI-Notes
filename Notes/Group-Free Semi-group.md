@@ -18,3 +18,5 @@ Tags : [[Semi Group Theory]], [[Monoid Theory]]
 
 ---
 # References
+[[Semi-Groups]]
+[[Monoids]]

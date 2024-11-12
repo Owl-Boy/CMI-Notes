@@ -26,3 +26,5 @@ The identity element of the free monoid is generally considered to be the empty 
 
 ---
 # References
+[[Monoids]]
+[[Quotients of Syntactic Monoid of a language]]

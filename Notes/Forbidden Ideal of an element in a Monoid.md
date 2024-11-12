@@ -18,3 +18,5 @@ That is, the set of all elements that do not divide $x$. This forms an ideal bec
 
 ---
 # References
+[[Ideals in a Monoid]]
+[[Monoids]]

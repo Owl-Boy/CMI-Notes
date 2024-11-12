@@ -29,3 +29,4 @@ For the other direction, given a Monoid $M$ that the syntactic monoid of $L$ div
 ---
 # References
 [[Quotients in Monoids]]
+[[Monoids as Languages]]

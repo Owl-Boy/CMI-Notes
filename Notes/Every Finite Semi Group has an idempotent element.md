@@ -18,3 +18,4 @@ In fact, Any element can be used to generate an idempotent element of the semi g
 
 ---
 # References
+[[Finite Monoids and idempotent elements in big words]]
