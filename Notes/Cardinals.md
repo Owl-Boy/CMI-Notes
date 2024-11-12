@@ -54,3 +54,6 @@ Induct on $B$ for proof.
 ---
 # References
 [[Hereditarily Finite Sets]]
+[[Uncountable Cardinalities]]
+[[Cardinals Pre-reqs]]
+[[Cardinal Arithmetic]]

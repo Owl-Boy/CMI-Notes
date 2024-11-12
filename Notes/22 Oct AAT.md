@@ -1,0 +1,19 @@
+- M is a quotient of N if there exists a surjective morphism from N to M
+- M divides N if there exists a surjective morphism from a submonoids of N
+- Iff M recognizes L then syntactic monoid of L divides M
+	- One way direction is easy
+	- for the other way we have that we define a map that sends a letter to one of the inverse images of class.
+- Compute the syntactic monoid the language given an automata
+	- list all the words ordred by length and arbitrarliy inside.
+	- and only start listing if a word cannot already be constructed
+- Types of monoid elements
+	- Idempotent : aa = a
+	- Zero/counit: ab = a forall b
+- L is recognized my M then L^C can be recognized by M
+- L1 is recognized by M1 then L2 can be recognized by M2 then L1 U L2 and L1 Int L2 can bohth be recognized by M1* M2
+-  A surjective homomorphism take idempotent commutative monoid to idempotent commutative monoids
+- Any language that can be generad byt A*, the monoid that recognizes it looks like M = ({0, A, 1}, aa->a , 1)
+	- Now we get a simple constructoin for boolean combinations for A* type language
+- Idempotent Commutative languages are exactly languages that can be defined in first order logic using just 1 variable.
+- Idempotent Commutative languages are closed under sum product and division
+- 

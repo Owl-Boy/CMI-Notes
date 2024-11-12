@@ -50,3 +50,4 @@ If $\alpha < \kappa$, is infinite, then $|\alpha \times \alpha| = |\alpha|$ as $
 
 ---
 # References
+[[Cardinals]]

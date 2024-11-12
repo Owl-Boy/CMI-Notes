@@ -60,3 +60,4 @@ Fix a set $A$ and then by [[Uncountable Cardinalities#^5df0be|Hartogs]] we get a
 
 ---
 # References
+[[ZFC and family]]

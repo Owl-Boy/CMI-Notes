@@ -41,3 +41,6 @@ Tags : [[Set Theory]]
 
 ---
 # References
+[[Transitive Sets]]
+[[Cardinals]]
+[[Type of a Set and a Relation]]

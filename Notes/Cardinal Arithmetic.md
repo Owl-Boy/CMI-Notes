@@ -34,3 +34,4 @@ $2^\lambda \leq \kappa^\lambda \leq (2^\lambda)^\lambda=2^{\lambda \otimes \lamb
 ---
 # References
 [[Cofinality]]
+[[Cardinals]]

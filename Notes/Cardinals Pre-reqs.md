@@ -57,3 +57,4 @@ $A\preceq \mathcal P (A)$ because of the map $x \mapsto \{ x \}$ defines an inje
 ---
 # References
 [[Von Neumann Ordinals]]
+[[Cardinals]]
