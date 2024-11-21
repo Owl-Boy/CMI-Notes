@@ -54,9 +54,20 @@ If $y$ is in the above language, $y = px = xq$ and $x = ayb$ then $y=aybq$. So $
 >[!theorem]
 >If $x\in M$ and is not idempotent. Then there exists $Y\subset M$ such that forall $y\in Y, F(x) \subsetneq F(Y)$ and $h^{-1}(x)$ can be represented as a star-free expression on  $h^{-1}(y)$ and other languages definable by smaller monoids.
 
+If the forbidden ideal of $x$ is singleton, then it only has the $0$. so consider the set $J_{x}$ of all elements that $x$ divides and that divide $x$.
 
+Now we consider the elements in $J_{x}$ that are left divided by $x$, we get that those elements also left divide $x$ and are exactly $xM \setminus F(x)$.
 
+Now $h^{-1}(xM \cap\overline{F(x)})$,let $w$ in the set be a word such that no prefix belongs to the set.
 
+then that word can be broken into the form $va\in xM$ such that and $v\notin xM$. so we have that $F(x) \subseteq F(h(v))$.
+
+now to show that $mh(a) \in F(m)$, ftsoc
+- $p \ mh(a) q = m$
+- $m = m h(a)q$
+- $m = xrq$ but that is a contradiction because $m\notin F(x)$.
+
+where $m=h(v)$
 
 ---
 # References

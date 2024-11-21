@@ -1,0 +1,21 @@
+- We have $J = R \circ L = L \circ R$ and all of these are equivalence classes.
+	- We partition the space into "columns to represent equivalence classes of $L$"
+	- We partition the space into "rows to represent equivalence classes of $R$"
+	- So we get grid, and if 2 grid sqaures are filled diagonally then we can fill other corners with same side sets.
+- Green's Lemma
+	- The columns are same sized
+	- let $s\ R\ t \implies |L(s)| = |L(r)|$
+		- let $t=su$ and $s=tv$ 
+		- $xLs$ then $x=ys$ so $ysuv=ys=x$ also each right multiplication stays in the same row, so each columns is mapped to another column while the cells also map perfectly. So all R classes and all L classes and J classes have the same size.
+- Location Lemma (Clifford/Miller)
+	- If $s$ and $t$ belong to the same $J$ class and $st$ belongs to the same $J$ class then $st$ goes to one of the other corners of the rectangle and an idempotent element goes to the other corner.
+		- There is some element $x$ such that $xt = t$ as this multiplication is like an isomorphism.
+		- and $x=ty$, so $t=tyt$ so $ty=tyty$
+		- let $e$ be an idempotent in the class we want. we have $ex = t$ so we have $ex=et$ so we have $t=et$ so right multiplication with $t$ takes $L(s)$ to $L(t)$ so $st$ goes to the correct place.
+- The H classes that contain an idempotent element $e$ are sub-semigroups
+- Green's Theorem: $H(e)$ is a group
+	- $e$ is an identity : if $s\in H(e)$ there $e s_{x}=s$ so $es=s$ and one can show for right multiplication and same for left, so we have that this is a monoid
+	- $ss_{r}=e$ so $ses_{R}e=ss_{e}e=ee=e$, so $s$ has a right inverse. But $e$ and $es_{r}e$ are in the same $j$ class. So we can find a left inverser and it will be equal for a monoid so all elements have an inverse.
+	- Coversely, every subgroup of a semigroup is a subset of $H(e)$ where $e$ is the identity of the group.
+- $J / H / R / L$ classes are call *regular* if they have an idempotent element.
+	- every subgroup is in some regular $H$ class.

@@ -17,6 +17,8 @@ Micheal F Atiyah has described mathematics as the "Science of Analogy". In this 
 - [[Opposite Category]]
 - [[Duality]]
 - [[Monomorphisms and Epimorphisms]]
+- [[Functors]]
+	- [[Examples of Functors]]
 
 --- 
 ## MOCs

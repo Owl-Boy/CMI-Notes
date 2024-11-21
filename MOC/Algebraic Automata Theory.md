@@ -28,9 +28,10 @@ sticker: lucide//map-pin
 	- [[Aperiodic Languages are Star Free Regular]]
 	- [[Aperiodic Monoids recognize all FO Definable Languages]]
 	- [[Star Free Regular Languages are Aperiodic]]
+	- [[Finite Words recognized by LTL are FO with 3 variables]]
 - [[Ramsay's Theorem]]
 	- [[Finite Monoids and idempotent elements in big words]]
-- [[Dump]]
+- [[21st Nov Class Dump AAT]]
 
 --- 
 ## MOC
